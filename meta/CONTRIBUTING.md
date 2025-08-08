@@ -18,6 +18,27 @@ This is a research documentation repository only. **There are no working tools, 
 - [Style Guidelines](#style-guidelines)
 - [Community](#community)
 
+## What You Can Contribute
+
+### 📚 Documentation & Research
+- **Research ideas** and hypotheses
+- **Theoretical frameworks** and concepts
+- **Documentation** improvements
+- **Use case descriptions** of what you'd want if it existed
+- **Challenges** to our assumptions
+- **Literature reviews** and related work
+- **Experimental designs** for testing concepts
+
+### 💻 Code Contributions (For Future Implementation)
+- **Proof-of-concept** implementations to test ideas
+- **Prototype code** to validate theories
+- **Example implementations** in any language (see IMPLEMENTATION_LANGUAGES.md)
+- **Algorithm designs** for pattern detection
+- **Data structures** for classification systems
+- **Test frameworks** for validating concepts
+
+**Note**: While no production system exists yet, we welcome experimental code that explores the concepts. All code should be clearly marked as experimental/conceptual.
+
 ## 🎯 Quick Start - Find Your Path
 
 ### Are you a...

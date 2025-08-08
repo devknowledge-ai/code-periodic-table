@@ -1,6 +1,8 @@
-# Community Launch Checklist
+# Community Launch Checklist (FOR RESEARCH PROJECT)
 
-A step-by-step guide to launching the Code Periodic Table as a thriving open source community project.
+**⚠️ NOTE: This checklist is for launching the RESEARCH COMMUNITY, not software tools (which don't exist)**
+
+A step-by-step guide to launching the Code Periodic Table as a thriving open source research community project. This is about building a community around theoretical concepts and research, not launching any working software.
 
 ## 📅 Pre-Launch (Week 0)
 
@@ -266,7 +268,7 @@ Remember to celebrate:
 - First failed experiment documented
 - First successful experiment
 - First research paper
-- First tool built
+- First theoretical framework documented
 - First skeptic convinced (or not!)
 
 ## 💡 Remember

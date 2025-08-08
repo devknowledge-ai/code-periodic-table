@@ -1,7 +1,12 @@
-# Singleton Pattern Classification Example
+# Singleton Pattern Classification Example (THEORETICAL)
+
+## ⚠️ CONCEPTUAL EXAMPLE - NO IMPLEMENTATION EXISTS
+
+This document presents a **theoretical example** of how the system might classify patterns if it were built.
+No actual classification system, tools, or analysis capabilities exist.
 
 ## Overview
-This example demonstrates how the Code Periodic Table classifies and tracks the Singleton pattern across different implementations.
+This example **imagines** how the Code Periodic Table **could theoretically** classify and track the Singleton pattern across different implementations, if such a system existed.
 
 ## 1. Original Code Examples
 
