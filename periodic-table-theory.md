@@ -6,7 +6,9 @@
 
 ## Abstract
 
-We propose a theoretical framework for systematically classifying programming patterns based on their semantic, security, and performance characteristics. Drawing inspiration from the periodic table of elements, we explore whether code patterns exhibit systematic relationships that could enable better organization of programming knowledge. This document presents the theoretical foundations, research questions, and preliminary investigations into this classification approach.
+We propose a theoretical framework for systematically classifying programming patterns based on their semantic, security, and performance characteristics. Drawing inspiration from the periodic table of elements **as an organizational metaphor (not a scientific parallel)**, we explore whether code patterns exhibit systematic relationships that could enable better organization of programming knowledge. This document presents the theoretical foundations, research questions, and preliminary investigations into this classification approach.
+
+**Important Disclaimer**: The "periodic table" is a useful organizing principle, not a claim that code follows natural laws like chemistry. Code patterns are human constructs that evolve rapidly, unlike immutable chemical elements.
 
 **Keywords**: code patterns, classification systems, software engineering, pattern recognition, theoretical framework
 
@@ -306,12 +308,25 @@ We propose a small-scale study to test feasibility:
 3. Compare classifications
 4. Measure agreement
 
-**Success Criteria** (Hypothetical targets, not validated):
-- >70% agreement between experts (no evidence this is achievable)
-- >60% accuracy of automated classification (current methods achieve ~40%)
-- Meaningful pattern relationships discovered ("meaningful" undefined)
+**Defining "100% Accuracy"** (What perfect classification would mean):
+- Every pattern correctly identified by type (validation, authentication, etc.)
+- All security vulnerabilities detected with zero false positives
+- Cross-language equivalents matched without errors
+- Behavioral properties completely captured
+- Context-dependent variations properly handled
 
-**Note**: These are aspirational goals without empirical basis. Actual achievable metrics unknown.
+**Realistic Success Criteria** (Against this theoretical perfect):
+- >70% pattern type identification (vs. 100% perfect)
+- >60% vulnerability detection with <20% false positives (vs. 100%/0%)
+- >50% cross-language matching (vs. 100%)
+- Capture 5-7 of 10 key properties (vs. all properties)
+
+**Current State-of-Art Baseline**:
+- Pattern identification: ~40-50% (domain-specific tools)
+- Vulnerability detection: ~45% with 30% false positives (SAST tools)
+- Cross-language matching: ~20-30% (research prototypes)
+
+**Note**: These metrics show we're aiming for meaningful improvement, not perfection.
 
 ### 5.2 Initial Observations
 

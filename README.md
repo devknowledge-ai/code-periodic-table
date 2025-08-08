@@ -1,10 +1,24 @@
 # Code Periodic Table: Digital Universe Classification with Real-Time Intelligence
 
+## 📛 STOP: Read [READ-THIS-FIRST.md](READ-THIS-FIRST.md) for critical context about why this will probably fail
+
 **A dual-system approach: Foundational pattern classification + Real-time collaborative knowledge delivery**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Early Research](https://img.shields.io/badge/Status-Early%20Research-yellow.svg)]()
 [![Contributions: Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
+[![Failure Probability: High](https://img.shields.io/badge/Failure%20Probability-High-red.svg)]()
+
+## ⚠️ Critical Reality Check
+
+**This project will probably fail.** Based on historical data:
+- 15+ similar classification systems have been abandoned since 1990
+- Current prototype achieves only ~40% accuracy (we need 70%+)
+- Processing 10,000 files takes ~50 minutes (needs to be <5 minutes)
+- Expected ROI is likely negative for the first 3-5 years
+- 60% chance core hypotheses are fundamentally wrong
+
+**Why continue?** Even partial success (20% of goals) would be valuable. Failed experiments teach us what doesn't work. [Read our complete limitations](LIMITATIONS.md).
 
 ## 🧪 This is a Community Experiment
 
@@ -70,25 +84,25 @@ We follow an **evolutionary approach** that delivers immediate value while build
 - Community-driven knowledge, not fixed properties
 - Please read [LIMITATIONS.md](LIMITATIONS.md) for complete discussion of challenges
 
-**Realistic Goals by Phase**: 
+**Realistic Goals by Phase** (with baseline comparisons): 
 
-**Phase 1 (Local Intelligence)**:
-- 90% accuracy on YOUR team's patterns (you define them)
-- 50% reduction in repeated mistakes (measurable in git history)
-- <50ms response time (all local, no network)
-- Immediate adoption (it's YOUR tool for YOUR code)
+**Phase 1 (Local Intelligence)** - 6-12 months:
+- 90% accuracy on YOUR team's patterns (vs. current tools: ~70%)
+- 50% reduction in repeated mistakes (vs. code review alone: ~20%)
+- <50ms response time (vs. full analysis: 2000ms+)
+- Success metric: 30% of pilot teams continue after trial
 
-**Phase 2 (Domain Communities)**:
-- 75% pattern recognition within domains
-- 20-30% bug reduction through shared knowledge
-- <100ms for common patterns (cached locally)
-- 100+ teams contributing domain knowledge
+**Phase 2 (Domain Communities)** - 18-30 months:
+- 75% pattern recognition within domains (vs. cross-domain: ~40%)
+- 20-30% bug reduction (vs. static analysis alone: ~15%)
+- <100ms for common patterns (vs. cloud analysis: 500ms+)
+- Success metric: 100+ active contributors
 
-**Phase 3 (Universal Framework)**:
-- 60-70% cross-language pattern recognition
-- Industry-wide impact on code quality
-- Global knowledge platform
-- *Success depends on Phases 1-2 validation*
+**Phase 3 (Universal Framework)** - 4-6 years:
+- 60-70% cross-language recognition (current state-of-art: ~30%)
+- Measurable industry adoption (>1000 organizations)
+- Success metric: Positive ROI for early adopters
+- *Only pursued if Phases 1-2 succeed (40% probability)*
 
 ## 📚 Core Documents
 
@@ -207,15 +221,49 @@ Understand our community approach and find your place
 - 🧪 [Experiments](experiments/) - See what we're testing
 - 💀 [Graveyard](graveyard/) - Learn from our failures
 
+## 🛑 Clear Failure Criteria (Kill Switches)
+
+We will **abandon this approach** if:
+
+**Phase 1 Failures** (First 12 months):
+- [ ] Pattern classification agreement between experts < 60%
+- [ ] Semantic property extraction accuracy < 50%
+- [ ] Processing time for 1000 files > 10 minutes
+- [ ] Zero teams willing to pilot
+
+**Phase 2 Failures** (Months 13-30):
+- [ ] Cross-language pattern recognition < 40%
+- [ ] No measurable bug reduction in pilot studies
+- [ ] Fewer than 10 active contributors
+- [ ] All pilot teams abandon the tools
+
+**Any Time Failures**:
+- [ ] Fundamental theoretical flaw discovered
+- [ ] Competing solution achieves our goals better
+- [ ] Community consensus that approach is wrong
+- [ ] Negative impact on code quality demonstrated
+
 ## 🧪 Current Status
 
-| Component | Status | Progress |
-|-----------|--------|----------|
-| Theoretical Framework | Draft | 🟡 In Development |
-| Semantic Fingerprinting | Prototype | 🟡 Experimental |
-| Pattern Database | Planning | 🔴 Not Started |
-| Developer Tools | Concept | 🔴 Early Research |
-| AI-Native Languages | Research | 🔴 Conceptual |
+| Component | Status | Progress | Success Probability |
+|-----------|--------|----------|-------------------|
+| Theoretical Framework | Draft | 🟡 In Development | ~60% |
+| Semantic Fingerprinting | Prototype | 🟡 Experimental | ~40% |
+| Pattern Database | Planning | 🔴 Not Started | Unknown |
+| Developer Tools | Concept | 🔴 Early Research | ~30% |
+| AI-Native Languages | Research | 🔴 Conceptual | ~20% |
+
+## 🆚 How This Differs From Existing Solutions
+
+| Solution | What They Do | What We're Attempting | Key Difference |
+|----------|-------------|----------------------|----------------|
+| **SonarQube/CodeClimate** | Static analysis, fixed rules | Learn from YOUR patterns | Adaptive vs. prescriptive |
+| **GitHub Copilot** | Code completion from examples | Understand pattern relationships | Structure vs. generation |
+| **Design Patterns (GoF)** | Catalog of known patterns | Discover and classify new patterns | Dynamic vs. static catalog |
+| **SAST Tools** | Find known vulnerabilities | Predict vulnerability patterns | Proactive vs. reactive |
+| **IDEs (IntelliJ, VS Code)** | Language-specific analysis | Cross-language understanding | Universal vs. siloed |
+
+**Critical distinction**: We're not better - we're different. Existing tools work well for their purposes. We're exploring whether systematic classification adds value on top of these tools.
 
 ## 🔍 Research Questions
 

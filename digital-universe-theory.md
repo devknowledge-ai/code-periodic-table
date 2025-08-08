@@ -102,6 +102,22 @@ Work must be done somewhere, sometime
 
 ## 3. Emergent Properties in Code
 
+### 3.0 Addressing Circular Reasoning
+
+**Important Clarification**: We observe that patterns exist in code (empirical fact). The Digital Universe model attempts to explain WHY these patterns exist (theoretical framework). The causality flows:
+
+```
+Fundamental Operations (computation primitives)
+    ↓ CAUSES
+Emergent Complexity (through repeated application)
+    ↓ PRODUCES
+Observable Patterns (what we see in code)
+    ↓ VALIDATES
+Our Classification Attempt (organizing what we observe)
+```
+
+We're not using patterns to prove emergence and emergence to prove patterns. We're using emergence theory to EXPLAIN observed patterns.
+
 ### 3.1 Levels of Emergence
 
 #### Level 0: Bits and Gates
