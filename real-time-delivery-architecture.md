@@ -226,9 +226,133 @@ function authenticateUser(username, password) {  // 🔒 ⚠️
 
 ---
 
-## 5. Community Contribution System
+## 5. Adaptive Documentation Capture
 
-### 5.1 Contribution Flow
+### 5.1 Intelligent "Why" Documentation
+
+The system learns when and how to prompt developers for documentation based on their behavior and code review patterns:
+
+```typescript
+class AdaptiveDocumentationCapture {
+  private learningEngine: DocumentationLearner;
+  private developerProfiles: Map<string, DeveloperProfile>;
+  
+  async onCodeChange(change: CodeChange) {
+    const developer = this.getCurrentDeveloper();
+    const profile = this.developerProfiles.get(developer.id);
+    
+    // Multi-factor decision on whether to prompt
+    const shouldPrompt = await this.shouldPromptForDocumentation({
+      changeSignificance: this.analyzeSignificance(change),
+      developerState: this.assessDeveloperState(developer),
+      historicalPatterns: this.checkHistoricalQuestions(change),
+      recentPrompts: profile.recentPromptCount,
+      timeOfDay: new Date().getHours(),
+      sprintPhase: this.getSprintPhase()
+    });
+    
+    if (shouldPrompt) {
+      this.showAdaptivePrompt(change, profile);
+    }
+  }
+  
+  private showAdaptivePrompt(change: CodeChange, profile: DeveloperProfile) {
+    // Adapt prompt style to developer preference
+    switch(profile.preferredStyle) {
+      case 'minimal':
+        this.showToast("Why?", ["Bug", "Feature", "Refactor"]);
+        break;
+      case 'structured':
+        this.showSidebar({
+          template: "Problem: ___ Solution: ___ Impact: ___"
+        });
+        break;
+      case 'voice':
+        this.showVoiceCapture("30 second explanation");
+        break;
+    }
+  }
+}
+```
+
+### 5.2 Code Review Learning Integration
+
+```python
+class CodeReviewLearner:
+    def learn_from_pr_comments(self, pr):
+        """Learn what changes need documentation from review questions"""
+        
+        # Extract patterns that generated questions
+        questioned_patterns = []
+        for comment in pr.comments:
+            if self.is_clarification_request(comment):
+                pattern = self.extract_pattern(comment.context)
+                questioned_patterns.append({
+                    'pattern': pattern,
+                    'question': comment.text,
+                    'frequency': self.count_similar_questions()
+                })
+        
+        # Update model to preemptively document similar changes
+        self.update_documentation_needs(questioned_patterns)
+        
+        # Next time similar change happens, prompt proactively
+        return self.create_preemptive_rules(questioned_patterns)
+```
+
+### 5.3 Developer Personalization
+
+```yaml
+Developer Profiles:
+  alice:
+    prompt_tolerance: high
+    preferred_style: minimal
+    best_timing: pre_commit
+    documentation_focus: [security, performance]
+    skip_patterns: ["*.css", "*.test.js"]
+    
+  bob:
+    prompt_tolerance: low
+    preferred_style: comprehensive
+    best_timing: immediate
+    documentation_focus: [architecture, api_changes]
+    skip_patterns: []
+    
+Learning Signals:
+  - Response time to prompts
+  - Length of documentation provided
+  - Dismissal rate
+  - Time of day engagement
+  - Code review feedback
+```
+
+### 5.4 Privacy-Preserving Training
+
+```typescript
+class PrivateTrainingPipeline {
+  async trainOnDocumentation(docs: Documentation[]) {
+    // Keep all data local
+    const localModel = await this.trainLocalModel(docs);
+    
+    // Extract only patterns, not content
+    const patterns = this.extractPatterns(localModel);
+    
+    // Optional: Share anonymized patterns with community
+    if (this.userConsent.allowSharing) {
+      const anonymized = this.anonymizePatterns(patterns);
+      await this.contributeToFederatedLearning(anonymized);
+    }
+    
+    return localModel;
+  }
+}
+```
+
+---
+
+## 6. Community Contribution System
+
+### 6.1 Contribution Flow
 
 ```mermaid
 graph LR
@@ -239,7 +363,7 @@ graph LR
     E -->|Synced| F[All IDEs]
 ```
 
-### 5.2 Contribution Types
+### 6.2 Contribution Types
 
 ```typescript
 type Contribution = 
@@ -263,7 +387,7 @@ type Contribution =
     };
 ```
 
-### 5.3 Quality Control
+### 6.3 Quality Control
 
 ```python
 class ContributionValidator:
@@ -287,9 +411,9 @@ class ContributionValidator:
 
 ---
 
-## 6. Scalability Solutions
+## 7. Scalability Solutions
 
-### 6.1 Local-First Architecture
+### 7.1 Local-First Architecture
 
 ```yaml
 Why It Scales:
@@ -299,7 +423,7 @@ Why It Scales:
   - Progressive enhancement: Start simple, add detail
 ```
 
-### 6.2 Smart Sampling
+### 7.2 Smart Sampling
 
 Instead of analyzing entire codebases:
 
@@ -321,7 +445,7 @@ class SmartSampler:
         return samples
 ```
 
-### 6.3 Distributed Processing
+### 7.3 Distributed Processing
 
 ```yaml
 Processing Distribution:

@@ -25,6 +25,7 @@ Build a tool that learns from YOUR team's specific patterns, decisions, and mist
 - [ ] Local SQLite pattern database
 - [ ] Git integration for learning from commits
 - [ ] Simple pattern recognition engine
+- [ ] **Adaptive documentation capture system**
 
 #### Technical Components
 ```yaml
@@ -33,12 +34,19 @@ Core Features:
   - Extract patterns from refactorings
   - Track pattern evolution in git history
   - Store pattern->decision mappings
+  - Intelligent "why" documentation prompts
 
 Architecture:
   - TypeScript VS Code extension
   - SQLite local database
   - Tree-sitter for parsing
   - No network requirements
+  
+Documentation Capture:
+  - Smart change detection
+  - Non-intrusive prompting
+  - Multi-modal input (text, voice, links)
+  - Learn from developer responses
 ```
 
 #### Success Criteria
@@ -54,6 +62,8 @@ Architecture:
 - [ ] Pattern similarity matching
 - [ ] Context preservation system
 - [ ] Decision tracking ("why we changed X to Y")
+- [ ] **Code review learning integration**
+- [ ] **Developer profile personalization**
 
 #### Key Features
 ```python
@@ -68,6 +78,19 @@ def learn_from_commit(commit):
     reason = parse_reason_from_message(message)
     
     store_learning(pattern, context, reason)
+
+# NEW: Learning from code reviews
+def learn_from_reviews(pull_request):
+    questions = extract_questions_from_comments(pull_request)
+    patterns_needing_docs = identify_questioned_patterns(questions)
+    update_documentation_model(patterns_needing_docs)
+    
+# NEW: Personalized prompting
+def adaptive_prompt(change, developer):
+    if should_prompt(change, developer.profile):
+        style = developer.preferred_style
+        timing = developer.preferred_timing
+        show_documentation_prompt(style, timing)
 ```
 
 #### Success Criteria
