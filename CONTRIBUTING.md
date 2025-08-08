@@ -1,15 +1,58 @@
 # Contributing to the Code Periodic Table Project
 
-Thank you for your interest in contributing to the Code Periodic Table Project! This is an open research initiative, and we welcome contributions from researchers, developers, and anyone interested in improving how we organize programming knowledge.
+Welcome! We're excited you're interested in contributing to the Code Periodic Table project. This is a **community experiment** exploring whether programming patterns can be systematically classified - and we need diverse perspectives to find out!
+
+**🎯 Your skepticism is as valuable as your enthusiasm!** We're exploring uncharted territory and need people who will challenge assumptions, test hypotheses, and help us learn from failures.
 
 ## 📋 Table of Contents
 
+- [Quick Start - Find Your Path](#quick-start---find-your-path)
 - [Code of Conduct](#code-of-conduct)
 - [How Can I Contribute?](#how-can-i-contribute)
 - [Getting Started](#getting-started)
 - [Development Process](#development-process)
 - [Style Guidelines](#style-guidelines)
 - [Community](#community)
+
+## 🎯 Quick Start - Find Your Path
+
+### Are you a...
+
+#### 🔬 **Researcher?**
+- Check out [open-problems.md](open-problems.md) for unsolved questions
+- Join the [research working group](working-groups/research-wg/)
+- Test hypotheses from [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md)
+- Share findings in [discussions/research](discussions/research/)
+
+#### 💻 **Developer?**
+- Browse issues labeled `good first issue`
+- Build prototypes in [experiments/](experiments/)
+- Join the [tooling working group](working-groups/tooling-wg/)
+- Help with visualization in [periodic-table/visualization](periodic-table/visualization/)
+
+#### 🤔 **Skeptic?**
+- Read [skeptics-welcome.md](skeptics-welcome.md) - we value your criticism!
+- Challenge assumptions in [discussions/debates](discussions/debates/)
+- Document failures in [graveyard/](graveyard/)
+- Help us identify what WON'T work
+
+#### 🎨 **Designer?**
+- Help visualize the periodic table interface
+- Create educational materials
+- Design community assets
+- Improve documentation readability
+
+#### 📚 **Domain Expert?**
+- Share patterns from your field
+- Validate classifications
+- Provide real-world examples
+- Review proposed patterns
+
+#### 🌟 **Enthusiast?**
+- Test early prototypes
+- Share the project
+- Join community events
+- Help newcomers get started
 
 ## 📜 Code of Conduct
 

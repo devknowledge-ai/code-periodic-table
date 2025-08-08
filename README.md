@@ -6,6 +6,19 @@
 [![Status: Early Research](https://img.shields.io/badge/Status-Early%20Research-yellow.svg)]()
 [![Contributions: Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
 
+## 🧪 This is a Community Experiment
+
+**We're exploring whether programming patterns can be systematically classified. We don't know if this will work - that's why we need YOU!**
+
+### Join us if you want to:
+- 🔬 **Test wild hypotheses** about code organization
+- 🤔 **Challenge assumptions** and prove things wrong
+- 💻 **Build prototypes** that might fail spectacularly
+- 📚 **Share knowledge** from successes AND failures
+- 🌍 **Connect with curious minds** exploring uncharted territory
+
+**Your skepticism is as valuable as your enthusiasm!** Read [skeptics-welcome.md](skeptics-welcome.md) to see how criticism helps.
+
 ## 🔬 Project Overview
 
 The Code Periodic Table Project combines two complementary systems:
@@ -174,20 +187,25 @@ We follow an **evolutionary approach** that delivers immediate value while build
 
 ## 🚀 Getting Started
 
-### For Researchers
-- Read the [theoretical framework](periodic-table-theory.md) to understand the approach
-- Review our [open research questions](#research-questions)
-- Join discussions in [Issues](https://github.com/[org]/code-periodic-table/issues)
+### Quick Links for Different Contributors
 
-### For Developers
-- Try the [semantic fingerprinting prototype](semantic-fingerprinting.md#getting-started)
-- Contribute pattern examples
-- Test tools and provide feedback
+#### 🔬 [Researchers → Start Here](open-problems.md)
+Unsolved problems, research questions, and collaboration opportunities
 
-### For Everyone
-- Star the repository to show support
-- Share with others who might be interested
-- Join our community discussions
+#### 💻 [Developers → Start Here](good-first-issues.md)
+Code contributions, tool building, and technical challenges
+
+#### 🤔 [Skeptics → Start Here](skeptics-welcome.md)
+Challenge our assumptions and help us fail fast
+
+#### 🌟 [Everyone → Start Here](COMMUNITY_VISION.md)
+Understand our community approach and find your place
+
+### Join the Conversation
+- 💬 [GitHub Discussions](https://github.com/[org]/code-periodic-table/discussions) - Ideas and debates
+- 📝 [Working Groups](working-groups/) - Join a focused team
+- 🧪 [Experiments](experiments/) - See what we're testing
+- 💀 [Graveyard](graveyard/) - Learn from our failures
 
 ## 🧪 Current Status
 
