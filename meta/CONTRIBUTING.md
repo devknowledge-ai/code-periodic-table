@@ -1,8 +1,12 @@
-# Contributing to the Code Periodic Table Project
+# Contributing to the Code Periodic Table Research Project
 
-Welcome! We're excited you're interested in contributing to the Code Periodic Table project. This is a **community experiment** exploring whether programming patterns can be systematically classified - and we need diverse perspectives to find out!
+Welcome! We're excited you're interested in contributing to the Code Periodic Table research project. This is a **theoretical exploration** of whether programming patterns can be systematically classified.
 
-**🎯 Your skepticism is as valuable as your enthusiasm!** We're exploring uncharted territory and need people who will challenge assumptions, test hypotheses, and help us learn from failures.
+## ⚠️ IMPORTANT: There is NO CODE in this project
+
+This is a research documentation repository only. **There are no working tools, no implementations, and no code to contribute to.** We welcome contributions to research, documentation, and theoretical frameworks.
+
+**🎯 Your skepticism is as valuable as your enthusiasm!** We're exploring uncharted territory and need people who will challenge assumptions, test hypotheses, and help us learn from theoretical failures.
 
 ## 📋 Table of Contents
 
@@ -25,10 +29,10 @@ Welcome! We're excited you're interested in contributing to the Code Periodic Ta
 - Share findings in [discussions/research](discussions/research/)
 
 #### 💻 **Developer?**
-- Browse issues labeled `good first issue`
-- Build prototypes in [experiments/](experiments/)
-- Join the [tooling working group](working-groups/tooling-wg/)
-- Help with visualization in [periodic-table/visualization](periodic-table/visualization/)
+- Help design theoretical architectures
+- Propose implementation strategies (for future consideration)
+- Document technical challenges
+- Review theoretical frameworks
 
 #### 🤔 **Skeptic?**
 - Read [skeptics-welcome.md](skeptics-welcome.md) - we value your criticism!
@@ -49,10 +53,10 @@ Welcome! We're excited you're interested in contributing to the Code Periodic Ta
 - Review proposed patterns
 
 #### 🌟 **Enthusiast?**
-- Test early prototypes
-- Share the project
-- Join community events
-- Help newcomers get started
+- Share research findings
+- Discuss theoretical concepts
+- Join community discussions
+- Help clarify documentation
 
 ## 📜 Code of Conduct
 
@@ -82,18 +86,16 @@ We are committed to providing a welcoming and inclusive environment for all cont
 
 ## 🤝 How Can I Contribute?
 
-### 1. Language Choice
+### 1. Research Contributions
 
-**Use whatever language you're comfortable with!** We embrace a polyglot approach:
+Since there is no code in this project, we focus on research and documentation:
 
-- **Prototypes**: Any language welcome - Python, JavaScript, Go, Rust, Java, etc.
-- **Production**: We optimize proven bottlenecks (usually to Rust/Go) - but we'll help!
-- **IDE/Web**: Use native languages (TypeScript for VS Code, etc.)
-- **Your comfort zone**: Better to contribute in a language you know than not at all
+- **Theoretical frameworks**: Propose new classification approaches
+- **Research papers**: Analyze existing literature
+- **Documentation**: Improve clarity and accuracy
+- **Use cases**: Document potential applications
 
-See [IMPLEMENTATION_LANGUAGES.md](../IMPLEMENTATION_LANGUAGES.md) for detailed guidance.
-
-**Don't know Rust?** That's fine! Most contributions don't need it. If optimization is later needed, we'll help with migration or find someone who can assist.
+The [IMPLEMENTATION_LANGUAGES.md](../IMPLEMENTATION_LANGUAGES.md) document describes theoretical language strategies for future implementation, should the project ever progress to that stage.
 
 ### 2. Research Contributions
 

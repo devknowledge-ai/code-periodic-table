@@ -1,16 +1,20 @@
 # Implementation Language Strategy
 
-## Philosophy: Right Tool for the Right Job
+## ⚠️ IMPORTANT DISCLAIMER
 
-We embrace a **polyglot approach** - using the best language for each component rather than forcing everything into one language. This maximizes both contributor accessibility and production performance.
+**This document describes theoretical language strategies for code that DOES NOT EXIST.** The Code Periodic Table project currently has zero implementation. This document is planning documentation for potential future development, should the project ever progress from research to implementation.
 
-## Core Principles
+## Philosophy: Right Tool for the Right Job (Theoretical)
 
-1. **Start with what you know** - Prototypes in any language are welcome
-2. **Optimize where proven necessary** - Performance bottlenecks get optimized
-3. **Support transitions** - We help migrate critical code when needed
-4. **Preserve ecosystems** - Use language strengths (Python for ML, JS for web)
-5. **Measure, don't assume** - Performance requirements backed by benchmarks
+If we were to build this system, we would embrace a **polyglot approach** - using the best language for each component rather than forcing everything into one language. This would maximize both contributor accessibility and production performance.
+
+## Core Principles (If We Ever Build This)
+
+1. **Start with what you know** - Prototypes in any language would be welcome
+2. **Optimize where proven necessary** - Performance bottlenecks would get optimized
+3. **Support transitions** - We would help migrate critical code when needed
+4. **Preserve ecosystems** - Would use language strengths (Python for ML, JS for web)
+5. **Measure, don't assume** - Performance requirements would be backed by benchmarks
 
 ## Language Recommendations by Component
 
