@@ -82,7 +82,20 @@ We are committed to providing a welcoming and inclusive environment for all cont
 
 ## 🤝 How Can I Contribute?
 
-### 1. Research Contributions
+### 1. Language Choice
+
+**Use whatever language you're comfortable with!** We embrace a polyglot approach:
+
+- **Prototypes**: Any language welcome - Python, JavaScript, Go, Rust, Java, etc.
+- **Production**: We optimize proven bottlenecks (usually to Rust/Go) - but we'll help!
+- **IDE/Web**: Use native languages (TypeScript for VS Code, etc.)
+- **Your comfort zone**: Better to contribute in a language you know than not at all
+
+See [IMPLEMENTATION_LANGUAGES.md](../IMPLEMENTATION_LANGUAGES.md) for detailed guidance.
+
+**Don't know Rust?** That's fine! Most contributions don't need it. If optimization is later needed, we'll help with migration or find someone who can assist.
+
+### 2. Research Contributions
 
 **We especially welcome:**
 - Theoretical framework improvements
@@ -96,7 +109,7 @@ We are committed to providing a welcoming and inclusive environment for all cont
 - Propose experiments or studies
 - Review and critique theoretical foundations
 
-### 2. Technical Contributions
+### 3. Technical Contributions
 
 **Areas needing help:**
 - Semantic fingerprinting algorithm improvements

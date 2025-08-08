@@ -202,8 +202,9 @@ We follow an **evolutionary approach** that delivers immediate value while build
 
 ### 🤝 "I want to contribute"
 1. Check [meta/CONTRIBUTING.md](meta/CONTRIBUTING.md)
-2. Join [working groups](meta/working-groups/)
-3. Pick from [good first issues](meta/good-first-issues.md)
+2. **Use any language you're comfortable with!** See [IMPLEMENTATION_LANGUAGES.md](IMPLEMENTATION_LANGUAGES.md)
+3. Join [working groups](meta/working-groups/)
+4. Pick from [good first issues](meta/good-first-issues.md)
 
 ### 🔬 "I want to research"
 1. Read [03-research-vision/](03-research-vision/)
@@ -334,16 +335,19 @@ code-periodic-table/
 - **Production ready** - Use today
 - **85% success probability** - Likely to work
 - **Local only** - Your data stays yours
+- **Any language** - Python, JS, Go, whatever you prefer
 
 ### Phase 2 (Community) 🔄
 - **In development** - 6-18 months
 - **60% success probability** - Might work
 - **Privacy focused** - Controlled sharing
+- **Performance aware** - Optimize proven bottlenecks
 
 ### Phase 3 (Research) ⚠️
 - **Experimental** - May never work
 - **35% success probability** - Likely to fail
 - **Long timeline** - 2-5 years minimum
+- **Rust/Go likely** - For performance at scale
 
 **MUST READ**: [reality-check/](reality-check/) for complete limitations
 

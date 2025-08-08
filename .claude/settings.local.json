@@ -5,7 +5,8 @@
       "Bash(find:*)",
       "Bash(touch:*)",
       "Bash(mv:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }
