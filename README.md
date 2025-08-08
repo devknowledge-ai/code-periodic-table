@@ -4,7 +4,21 @@
 
 This repository contains the **complete foundational documentation** for building the Code Periodic Table system. All architecture, specifications, and research needed for implementation are ready. **Development begins when resources are secured.**
 
-## 📁 New Structure - Choose Your Path:
+## 🎯 Choose Your Audience Path:
+
+### For Builders & Investors - The Pragmatic Path
+**Looking to build practical developer tools with clear ROI?**
+→ Start with **[01-immediate-value/](01-immediate-value/)** - Phase 1 specifications are complete and validated. This is a de-risked, standalone product opportunity with immediate value, not contingent on long-term research success.
+
+### For Researchers & Innovators - The Exploration Path  
+**Interested in pushing boundaries of what's possible?**
+→ Explore **[03-research-vision/](03-research-vision/)** and **[reality-check/](reality-check/)** - High-risk research with 35% success probability, but potentially transformative if successful.
+
+### For Domain Communities - The Collaboration Path
+**Want to share knowledge within your industry?**
+→ Review **[02-community-platform/](02-community-platform/)** - Fully architected platform for domain-specific pattern sharing, building on Phase 1 foundation.
+
+## 📁 Project Structure:
 
 ### 🚀 [01-immediate-value/](01-immediate-value/) - **Phase 1: Local Tools (Ready to Build)**
 Complete specifications for pattern memory systems. Implementation can begin immediately with these docs.
@@ -15,8 +29,8 @@ Fully architected platform design. Builds on Phase 1 success, timeline: 6-18 mon
 ### 🔬 [03-research-vision/](03-research-vision/) - **Phase 3: Long-term Research**
 Experimental frameworks for universal classification. Active research continuing in parallel.
 
-### ⚠️ [reality-check/](reality-check/) - **Honest Assessment**
-Transparent analysis of challenges, limitations, and risks. Read for complete picture.
+### ⚠️ [reality-check/](reality-check/) - **Risk Assessment**
+Transparent analysis of challenges, limitations, and risks. Essential reading for researchers and skeptics.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Documentation Complete](https://img.shields.io/badge/Status-Documentation%20Complete-green.svg)]()
@@ -114,7 +128,7 @@ We follow an **evolutionary approach** that delivers immediate value while build
 - Classification patterns emerge from aggregated data
 - Digital universe principles guide organization
 - Global knowledge graph connects all patterns
-- **The full vision, built on proven foundations**
+- **High-risk research initiative with 35% probability of achieving full vision**
 
 **Why This Approach Works**:
 - ✅ Immediate ROI from Phase 1
@@ -356,9 +370,9 @@ code-periodic-table/
 - **Privacy focused** - Controlled sharing
 - **Performance aware** - Optimize proven bottlenecks
 
-### Phase 3 (Research) ⚠️
-- **Experimental** - May never work
-- **35% success probability** - Likely to fail
+### Phase 3 (Research) 🔬
+- **Experimental** - High-risk research initiative
+- **35% success probability** - Managing research risk
 - **Long timeline** - 2-5 years minimum
 - **Rust/Go likely** - For performance at scale
 
