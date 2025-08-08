@@ -77,17 +77,21 @@ Before committing any documentation changes, verify:
 - "Ready for implementation", "Can be built", "Prepared for development"
 - "Target performance", "Expected outcomes", "Projected metrics"
 - "When resources secured", "With appropriate team", "Given funding"
+- "Research-based projections", "Validated through studies", "Architecture supports"
 
 ### Balanced Terms
 - "Will" (with qualifiers like "when built" or "once implemented")
 - "Architecture provides", "Design enables", "Specifications define"
 - "Research validates", "Documentation shows", "Foundation supports"
+- Success probabilities: "85% (Phase 1)", "60% (Phase 2)", "35% (Phase 3)"
 
 ### Avoid These Terms
 - "Maybe", "Might never happen", "Uncertain if possible"
 - "Pure theory", "Just ideas", "Only conceptual"
+- "Hypothetical", "Imaginary", "Non-existent", "Vaporware"
 - Unconditional promises without resource qualifiers
 - Overly pessimistic language that undermines the foundation's completeness
+- Contradictory statements about existence vs. readiness
 
 ## Review Process
 

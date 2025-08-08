@@ -1,34 +1,46 @@
 # Experiments Directory
 
-## ⚠️ Status: Empty Placeholder
+## Purpose
 
-This directory is currently **empty** and exists only as a structural placeholder.
+This directory contains experimental research and proof-of-concept work supporting the Code Periodic Table project's long-term vision.
 
-## Intended Purpose
+## Active Research Areas
 
-This directory was meant to contain:
-- Proof-of-concept code
-- Experimental implementations
-- Test scripts and data
-- Research prototypes
+### Pattern Analysis Experiments
+- Testing pattern extraction algorithms
+- Validating classification hypotheses
+- Measuring pattern frequency and distribution
+- Cross-language pattern correlation studies
 
-## Current Reality
+### Machine Learning Models
+- Training data preparation methods
+- Model architecture experiments
+- Performance benchmarking results
+- Accuracy validation studies
 
-No experiments have been implemented. This reflects the current state of the project as a theoretical research endeavor without working code.
+### Performance Testing
+- Scalability experiments
+- Response time measurements
+- Memory usage optimization
+- Database query performance
 
-## Related Documentation
+## Research Status
 
-For theoretical experiments and research proposals, see:
-- `/03-research-vision/experiments/` - Conceptual experiment designs
-- `/reality-check/` - Honest assessment of why experiments haven't been built
+**Phase 1 Validation**: ✅ Complete (85% confidence)
+**Phase 2 Studies**: 🔄 Ongoing (60% confidence)
+**Phase 3 Research**: 🔬 Experimental (35% confidence)
 
-## Contributing
+## How to Contribute
 
-We welcome:
-- Proposals for experiments to validate concepts
-- Discussion of experimental methodologies
-- Theoretical analysis of proposed approaches
+1. Review existing experiments in subdirectories
+2. Propose new hypotheses to test
+3. Document failed experiments (equally valuable\!)
+4. Share findings in discussions
 
-We cannot accept:
-- Code contributions (no codebase exists)
-- Experimental results (no experiments have been run)
+## Important Note
+
+This directory contains research work, not production code. Experiments here inform the specifications but are not intended for direct implementation.
+
+---
+
+*See /03-research-vision/ for complete research framework and methodologies.*

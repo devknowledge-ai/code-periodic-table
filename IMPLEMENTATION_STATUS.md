@@ -37,21 +37,21 @@ This repository contains the **complete foundational documentation** for the Cod
 - **Specification Status**: ✅ Ready for development
 - **Research Validation**: ✅ Hypotheses confirmed
 - **Implementation**: Ready to begin
-- **Estimated Timeline**: 6 months to MVP
+- **Estimated Timeline**: 6 months to MVP, 12 months to production
 
 ### Phase 2: Community Platform  
 - **Documentation Status**: ✅ Architecture defined
 - **Specification Status**: ✅ Requirements documented
 - **Dependencies**: Requires Phase 1 completion
 - **Implementation**: Ready after Phase 1 success
-- **Estimated Timeline**: 6-12 months after Phase 1
+- **Estimated Timeline**: Months 13-24 (begins after Phase 1)
 
 ### Phase 3: Universal Classification
 - **Documentation Status**: ✅ Research framework established
 - **Specification Status**: 🔄 Evolving based on research
 - **Research Status**: Ongoing experiments
-- **Implementation**: Long-term vision (2-5 years)
-- **Success Probability**: 60% based on current research
+- **Implementation**: Long-term vision (Years 3-5)
+- **Research Focus**: Parallel exploration alongside implementation
 
 ## Why Documentation First?
 
@@ -66,8 +66,8 @@ This repository contains the **complete foundational documentation** for the Cod
 ### With Full Resources:
 - **Phase 1 MVP**: 6 months
 - **Phase 1 Production**: 12 months
-- **Phase 2 Launch**: 18-24 months
-- **Full Vision**: 3-5 years
+- **Phase 2 Development**: Months 13-24
+- **Phase 3 Research**: Years 3-5 (parallel track)
 
 ### Resource Requirements:
 - **Team**: 3-5 experienced developers
