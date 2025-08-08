@@ -231,12 +231,20 @@ The research methodology will:
 
 | Phase | Hypotheses | Duration | Cost | Go/No-Go Decision |
 |-------|-----------|----------|------|-------------------|
-| 1 | H1, H2 | 6 months | $150K | If both fail → STOP |
-| 2 | H3, H5 | 4 months | $125K | If both fail → STOP |
-| 3 | H4, H7 | 8 months | $450K | If both fail → PIVOT |
-| 4 | H6, H8 | 12 months | $500K | If both fail → STOP |
+| 1 | H1, H2 | 9 months | $150K | If both fail → STOP |
+| 2 | H3, H5 | 6 months | $125K | If both fail → STOP |
+| 3 | H4, H7 | 12 months | $450K | If both fail → PIVOT |
+| 4 | H6, H8 | 18 months | $500K | If both fail → STOP |
 
-**Total**: 30 months, $1.225M minimum investment
+**Realistic Total**: 45 months (was 30), $1.225M minimum
+
+**Buffer for Failures/Iterations**: 
+- Add 50% time buffer: 67.5 months total
+- Add 30% cost buffer: $1.6M total
+- **Actual Timeline**: 4.5-5.5 years
+- **Actual Budget**: $1.6-2.0M
+
+**Note**: Original 30-month timeline assumed everything works first try - historically 0% probability
 
 ---
 

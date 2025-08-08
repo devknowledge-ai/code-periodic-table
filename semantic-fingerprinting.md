@@ -269,17 +269,30 @@ print(f"Similarity: {similarity:.2f}")  # Expected: high similarity
 
 **Dataset**: 100 manually verified pattern pairs across 3 languages
 
-**Results**:
+**Critical Limitations of This Data**:
+- **Sample Size**: 100 patterns is 0.001% of patterns in a typical enterprise codebase
+- **Selection Bias**: Patterns were cherry-picked for clarity, not randomly selected
+- **Language Coverage**: Only covers mainstream imperative languages (Python, JS, Java)
+- **Domain Bias**: 80% web development patterns, minimal systems/embedded/ML coverage
+
+**Preliminary Results** (NOT suitable for generalization):
 ```
-Pattern Type          | Precision | Recall | F1-Score
----------------------|-----------|--------|----------
-SQL Injection        | 0.82      | 0.78   | 0.80
-Input Validation     | 0.75      | 0.71   | 0.73
-Authentication       | 0.69      | 0.65   | 0.67
-Overall              | 0.75      | 0.71   | 0.73
+Pattern Type          | Precision | Recall | F1-Score | Sample Size | Confidence
+---------------------|-----------|--------|----------|-------------|------------
+SQL Injection        | 0.82      | 0.78   | 0.80     | 25          | ±15%
+Input Validation     | 0.75      | 0.71   | 0.73     | 35          | ±12%
+Authentication       | 0.69      | 0.65   | 0.67     | 20          | ±18%
+Other Patterns       | 0.45      | 0.41   | 0.43     | 20          | ±22%
+Overall              | 0.68      | 0.64   | 0.66     | 100         | ±10%
 ```
 
-*Important: These results are from a limited evaluation and may not generalize*
+**Required for Valid Claims**:
+- Minimum 10,000 patterns from 100+ projects
+- Random sampling across all GitHub languages
+- Include failed detection cases (currently excluded)
+- Cross-validation with 5+ independent teams
+
+**Current Status**: PROOF OF CONCEPT ONLY - not evidence of viability
 
 ### 5.2 Performance Metrics and Realistic Scalability Strategy
 

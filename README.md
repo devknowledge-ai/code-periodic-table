@@ -24,11 +24,13 @@ A **collaborative knowledge layer** that displays pattern properties, security w
 - Community-driven knowledge, not fixed properties
 - Please read [LIMITATIONS.md](LIMITATIONS.md) for complete discussion of challenges
 
-**Realistic Goals**: 
-- Classify common patterns effectively
-- Reduce certain bug classes by 20-30%
-- Provide sub-100ms IDE insights
-- Build collaborative knowledge platform
+**Realistic Goals** (Aligned with LIMITATIONS.md): 
+- Classify common patterns with 60-70% accuracy (not 100%)
+- Potentially reduce certain bug classes by 10-20% (not 20-30%)
+- Provide sub-100ms IDE insights for cached patterns only
+- Build collaborative knowledge platform (adoption uncertain)
+
+**Note**: These are aspirational targets. See LIMITATIONS.md for detailed analysis showing potential negative ROI.
 
 ## 📚 Core Documents
 
@@ -101,11 +103,17 @@ A **collaborative knowledge layer** that displays pattern properties, security w
 3. **Security warnings** - Known vulnerabilities highlighted immediately
 4. **Progressive enhancement** - Basic info instantly, details on demand
 
-**Success Metrics**:
-- 20-30% reduction in common bug classes
-- 1000+ active contributors within first year
-- 85% classification accuracy for common patterns
-- <100ms IDE response time (95th percentile)
+**Success Metrics** (Revised for realism):
+- 10-20% reduction in specific bug classes (if successful)
+- 100+ active contributors within first year (1000+ unrealistic)
+- 60-70% classification accuracy for common patterns (85% unachievable)
+- <100ms IDE response time for cached patterns only (95th percentile)
+
+**Failure Metrics** (equally important):
+- If accuracy <50%: Project nonviable
+- If adoption <5%: Abandon approach
+- If ROI negative after 2 years: Discontinue
+- If bug reduction <5%: No meaningful impact
 
 ## 🚀 Getting Started
 
@@ -185,7 +193,10 @@ code-periodic-table/
 5. **Scalability**: Current approaches DO NOT SCALE to real-world codebases
 6. **Not a Silver Bullet**: This will NOT solve all (or even most) software engineering problems
 
-**MUST READ**: See [LIMITATIONS.md](LIMITATIONS.md) for comprehensive discussion of problems, challenges, and why this research might fail entirely.
+**MUST READ**: 
+- [LIMITATIONS.md](LIMITATIONS.md) - Comprehensive discussion of problems, challenges, and why this research might fail entirely
+- [COMPETITIVE-ANALYSIS.md](COMPETITIVE-ANALYSIS.md) - Honest assessment of market reality and existing solutions
+- [COUNTER-EXAMPLES.md](COUNTER-EXAMPLES.md) - Concrete cases where our approach fails
 
 ## 📈 Roadmap
 

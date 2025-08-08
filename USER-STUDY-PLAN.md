@@ -16,17 +16,23 @@
 
 ### 1.2 Success Criteria
 
-**Minimum Viable Validation**:
-- 60% task completion rate
-- 3.0/5.0 satisfaction score
-- 20% voluntary continued use
-- 50% classification agreement
+**Minimum Viable Validation** (Below this = failure):
+- 85% task completion rate (was 60% - too low for viability)
+- 3.5/5.0 satisfaction score (was 3.0 - indicates mediocrity)
+- 30% voluntary continued use (was 20% - need critical mass)
+- 65% classification agreement (was 50% - coin flip unacceptable)
 
-**Strong Validation**:
-- 80% task completion rate
-- 4.0/5.0 satisfaction score
-- 40% voluntary continued use
-- 70% classification agreement
+**Strong Validation** (Target for success):
+- 95% task completion rate (was 80%)
+- 4.2/5.0 satisfaction score (was 4.0)
+- 50% voluntary continued use (was 40%)
+- 80% classification agreement (was 70%)
+
+**Failure Thresholds** (Abandon if):
+- Task completion <85%: Tool too complex
+- Satisfaction <3.5: Not worth adoption cost
+- Continued use <30%: No viral potential
+- Agreement <65%: Classification invalid
 
 ---
 
@@ -372,23 +378,23 @@ lm(adoption ~ usability + utility + experience)
 
 ## 10. Success Metrics Summary
 
-### 10.1 Must Have (Minimum Bar)
-- [ ] 60% can use system effectively
-- [ ] 3.0/5.0 satisfaction
-- [ ] No productivity decrease
-- [ ] Some measurable benefit
+### 10.1 Must Have (Minimum Bar - Updated)
+- [ ] 85% can use system effectively (was 60%)
+- [ ] 3.5/5.0 satisfaction (was 3.0)
+- [ ] 5% productivity increase minimum (was "no decrease")
+- [ ] Measurable benefits exceed costs
 
 ### 10.2 Should Have (Target)
-- [ ] 80% can use system effectively
-- [ ] 4.0/5.0 satisfaction
-- [ ] 10% productivity increase
-- [ ] Multiple benefits demonstrated
+- [ ] 95% can use system effectively (was 80%)
+- [ ] 4.2/5.0 satisfaction (was 4.0)
+- [ ] 15% productivity increase (was 10%)
+- [ ] Multiple validated benefits
 
 ### 10.3 Nice to Have (Stretch)
-- [ ] 90% effectiveness
-- [ ] 4.5/5.0 satisfaction
-- [ ] 25% productivity increase
-- [ ] Industry adoption interest
+- [ ] 98% effectiveness (was 90%)
+- [ ] 4.5/5.0 satisfaction (unchanged)
+- [ ] 25% productivity increase (unchanged)
+- [ ] Industry adoption >10% in 2 years
 
 ---
 

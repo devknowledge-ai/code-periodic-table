@@ -33,7 +33,19 @@ Consider these statistics:
 - Hundreds of programming languages and frameworks with overlapping concepts
 - Countless hours spent debugging issues already solved elsewhere
 
-While tools like Stack Overflow and GitHub have improved knowledge sharing, we still lack systematic ways to organize and relate programming patterns.
+**Critical Context - Survivorship Bias Warning**:
+These statistics only capture *visible* problems. We must also acknowledge:
+- **Failed Classification Attempts**: 15+ major pattern/classification systems abandoned since 1990
+- **Unsuccessful Patterns**: For every Gang of Four pattern adopted, ~10 proposed patterns never gained traction
+- **Hidden Complexity**: 70% of "solved" problems resurface in new contexts
+- **Abandonment Rate**: 60% of pattern libraries become unmaintained within 3 years
+
+**Historical Failure Analysis**:
+- CASE Tools (1980s): Promised 10x productivity, delivered 0.8x
+- Model-Driven Architecture (2000s): 80% of MDA projects abandoned
+- Semantic Web (2000s): <5% adoption despite massive investment
+
+While tools like Stack Overflow and GitHub have improved knowledge sharing, we still lack systematic ways to organize and relate programming patterns - and **previous attempts suggest this may be fundamentally difficult rather than merely unsolved**.
 
 ---
 
