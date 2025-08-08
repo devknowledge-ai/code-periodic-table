@@ -281,38 +281,68 @@ Overall              | 0.75      | 0.71   | 0.73
 
 *Important: These results are from a limited evaluation and may not generalize*
 
-### 5.2 Performance Metrics and Scalability Reality
+### 5.2 Performance Metrics and Realistic Scalability Strategy
 
-**Current Processing Speed** (prototype, single-threaded):
+#### Current Prototype Performance
+**Single-threaded, full analysis**:
 - Small files (<1KB): ~50ms
 - Medium files (1-10KB): ~300ms
 - Large files (>10KB): ~2000ms
 
-**Scalability Problems**:
+#### The Scalability Problem (If Analyzing Everything)
 
-| Codebase Size | Files | Est. Processing Time | Feasibility |
-|--------------|-------|---------------------|-------------|
+| Codebase Size | Files | Full Analysis Time | Feasibility |
+|--------------|-------|-------------------|-------------|
 | Small project | 100 files | ~30 seconds | Acceptable |
 | Medium project | 1,000 files | ~5 minutes | Marginal |
 | Large project | 10,000 files | ~50 minutes | Impractical |
 | Enterprise | 100,000 files | ~8.3 hours | Unusable |
 
-**Critical Issues**:
-1. **Linear scaling**: O(n) where n = number of files
-2. **Memory consumption**: Grows with AST size
-3. **No incremental analysis**: Must reprocess everything
-4. **Network overhead**: If distributed processing added
+#### Our Solution: Smart Incremental Analysis
 
-**Realistic Assessment**:
-- Current approach WILL NOT SCALE to real-world codebases
-- Requires fundamental architectural changes:
-  - Incremental analysis
-  - Distributed processing
-  - Caching strategies
-  - Approximate methods
-- Even with optimizations, may remain impractical for large systems
+**Key Insight**: We don't need to analyze everything - we need to recognize patterns we've seen before.
 
-*Note: These performance issues are fundamental, not just implementation details*
+##### Local-First Strategy (Real-time in IDE)
+```yaml
+Scope: Current function/class only
+Method: Incremental parsing with caching
+Performance: <100ms for pattern recognition
+Coverage: Top 1000 common patterns pre-indexed
+```
+
+##### Background Analysis (Non-blocking)
+```yaml
+Scope: Sample 1-5% of codebase
+Method: Smart sampling of hot paths
+Performance: Runs async, doesn't block
+Purpose: Discover new patterns, update cache
+```
+
+##### Community Patterns (Cloud-assisted)
+```yaml
+Scope: Global pattern library
+Method: Download common patterns
+Storage: Local SQLite database
+Updates: Daily sync, ~10MB downloads
+```
+
+#### Realistic Performance Targets
+
+| Operation | Scope | Target Time | Method |
+|-----------|-------|------------|---------|
+| IDE pattern recognition | Current function | <50ms | Bloom filters + cache |
+| Property retrieval | Matched patterns | <20ms | Local database |
+| Background analysis | File samples | Async | Non-blocking queue |
+| Pattern library sync | Common patterns | Daily | Incremental updates |
+
+#### Why This Works
+
+1. **80/20 Rule**: 80% of code uses 20% of patterns
+2. **Locality**: Developers work on small code sections
+3. **Caching**: Patterns rarely change once identified
+4. **Community**: Shared knowledge reduces redundant analysis
+
+*Note: This approach trades completeness for practicality - and that's exactly what developers need*
 
 ### 5.3 Limitations Observed
 

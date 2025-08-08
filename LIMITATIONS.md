@@ -10,6 +10,41 @@
 
 ---
 
+## 0. Fundamental Theoretical Limits (Provably Impossible)
+
+### 0.1 What We CANNOT Do (Mathematical Impossibilities)
+
+#### Rice's Theorem
+**Any non-trivial semantic property of programs is undecidable**
+- Cannot determine all behavioral properties automatically
+- Cannot guarantee complete pattern recognition
+- Cannot predict all runtime behaviors
+
+#### Halting Problem
+**Cannot determine if arbitrary code will terminate**
+- Dynamic analysis has fundamental limits
+- Some patterns only observable at runtime
+- Infinite loops and recursion unpredictable
+
+#### Gödel's Incompleteness Theorems
+**No formal system can be both complete and consistent**
+- Cannot create perfect classification system
+- Some patterns will always escape classification
+- Self-referential code creates paradoxes
+
+### 0.2 What We CAN Do (Our Actual Goals)
+
+Despite these limits, we CAN:
+- **Classify common patterns** (covers ~80% of typical code)
+- **Detect known vulnerabilities** (improves security significantly)
+- **Share community knowledge** (collective intelligence)
+- **Provide real-time insights** (developer productivity)
+- **Track pattern evolution** (historical learning)
+
+The key insight: We don't need to solve undecidable problems to provide value. We focus on the decidable, common cases that matter in practice.
+
+---
+
 ## 1. Fundamental Conceptual Limitations
 
 ### 1.1 The Periodic Table Metaphor is Just That - A Metaphor
