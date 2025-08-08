@@ -28,24 +28,48 @@ Programming languages have evolved through several paradigms, each addressing th
 
 Today's opportunity: AI systems can now understand code semantics, not just syntax, opening new possibilities for language design.
 
-### 1.2 Current Limitations
+### 1.2 Current Limitations and Design Trade-offs
 
-Modern programming languages face several challenges when used with AI systems:
+Modern programming languages evolved their features for good reasons. Understanding these trade-offs is essential before proposing changes:
 
-**Semantic Gap**: Languages optimize for human readability but don't explicitly encode semantic intent that AI could leverage.
+**Why Current Languages Work As They Do**:
+
+1. **Explicit Implementation** (not a bug, but a feature):
+   - Gives developers precise control over behavior
+   - Allows optimization for specific use cases
+   - Makes debugging straightforward
+   - Reduces "magic" that can hide problems
+
+2. **Human Readability Focus**:
+   - Code is read 10x more than written
+   - Maintenance by humans is the primary cost
+   - Explicit is better than implicit (Python Zen)
 
 ```python
-# Current: Implementation-focused
+# Current: Implementation-focused (INTENTIONALLY)
 def authenticate_user(username, password):
     user = db.query("SELECT * FROM users WHERE username = ?", username)
     if user and bcrypt.checkpw(password, user.password_hash):
         return create_session(user)
     return None
+# Developer knows EXACTLY what happens, can debug step-by-step
 ```
 
-**Implicit Knowledge**: Security requirements, performance expectations, and error handling strategies are often implicit rather than declarative.
+**Trade-offs of AI-Native Approaches**:
 
-**Limited Verification**: Difficult to automatically verify that implementations meet their intended specifications.
+| Current Approach | AI-Native Approach | Trade-off |
+|-----------------|-------------------|-----------|
+| Explicit control | Automated implementation | Less predictability |
+| Debuggable line-by-line | Black-box generation | Harder debugging |
+| Deterministic behavior | AI-dependent behavior | Reproducibility issues |
+| Version stable | Continuously evolving | Backward compatibility challenges |
+
+**Valid Concerns About AI-Native Languages**:
+- Loss of fine-grained control
+- Dependency on AI availability
+- Potential for unexpected behavior
+- Debugging complexity
+- Legal/compliance issues with generated code
 
 ### 1.3 Research Opportunity
 
@@ -179,12 +203,17 @@ secure function hash_password {
 
 ## 3. Potential Benefits (Hypothetical)
 
-If successful, AI-native languages might enable:
+If successful (which is highly uncertain), AI-native languages MIGHT enable:
 
-### 3.1 Improved Security
-- Explicit security requirements could be verified automatically
-- Common vulnerability patterns could be detected at compile time
-- Security updates could be applied more systematically
+### 3.1 Potentially Improved Security (Unproven)
+- Explicit security requirements MIGHT be verifiable automatically (verification complexity unknown)
+- Some common vulnerability patterns COULD potentially be detected at compile time (not all)
+- Security updates MIGHT be applied more systematically (with human oversight required)
+
+**Important Caveats**:
+- Cannot prevent all vulnerabilities - new attack vectors constantly emerge
+- May only REDUCE certain vulnerability classes, not eliminate them
+- Security is context-dependent and cannot be fully automated
 
 ### 3.2 Better Performance
 - AI could select optimal implementations based on actual usage patterns
@@ -1795,12 +1824,12 @@ optimize for current_workload      # Adaptive performance
 
 ---
 
-## 11. Conclusion: The Future of Programming
+## 11. Conclusion: A Research Direction Worth Exploring
 
-AI-native programming languages represent the next evolutionary step in software development. By designing languages for human-AI collaboration rather than human-only development, we can:
+AI-native programming languages represent ONE POSSIBLE research direction in software development. By exploring languages for human-AI collaboration, we MIGHT learn valuable lessons, though success is uncertain.
 
-### 11.1 Revolutionary Capabilities
-1. **End vulnerability classes forever**: Property-based security makes entire attack categories impossible
+### 11.1 Potential Capabilities (Highly Speculative)
+1. **Reduce certain vulnerability classes**: Property-based security MIGHT make some attack categories harder (NOT impossible)
 2. **Enable true code reuse**: Semantic patterns work across languages, frameworks, and domains
 3. **Automate optimization**: AI continuously improves performance without human intervention  
 4. **Democratize expertise**: Advanced patterns become accessible to all developers

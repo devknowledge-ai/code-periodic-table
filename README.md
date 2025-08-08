@@ -8,9 +8,16 @@
 
 ## 🔬 Project Overview
 
-The Code Periodic Table Project is an open research initiative exploring whether programming patterns can be systematically classified in ways that improve software development, security, and knowledge sharing. Inspired by the periodic table of elements, we're investigating frameworks for organizing code patterns based on their semantic properties rather than syntactic appearance.
+The Code Periodic Table Project is an open research initiative exploring whether programming patterns can be systematically classified in ways that improve software development, security, and knowledge sharing. We use the periodic table as an organizational metaphor (NOT as a scientific parallel) to investigate frameworks for organizing code patterns.
 
-**Important**: This is early-stage research with experimental prototypes. Nothing described here is production-ready.
+**Critical Disclaimers**:
+- This is early-stage research with experimental prototypes
+- Nothing described here is production-ready
+- Core hypotheses are UNPROVEN and may be wrong
+- This is NOT a "silver bullet" solution
+- Please read [LIMITATIONS.md](LIMITATIONS.md) for a complete list of challenges and issues
+
+**Research Focus**: Investigating WHETHER patterns can be classified, not asserting they can be.
 
 ## 📚 Core Documents
 
@@ -58,12 +65,14 @@ Explores how programming languages could evolve to better support AI-assisted de
 - Automated optimization
 - Human-AI collaboration
 
-## 🎯 Research Goals
+## 🎯 Research Goals (Hypothetical)
 
-1. **Develop** a classification framework for programming patterns
-2. **Build** tools for cross-language pattern recognition
-3. **Demonstrate** practical applications in security and quality
-4. **Foster** community collaboration on systematic code organization
+1. **Investigate whether** a classification framework for programming patterns is feasible (unproven)
+2. **Explore whether** tools for cross-language pattern recognition can be built (uncertain)
+3. **Test whether** practical applications in security and quality are achievable (speculative)
+4. **Attempt to foster** community collaboration on systematic code organization (success unlikely based on historical precedents)
+
+**Note**: These are research questions, not assured outcomes. We are exploring possibilities, not making promises.
 
 ## 🚀 Getting Started
 
@@ -137,9 +146,13 @@ code-periodic-table/
 ## ⚠️ Important Disclaimers
 
 1. **Research Stage**: All work is experimental and not production-ready
-2. **No Guarantees**: Concepts may not prove viable
-3. **Accuracy**: Current tools have significant limitations
+2. **No Guarantees**: Concepts may not prove viable - **failure is a real possibility**
+3. **Accuracy**: Current tools achieve only ~75% accuracy on simple patterns, much less on complex ones
 4. **Evolution**: Everything is subject to change based on research findings
+5. **Scalability**: Current approaches DO NOT SCALE to real-world codebases
+6. **Not a Silver Bullet**: This will NOT solve all (or even most) software engineering problems
+
+**MUST READ**: See [LIMITATIONS.md](LIMITATIONS.md) for comprehensive discussion of problems, challenges, and why this research might fail entirely.
 
 ## 📈 Roadmap
 

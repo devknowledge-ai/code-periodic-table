@@ -51,13 +51,15 @@ The periodic table of elements transformed chemistry by:
 
 We propose researching whether similar systematic classification could benefit software development:
 
-**Core Hypothesis**: Programming patterns can be classified by their semantic, security, and performance properties in ways that reveal relationships and improve development practices.
+**Core Hypothesis** (unproven and requiring validation): Programming patterns MIGHT be classifiable by their semantic, security, and performance properties in ways that could reveal relationships and potentially improve development practices.
 
-**Potential Benefits** (if successful):
-- Better understanding of pattern relationships
-- More effective vulnerability detection
-- Improved code reuse and knowledge transfer
-- Enhanced tool support for developers
+**Hypothetical Benefits** (IF the hypothesis proves valid, which is uncertain):
+- Better understanding of pattern relationships (requires empirical validation)
+- More effective vulnerability detection (effectiveness to be determined)
+- Improved code reuse and knowledge transfer (improvement metrics undefined)
+- Enhanced tool support for developers (contingent on successful implementation)
+
+**Important**: These are research questions, not established facts. The feasibility and value of this approach remains to be demonstrated through rigorous empirical study.
 
 ### What This Could Look Like
 

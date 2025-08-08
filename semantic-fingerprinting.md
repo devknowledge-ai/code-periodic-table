@@ -80,15 +80,27 @@ Our approach uses multiple analysis layers:
 4. **Property Extraction**: Identify semantic properties
 5. **Fingerprint Generation**: Create comparable identifier
 
-### 2.3 Key Assumptions
+### 2.3 Key Assumptions (Requiring Validation)
 
-Our approach assumes:
-- Patterns have identifiable semantic properties
-- These properties can be reliably extracted
-- Similar patterns have similar properties
-- Properties are stable across languages
+**Critical Note**: The following are ASSUMPTIONS that need empirical validation, not established facts:
 
-*Note: These assumptions require validation*
+1. **Assumption**: Patterns MIGHT have identifiable semantic properties
+   - **Challenge**: What constitutes a "semantic property" is not well-defined
+   - **Validation Needed**: Empirical study showing properties can be consistently identified
+
+2. **Assumption**: These properties COULD potentially be reliably extracted
+   - **Challenge**: Current extraction methods are heuristic-based
+   - **Validation Needed**: Demonstrate extraction reliability across diverse codebases
+
+3. **Assumption**: Similar patterns MIGHT have similar properties
+   - **Challenge**: "Similarity" is context-dependent and subjective
+   - **Validation Needed**: Statistical correlation between human-judged similarity and extracted properties
+
+4. **Assumption**: Properties COULD be stable across languages
+   - **Challenge**: Language paradigms differ fundamentally
+   - **Validation Needed**: Cross-language validation studies
+
+**Important**: Until these assumptions are validated, the entire approach remains speculative. We are investigating WHETHER these assumptions hold, not asserting that they do.
 
 ---
 
@@ -269,14 +281,38 @@ Overall              | 0.75      | 0.71   | 0.73
 
 *Important: These results are from a limited evaluation and may not generalize*
 
-### 5.2 Performance Metrics
+### 5.2 Performance Metrics and Scalability Reality
 
-**Processing Speed** (prototype, single-threaded):
+**Current Processing Speed** (prototype, single-threaded):
 - Small files (<1KB): ~50ms
 - Medium files (1-10KB): ~300ms
 - Large files (>10KB): ~2000ms
 
-*Note: Not optimized for performance*
+**Scalability Problems**:
+
+| Codebase Size | Files | Est. Processing Time | Feasibility |
+|--------------|-------|---------------------|-------------|
+| Small project | 100 files | ~30 seconds | Acceptable |
+| Medium project | 1,000 files | ~5 minutes | Marginal |
+| Large project | 10,000 files | ~50 minutes | Impractical |
+| Enterprise | 100,000 files | ~8.3 hours | Unusable |
+
+**Critical Issues**:
+1. **Linear scaling**: O(n) where n = number of files
+2. **Memory consumption**: Grows with AST size
+3. **No incremental analysis**: Must reprocess everything
+4. **Network overhead**: If distributed processing added
+
+**Realistic Assessment**:
+- Current approach WILL NOT SCALE to real-world codebases
+- Requires fundamental architectural changes:
+  - Incremental analysis
+  - Distributed processing
+  - Caching strategies
+  - Approximate methods
+- Even with optimizations, may remain impractical for large systems
+
+*Note: These performance issues are fundamental, not just implementation details*
 
 ### 5.3 Limitations Observed
 

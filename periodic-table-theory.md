@@ -33,14 +33,23 @@ Software development lacks systematic organization of programming knowledge. Whi
 
 ### 1.3 Approach
 
-We explore creating a classification framework analogous to (though not identical to) the periodic table of elements. This analogy has important limitations:
+We explore creating a classification framework that uses the periodic table as an **organizational metaphor only**, not as a scientific parallel. 
 
-- Code patterns are human constructs, not natural phenomena
-- Patterns evolve and change, unlike chemical elements
+**Critical Distinction**: This is NOT claiming code patterns have the same properties as chemical elements. The periodic table serves merely as inspiration for systematic organization. Key differences:
+
+- Code patterns are human constructs, not natural phenomena governed by physical laws
+- Patterns evolve and change continuously, unlike immutable chemical elements
 - Multiple valid implementations exist for the same pattern
 - Context significantly affects pattern behavior
+- No underlying "atomic" properties determine pattern relationships
 
-Despite these limitations, systematic classification might still provide value.
+**What we ARE proposing**: A systematic organizational framework that helps developers:
+- Navigate pattern relationships
+- Understand pattern categories
+- Make informed selection decisions
+- Track pattern evolution
+
+The value lies in the organization method, not in any claimed similarity to chemistry.
 
 ---
 
@@ -192,10 +201,12 @@ We propose a small-scale study to test feasibility:
 3. Compare classifications
 4. Measure agreement
 
-**Success Criteria**:
-- >70% agreement between experts
-- >60% accuracy of automated classification
-- Meaningful pattern relationships discovered
+**Success Criteria** (Hypothetical targets, not validated):
+- >70% agreement between experts (no evidence this is achievable)
+- >60% accuracy of automated classification (current methods achieve ~40%)
+- Meaningful pattern relationships discovered ("meaningful" undefined)
+
+**Note**: These are aspirational goals without empirical basis. Actual achievable metrics unknown.
 
 ### 5.2 Initial Observations
 
@@ -306,8 +317,35 @@ If successful, this framework might enable:
 
 ## 10. Limitations and Risks
 
-### 10.1 Theoretical Limitations
-- The periodic table analogy may be too constraining
+### 10.1 Complexity Trade-offs
+
+**Important Reality Check**: Pattern classification ADDS complexity before it reduces it:
+
+1. **Additional Learning Curve**:
+   - Developers must learn the classification system
+   - New vocabulary and concepts to master
+   - Time investment before benefits realized
+
+2. **Classification Overhead**:
+   - Every pattern must be analyzed and categorized
+   - Disputes over correct classification
+   - Maintenance of classification system itself
+
+3. **When Complexity Reduction Occurs** (if at all):
+   - Only after significant adoption
+   - Only for developers familiar with the system
+   - Only if classifications remain stable
+   - May NEVER offset initial complexity increase
+
+**Net Complexity Impact**:
+```
+Short term (0-2 years): Significant complexity INCREASE
+Medium term (2-5 years): Possible break-even
+Long term (5+ years): Potential complexity reduction (unproven)
+```
+
+### 10.2 Theoretical Limitations
+- The periodic table metaphor is just organizational, not scientific
 - Not all code follows patterns
 - Context-dependent behavior is hard to classify
 - Multiple valid classification schemes possible
@@ -328,17 +366,24 @@ If successful, this framework might enable:
 
 ## 11. Future Work
 
-### Phase 1: Foundation (Year 1)
-- Develop initial classification framework
-- Build proof-of-concept tools
-- Conduct feasibility studies
-- Publish initial findings
+### Phase 1: Foundation (Year 1) [Confidence: Low]
+- Develop initial classification framework (6-18 months, 30% confidence)
+- Build proof-of-concept tools (3-12 months, 50% confidence)
+- Conduct feasibility studies (6-9 months, 70% confidence)
+- Publish initial findings (9-15 months, 60% confidence)
 
-### Phase 2: Validation (Year 2-3)
-- Expand pattern database
-- Improve classification accuracy
-- Conduct user studies
-- Refine theoretical framework
+**Timeline uncertainty**: ±6 months for each item
+**Success probability**: ~40% for phase completion
+
+### Phase 2: Validation (Year 2-3) [Confidence: Very Low]
+- Expand pattern database (12-36 months, 25% confidence)
+- Improve classification accuracy (18-48 months, 20% confidence)
+- Conduct user studies (6-12 months, 60% confidence)
+- Refine theoretical framework (continuous, 40% confidence)
+
+**Timeline uncertainty**: ±12 months
+**Success probability**: ~20% for meaningful validation
+**Dependency**: Requires Phase 1 success
 
 ### Phase 3: Application (Year 3-5)
 - Develop production tools
