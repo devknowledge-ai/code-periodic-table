@@ -12,27 +12,40 @@ This document describes the technical architecture for delivering pattern classi
 
 ## 1. System Overview
 
-### 1.1 The Two-Layer Architecture
+### 1.1 Local-First, Cloud-Optional Architecture
 
 ```
+Phase 1: Local Only (Immediate Deployment)
 ┌─────────────────────────────────────────────────────────────────┐
-│                     FOUNDATION LAYER                            │
-│  Pattern Classification • Semantic Analysis • Knowledge Graph   │
+│                     LOCAL SYSTEM                                │
+│  Your Patterns • Your History • Your Decisions • Your Learning  │
 └─────────────────────────────────────────────────────────────────┘
-                              ↕ API
+
+Phase 2: Domain Communities (When Proven Valuable)
 ┌─────────────────────────────────────────────────────────────────┐
-│                      DELIVERY LAYER                             │
-│  IDE Integration • Real-time Analysis • Community Interface     │
+│                     LOCAL SYSTEM                                │
+└─────────────────────────────────────────────────────────────────┘
+                              ↕ Optional Sync
+┌─────────────────────────────────────────────────────────────────┐
+│                   DOMAIN COMMUNITY                              │
+│  Shared Patterns • Validated Knowledge • Security Alerts        │
+└─────────────────────────────────────────────────────────────────┘
+
+Phase 3: Universal Platform (If Phases 1-2 Succeed)
+┌─────────────────────────────────────────────────────────────────┐
+│                  GLOBAL CLASSIFICATION                          │
+│  Universal Patterns • Cross-Language • Digital Universe Model   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 1.2 Key Design Principles
+### 1.2 Key Design Principles (Prioritized)
 
-1. **Non-blocking**: Never interrupt typing or slow down the IDE
-2. **Incremental**: Analyze only what changed, not entire codebase
-3. **Cached**: Store everything locally for instant access
-4. **Progressive**: Show basic info immediately, enrich over time
-5. **Collaborative**: Easy to contribute and consume knowledge
+1. **Local-First**: Full functionality without network/cloud
+2. **Your-Data-Your-Control**: Nothing leaves your machine unless you choose
+3. **Immediate-Value**: Useful from day one, not after "critical mass"
+4. **Non-blocking**: Never interrupt typing or slow down the IDE
+5. **Incremental**: Analyze only what changed, not entire codebase
+6. **Progressive**: Start simple, add capabilities as proven valuable
 
 ---
 
