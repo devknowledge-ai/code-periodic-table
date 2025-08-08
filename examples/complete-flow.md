@@ -334,7 +334,7 @@ Timeline:
   2012: SHA256 hashing (vulnerable to rainbow tables)
   2014: BCrypt adoption (current standard)
   2018: Argon2 emergence (recommended)
-  2024: Quantum-resistant research (experimental)
+  2025: Quantum-resistant research (experimental)
 
 Current Status: Mature
 Next Evolution: Post-quantum cryptography

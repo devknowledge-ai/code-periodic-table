@@ -241,5 +241,5 @@ This vision will evolve as we learn. That's not a weakness - it's the entire poi
 ---
 
 *Version 1.0 - A living document that changes as we learn*
-*Last updated: 2024*
+*Last updated: 2025*
 *Next update: Whenever we learn something new*

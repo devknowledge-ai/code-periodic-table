@@ -1054,6 +1054,6 @@ We enable systematic property-based analysis, comparison, and selection of progr
 ---
 
 *Document Version: 0.1.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Research Draft*  
 *License: CC BY 4.0*

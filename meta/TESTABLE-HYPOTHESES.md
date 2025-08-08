@@ -272,5 +272,5 @@ We commit to:
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Pre-testing - hypotheses defined but not yet tested*

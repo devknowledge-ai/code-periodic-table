@@ -594,7 +594,7 @@ This research builds upon decades of work in program analysis, with contribution
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Contact: adrian.belmans@gmail.com*
 
 **Note: This document describes experimental research. All performance claims and accuracy metrics are based on limited testing and may not represent real-world performance. The system is not ready for production use.**

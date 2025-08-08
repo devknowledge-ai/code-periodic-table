@@ -328,5 +328,5 @@ Proceed with adjusted expectations.
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Market reality check*

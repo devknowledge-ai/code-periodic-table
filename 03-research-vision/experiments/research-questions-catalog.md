@@ -1169,7 +1169,7 @@ The systematic investigation of these questions will determine the feasibility, 
 ---
 
 *Document Version: 0.1.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Living Document*  
 *License: CC BY 4.0*
 

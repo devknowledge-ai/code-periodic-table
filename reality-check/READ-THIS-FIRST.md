@@ -97,6 +97,6 @@ If you're still interested after reading this, welcome aboard! Your skepticism i
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Probability This Document Is Too Pessimistic: ~15%*  
 *Probability This Document Is Too Optimistic: ~45%*

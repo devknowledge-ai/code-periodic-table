@@ -22,7 +22,7 @@ Security patterns exist at multiple levels:
 
 ### 1.2 Current State of Security Pattern Research
 
-Recent developments (2024) show:
+Recent developments (2025) show:
 - **AI-Enhanced Detection**: LLMs improving pattern recognition with 48% of vulnerabilities previously unclassified now being categorized
 - **CWE Evolution**: Top 25 CWE list showing shift toward memory management vulnerabilities
 - **OWASP Updates**: New categories emerging including race conditions and timing attacks
@@ -43,7 +43,7 @@ Recent developments (2024) show:
 
 ### 2.1 CWE-Based Classification
 
-Based on 2024 CWE Top 25 analysis:
+Based on 2025 CWE Top 25 analysis:
 
 ```yaml
 Memory_Management_Patterns:
@@ -694,7 +694,7 @@ class AttackEvolution:
             '2021': ['ransomware', 'zero_day_exploitation'],
             '2022': ['ai_powered_attacks', 'api_attacks'],
             '2023': ['llm_prompt_injection', 'cloud_native_attacks'],
-            '2024': ['memory_corruption_variants', 'race_condition_exploitation']
+            '2025': ['memory_corruption_variants', 'race_condition_exploitation']
         }
         
         evolution_analysis = {}
@@ -1279,18 +1279,18 @@ This framework enables systematic research into security patterns, supporting bo
 
 ## References
 
-- MITRE. (2024). "CWE Top 25 Most Dangerous Software Weaknesses"
+- MITRE. (2025). "CWE Top 25 Most Dangerous Software Weaknesses"
 - OWASP. (2021). "OWASP Top 10 Web Application Security Risks"
-- OWASP. (2024). "OWASP Top 10 2025 Predictions and Contributions"
-- Phoenix Security. (2024). "CWE Top 25 Comparison and ASPM-AI Analysis"
-- CAPEC. (2024). "Common Attack Pattern Enumeration and Classification"
-- NIST. (2024). "National Vulnerability Database"
-- Sonar. (2024). "OWASP Security Vulnerability Coverage"
-- TCM Security. (2024). "OWASP Top 10 Predictions for 2025"
+- OWASP. (2025). "OWASP Top 10 2025 Predictions and Contributions"
+- Phoenix Security. (2025). "CWE Top 25 Comparison and ASPM-AI Analysis"
+- CAPEC. (2025). "Common Attack Pattern Enumeration and Classification"
+- NIST. (2025). "National Vulnerability Database"
+- Sonar. (2025). "OWASP Security Vulnerability Coverage"
+- TCM Security. (2025). "OWASP Top 10 Predictions for 2025"
 
 ---
 
 *Document Version: 0.1.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Research Draft*  
 *License: CC BY 4.0*

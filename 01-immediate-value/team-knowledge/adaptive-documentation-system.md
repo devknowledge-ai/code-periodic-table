@@ -527,6 +527,6 @@ This creates a virtuous cycle: Better documentation â†’ Fewer review questions â
 ---
 
 *Document Version: 1.0.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: System Specification*  
 *License: CC BY 4.0*

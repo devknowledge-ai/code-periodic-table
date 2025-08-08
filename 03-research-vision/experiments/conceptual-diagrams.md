@@ -781,7 +781,7 @@ The visualizations will evolve as the project develops, with new diagrams added 
 ---
 
 *Document Version: 0.1.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Living Document*  
 *License: CC BY 4.0*
 

@@ -321,6 +321,6 @@ Proceed with appropriate skepticism.
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Living document - will be updated as we discover new limitations*  
 *Commitment: We will add newly discovered limitations, never remove them*

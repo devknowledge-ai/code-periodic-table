@@ -260,8 +260,8 @@ class OrderProcessor {
 ### 7.1 One-Off Business Logic
 
 ```python
-def calculate_swedish_tax_2024(income):
-    # Swedish tax law for 2024 - highly specific
+def calculate_swedish_tax_2025(income):
+    # Swedish tax law for 2025 - highly specific
     if income <= 509300:
         return income * 0.32
     else:
@@ -349,5 +349,5 @@ These counter-examples demonstrate that:
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Purpose: Honest acknowledgment of classification limitations*

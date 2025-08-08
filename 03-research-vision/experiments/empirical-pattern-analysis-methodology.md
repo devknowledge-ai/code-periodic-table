@@ -1357,7 +1357,7 @@ Case_Study_2:
   insights:
     - Language-specific pattern preferences
     - Correlation between patterns and star count
-    - Evolution of async patterns 2020-2024
+    - Evolution of async patterns 2020-2025
 ```
 
 ### 11.2 Practical Applications
@@ -1417,9 +1417,9 @@ The methodology enables reproducible, scalable, and scientifically rigorous patt
 ## References
 
 - Parthasarathy, S. et al. (2022). "Design Pattern Recognition using Pre-trained Models"
-- Pandey, S. et al. (2023, 2024). "LLM-based Design Pattern Recognition"
+- Pandey, S. et al. (2023, 2025). "LLM-based Design Pattern Recognition"
 - Applied Computing and Intelligence (2023). "Sequential Pattern Mining: Challenges and Applications"
-- Future Generation Computer Systems (2024). "Scalable Frequent Pattern Mining Algorithms"
+- Future Generation Computer Systems (2025). "Scalable Frequent Pattern Mining Algorithms"
 - Empirical Software Engineering (2025). "Design Pattern Recognition: A Study of Large Language Models"
 - Han, J. et al. (2011). "Data Mining: Concepts and Techniques"
 - Bird, C. et al. (2009). "The Promises and Perils of Mining Git"
@@ -1427,6 +1427,6 @@ The methodology enables reproducible, scalable, and scientifically rigorous patt
 ---
 
 *Document Version: 0.1.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: Research Draft*  
 *License: CC BY 4.0*

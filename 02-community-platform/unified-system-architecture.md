@@ -797,6 +797,6 @@ curl -X POST https://api.codeperiodictable.org/vote \
 ---
 
 *Document Version: 1.0.0*  
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Status: System Architecture*  
 *License: CC BY 4.0*
