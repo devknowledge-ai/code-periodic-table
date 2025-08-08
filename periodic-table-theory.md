@@ -174,6 +174,18 @@ Previous attempts failed because they started with universal classification. We 
 
 **Research Needed**: Large-scale measurement of computational characteristics across codebases to validate natural clustering
 
+### 2.1.1 Addressing Circular Reasoning
+
+**Critical Note**: We must avoid circular logic where we use pattern existence to justify classification and classification to prove patterns exist. The proper logical flow:
+
+1. **Observation**: Patterns empirically exist in code (documented fact)
+2. **Hypothesis**: These patterns might have measurable properties
+3. **Measurement**: We attempt to extract and quantify properties
+4. **Classification**: IF properties cluster naturally, we organize them
+5. **Validation**: Test if classification has predictive/practical value
+
+The classification doesn't prove patterns exist - it organizes what we already observe.
+
 ### 2.2 Pattern Properties
 
 We propose characterizing patterns along multiple dimensions:
@@ -551,7 +563,7 @@ We seek contributors with expertise in:
 - Pattern recognition
 - Empirical software engineering
 
-**Contact**: [Repository and contact information]
+**Contact**: adrian.belmans@gmail.com
 
 ---
 

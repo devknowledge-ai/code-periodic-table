@@ -190,7 +190,7 @@ python -m pytest tests/
 
 ### 3. Find Something to Work On
 
-- Check [open issues](https://github.com/[org]/code-periodic-table/issues)
+- Check [open issues](https://github.com/devknowledge-ai/code-periodic-table/issues)
 - Look for `good first issue` labels
 - Read through TODO comments in code
 - Propose your own improvements
@@ -412,8 +412,8 @@ Every contribution, no matter how small, is valuable and appreciated.
 ## Quick Links
 
 - [Project README](README.md)
-- [Open Issues](https://github.com/[org]/code-periodic-table/issues)
-- [Discussions](https://github.com/[org]/code-periodic-table/discussions)
+- [Open Issues](https://github.com/devknowledge-ai/code-periodic-table/issues)
+- [Discussions](https://github.com/devknowledge-ai/code-periodic-table/discussions)
 - [Project Roadmap](README.md#roadmap)
 
 ---

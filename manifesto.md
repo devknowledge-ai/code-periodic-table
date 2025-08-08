@@ -385,6 +385,6 @@ This vision document was developed through community discussion and represents a
 **Document History**:
 - v0.1.0 (2024): Initial public release
 
-**Contact**: [Repository maintainer information]
+**Contact**: adrian.belmans@gmail.com
 
 **Contributing**: See CONTRIBUTING.md for guidelines

@@ -90,6 +90,16 @@ Total system complexity remains constant when moved between layers
 - Abstraction redistributes, doesn't eliminate complexity
 ```
 
+**Important Clarification - We Don't Reduce Complexity, We Redistribute It**:
+This conservation law might seem to contradict our goal of "reducing complexity" for developers. The resolution:
+1. **Total System Complexity** is conserved (code + tools + infrastructure)
+2. **Developer-Facing Complexity** can be reduced by moving it into tools/frameworks
+3. **Analogy**: Compilers don't eliminate machine code complexity, they hide it
+4. **Our Role**: We redistribute complexity from developers to our classification system
+5. **The Cost**: This redistribution requires learning the classification system itself
+
+This means success isn't eliminating complexity but managing its distribution more effectively.
+
 #### 2.2.3 Conservation of Computation
 ```
 Work must be done somewhere, sometime

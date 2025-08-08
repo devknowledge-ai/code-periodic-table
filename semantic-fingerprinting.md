@@ -355,7 +355,13 @@ Updates: Daily sync, ~10MB downloads
 3. **Caching**: Patterns rarely change once identified
 4. **Community**: Shared knowledge reduces redundant analysis
 
-*Note: This approach trades completeness for practicality - and that's exactly what developers need*
+**Critical Trade-off**: This approach trades completeness for practicality:
+- **What We Lose**: Full codebase analysis, rare pattern detection, guaranteed completeness
+- **What We Gain**: Real-time performance, practical usability, incremental value
+- **Accuracy Impact**: Expected 10-15% reduction in detection rate vs. full analysis
+- **User Impact**: 90% of common patterns detected instantly vs. 100% patterns in hours
+
+*Note: No evidence yet that this trade-off preserves sufficient accuracy - requires empirical validation*
 
 ### 5.3 Limitations Observed
 
@@ -522,7 +528,7 @@ This remains an active area of research with many open questions.
 
 ```bash
 # Clone repository
-git clone https://github.com/[organization]/semantic-fingerprinting
+git clone https://github.com/devknowledge-ai/semantic-fingerprinting
 
 # Install dependencies
 pip install -r requirements.txt
@@ -589,6 +595,6 @@ This research builds upon decades of work in program analysis, with contribution
 ---
 
 *Last Updated: 2024*  
-*Contact: [research contact information]*
+*Contact: adrian.belmans@gmail.com*
 
 **Note: This document describes experimental research. All performance claims and accuracy metrics are based on limited testing and may not represent real-world performance. The system is not ready for production use.**

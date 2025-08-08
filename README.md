@@ -216,7 +216,7 @@ Challenge our assumptions and help us fail fast
 Understand our community approach and find your place
 
 ### Join the Conversation
-- 💬 [GitHub Discussions](https://github.com/[org]/code-periodic-table/discussions) - Ideas and debates
+- 💬 [GitHub Discussions](https://github.com/devknowledge-ai/code-periodic-table/discussions) - Ideas and debates
 - 📝 [Working Groups](working-groups/) - Join a focused team
 - 🧪 [Experiments](experiments/) - See what we're testing
 - 💀 [Graveyard](graveyard/) - Learn from our failures
@@ -354,7 +354,7 @@ See individual documents for detailed references.
 ## 📬 Contact
 
 - **GitHub Issues**: For bugs, features, and discussions
-- **Email**: [research@example.org]
+- **Email**: adrian.belmans@gmail.com
 - **Twitter**: [@codeperiodic]
 
 ## 📜 License
@@ -373,10 +373,10 @@ Thanks to all contributors and the broader software engineering research communi
 
 ## Quick Links
 
-- [Join the Discussion](https://github.com/[org]/code-periodic-table/discussions)
-- [Report Issues](https://github.com/[org]/code-periodic-table/issues)
-- [View Project Board](https://github.com/[org]/code-periodic-table/projects)
-- [Read the Wiki](https://github.com/[org]/code-periodic-table/wiki)
+- [Join the Discussion](https://github.com/devknowledge-ai/code-periodic-table/discussions)
+- [Report Issues](https://github.com/devknowledge-ai/code-periodic-table/issues)
+- [View Project Board](https://github.com/devknowledge-ai/code-periodic-table/projects)
+- [Read the Wiki](https://github.com/devknowledge-ai/code-periodic-table/wiki)
 
 ---
 
