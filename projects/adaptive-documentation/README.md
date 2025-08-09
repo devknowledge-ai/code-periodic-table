@@ -1,8 +1,8 @@
 # Adaptive Documentation: The Foundation of the Anvil Suite
 
-**The #1 Priority** - This tool powers all others by capturing the "why" behind code changes.
+**The #1 Priority** - This ambitious research project aims to capture the "why" behind code changes.
 
-*Born from The Great Simplification: Instead of analyzing noisy Git history (10% signal), we capture context at the source (95% signal).*
+*Born from The Great Simplification: Our goal is to move from noisy Git history (10% signal) to capturing context at the source (potentially 95% signal).*
 
 ## What It Does
 
@@ -49,13 +49,15 @@ The system learns THREE things simultaneously:
 2. **HOW to ask** - Matching each developer's style (minimalist to comprehensive)
 3. **WHAT to ask** - Learning from code reviews what generates questions
 
-## Installation
+## Installation (Planned)
+
+**Note: No working implementation exists yet. These commands show intended usage.**
 
 ```bash
-# VS Code Extension
+# Future VS Code Extension (not yet available)
 code --install-extension adaptive-documentation
 
-# CLI Tool
+# Future CLI Tool (not yet available)
 npm install -g adaptive-doc
 ```
 
@@ -159,17 +161,19 @@ git commit -m "Add rate limiting" --llm-context=.claude-session.json
 
 See [llm-integration.md](./llm-integration.md) for complete LLM integration details.
 
-## Why This Is The Foundation
+## Why This Is The Foundation (If Successful)
 
-**This solves the core data problem.** Every other tool in the Anvil suite depends on clean, structured data about why code changes. 
+**This aims to solve the core data problem.** Every other tool in the Anvil suite could benefit from clean, structured data about why code changes - if we can capture it.
 
-- **Without LLM assistance**: Raw Git history has ~10% signal, we prompt developers to fill gaps
-- **With LLM assistance**: Conversations contain ~95% signal, we extract it automatically
+- **Without LLM assistance**: Raw Git history has ~10% signal, we would need to prompt developers to fill gaps
+- **With LLM assistance**: Conversations could contain ~95% signal, if we can extract it
 
-This knowledge base powers:
-- **Anvil Guard** - Knows exactly why patterns were fixed
-- **GitMemory** - Rich context, not just diffs
-- **Future ML Models** - Clean training data from day one
+**Note**: Other tools can provide baseline functionality without this data:
+- **Anvil Guard** - Can detect patterns from Git history alone (lower accuracy)
+- **GitMemory** - Can search standard Git commits (less context)
+- **Future ML Models** - Can train on existing data (noisier results)
+
+The enhanced capabilities depend on successfully solving the context capture problem.
 
 ## Contributing
 
@@ -182,7 +186,7 @@ Critical areas needing help:
 
 ## Status
 
-⚠️ **Critical Research Challenge** - The success of the entire Anvil suite depends on solving this unsolved HCI problem
+⚠️ **Critical Research Challenge** - This is an unsolved HCI problem that would significantly enhance the Anvil suite if solved
 
 ### The Honest State of Things
 

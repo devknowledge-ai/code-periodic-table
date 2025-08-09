@@ -34,10 +34,11 @@ Each function must meet these criteria or be flagged for optimization:
 | Fuzzy match (80% similarity) | <100ms | 500ms | Optimize algorithm |
 | Semantic match | <500ms | 2s | Consider ML cache |
 
-## Current Measurements
+## Target Performance Examples
 
-### Fingerprinting Performance
+### Example: Fingerprinting Performance Test
 ```python
+# EXAMPLE TEST (not yet implemented)
 # Test file: sample_code.py (500 lines)
 from anvil_core.fingerprinting import generate_fingerprint
 import time
@@ -47,11 +48,12 @@ fingerprint = generate_fingerprint("sample_code.py")
 elapsed = (time.perf_counter() - start) * 1000
 
 print(f"Fingerprinting took: {elapsed:.2f}ms")
-# Current: 87ms ✅ (Target: <100ms)
+# Target: <100ms for medium files
 ```
 
-### Git Operations Performance
+### Example: Git Operations Performance Test
 ```python
+# EXAMPLE TEST (not yet implemented)
 # Test repo: 1000 commits, 500 files
 from anvil_core.git import get_file_history
 import time
@@ -61,7 +63,7 @@ history = get_file_history("src/main.py", limit=100)
 elapsed = (time.perf_counter() - start) * 1000
 
 print(f"Git history took: {elapsed:.2f}ms")
-# Current: 743ms ✅ (Target: <1s)
+# Target: <1s for 100 commits
 ```
 
 ## Optimization Decision Tree
@@ -92,27 +94,22 @@ Migrate a module to Rust when:
 4. **Frequency**: Called >1000 times per minute
 5. **Blocking**: Cannot be made async without major refactor
 
-Current candidates for Rust migration:
-- [ ] `fingerprinting.generate_ast_fingerprint()` - CPU intensive
-- [ ] `pattern_matcher.semantic_similarity()` - Heavy computation
-- [ ] `git.diff_parser()` - Large memory usage on big diffs
+Potential candidates for Rust migration (once implemented):
+- [ ] `fingerprinting.generate_ast_fingerprint()` - Expected to be CPU intensive
+- [ ] `pattern_matcher.semantic_similarity()` - Likely heavy computation
+- [ ] `git.diff_parser()` - May have large memory usage on big diffs
 
-## Benchmark Suite
+## Benchmark Suite (Planned)
 
-Run all benchmarks:
+**Note: These commands represent planned functionality. No working implementation exists yet.**
+
+Planned benchmark commands:
 ```bash
+# These commands will be available once implemented:
 python -m anvil_core.benchmarks.run_all
-```
-
-Run specific benchmark:
-```bash
 python -m anvil_core.benchmarks.fingerprinting
 python -m anvil_core.benchmarks.git_ops
 python -m anvil_core.benchmarks.pattern_matching
-```
-
-Generate performance report:
-```bash
 python -m anvil_core.benchmarks.report --format=html
 ```
 
@@ -177,13 +174,16 @@ Template:
 **Profile**: [attached cProfile output]
 ```
 
-## Next Steps
+## Implementation Roadmap
 
-1. **Immediate**: Implement benchmark suite
-2. **Week 1**: Baseline all core functions
-3. **Week 2**: Add CI performance gates
-4. **Month 1**: Optimize functions over target
-5. **Quarter 1**: Migrate critical paths to Rust if needed
+**Note: This is a proposed roadmap. No functional code exists yet.**
+
+1. **Phase 1**: Design and implement core functionality
+2. **Phase 2**: Create initial benchmark suite
+3. **Phase 3**: Establish baseline measurements
+4. **Phase 4**: Add CI performance gates
+5. **Phase 5**: Optimize based on actual measurements
+6. **Future**: Consider Rust migration for proven bottlenecks
 
 ---
 

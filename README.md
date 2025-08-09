@@ -28,8 +28,8 @@ Status: 🚧 Early Development | Powered by: Fingerprinting + Integration
 *Evolved from "Sticky Comments" into comprehensive context system*
 
 ### [Anvil Guard](./projects/null-guard/)
-**Prevent null reference exceptions with 95% accuracy**  
-Status: 🧪 Beta Testing | Powered by: Historical bug patterns + context
+**Target: Prevent null reference exceptions with 95% accuracy**  
+Status: 📋 Pre-Development | Powered by: Historical bug patterns + context
 
 ### [Anvil Memory](./projects/git-memory/)
 **Your team's searchable knowledge base**  

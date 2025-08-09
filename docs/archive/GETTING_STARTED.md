@@ -1,6 +1,24 @@
-# Getting Started with Anvil
+# [ARCHIVED] Getting Started with Anvil - FICTIONAL GUIDE
 
-Welcome! This guide will take you from zero to your first contribution in about 10 minutes.
+# ⚠️⚠️⚠️ CRITICAL WARNING ⚠️⚠️⚠️
+
+## THIS ENTIRE GUIDE IS FICTIONAL
+
+**THE FOLLOWING COMMANDS AND TOOLS DO NOT EXIST:**
+- ❌ The prototype script `detect_repeated_fixes.py` DOES NOT EXIST
+- ❌ The repository path shown IS NOT REAL
+- ❌ The installation steps WILL NOT WORK
+- ❌ The sample outputs are FICTIONAL EXAMPLES
+
+**This document is preserved from before [The Great Simplification](../../THE_GREAT_SIMPLIFICATION.md) as a historical artifact showing our original (abandoned) approach.**
+
+**For actual project status, see [PROJECT_STATUS.md](../../PROJECT_STATUS.md)**
+
+---
+
+*Original fictional content follows below...*
+
+Welcome! This guide would have taken you from zero to your first contribution in about 10 minutes (if any of this existed).
 
 ## 1-Minute Understanding
 

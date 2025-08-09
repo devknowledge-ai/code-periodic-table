@@ -1,6 +1,8 @@
 # Contributing to the Anvil Suite
 
-Welcome to the result of **The Great Simplification** - a collection of focused developer tools that actually ship.
+**Important: This project is in pre-development. We need contributors to help write the very first lines of functional code.**
+
+Welcome to the result of **The Great Simplification** - a collection of focused developer tools that we're building from scratch.
 
 ## The Anvil Philosophy (Post-Simplification)
 
@@ -18,36 +20,26 @@ No more grand visions. No more overwhelming complexity. Just practical tools tha
 4. **Share foundations** - Common code goes in `anvil-core`
 5. **Let usage guide us** - Real developers using real tools drive our roadmap
 
-## 🗺️ Contributor Map
+## 🗺️ Where to Start Contributing
 
-```mermaid
-graph TD
-    Start[Want to Contribute?] --> Skills{What are your skills?}
-    
-    Skills -->|Python + ML/NLP| AD[Adaptive Documentation]
-    Skills -->|Python + AST| NG[NullGuard]
-    Skills -->|Git Internals| GM[Anvil Memory]
-    Skills -->|Algorithms| AF[Anvil Fingerprint]
-    Skills -->|AST + Diffs| AC[Anvil Context]
-    Skills -->|System Architecture| Core[anvil-core]
-    
-    AD --> AD1[Build AI tool integrations]
-    NG --> NG1[Detect null bugs - Our Demo!]
-    GM --> GM1[Make Git searchable]
-    AF --> AF1[Create code fingerprints]
-    AC --> AC1[Context for code + errors]
-    Core --> Core1[Shared algorithms]
-    
-    style NG fill:#f9f,stroke:#333,stroke-width:4px
-    style AD fill:#ff9,stroke:#333,stroke-width:2px
-```
+### Two Parallel Tracks (Both Need Initial Implementation)
 
-### 🎯 Recommended Starting Points
+**Track 1: Anvil Context** - Starting with sticky comments component
+- First PR needed: Comment extraction from Python files
+- Second PR needed: Basic AST fingerprinting
+- Third PR needed: Track comments through refactoring
 
-**New to the project?** → Start with **NullGuard** (our showcase demo)
-**Have AI tool experience?** → Help with **Adaptive Documentation** (critical path)
-**Love algorithms?** → Dive into **anvil-core** or **Fingerprint**
-**Know Git internals?** → **Anvil Memory** needs you
+**Track 2: Null Guard** - Basic null detection patterns
+- First PR needed: Detect unchecked function returns
+- Second PR needed: Find unsafe dictionary access
+- Third PR needed: Pattern configuration system
+
+### 🎯 Immediate Needs (Ground Floor Opportunities)
+
+**Python Developers** → Implement basic pattern detection for Null Guard
+**AST Experience** → Build comment extraction for Anvil Context
+**Any Experience Level** → Write test cases and documentation
+**Git Knowledge** → Improve the basic git-memory prototype
 
 ## Choose Your Adventure
 
@@ -66,19 +58,22 @@ Adaptive Documentation captures the "why" behind code changes - the context that
 Each tool is independent and can be your entry point:
 
 #### Anvil Context (Evolved from StickyComments)
-**Living documentation for code, errors, and crashes**
+**Will provide living documentation for code, errors, and crashes**
+- **Current Status**: Needs implementation, starting with sticky comments
 - **Skills**: Python, AST manipulation, error analysis
 - **Difficulty**: Medium-Hard
 - **Start here**: [`/projects/anvil-context`](./projects/anvil-context)
 
 #### Anvil Guard (NullGuard)
-**Catches null/None bugs before they bite**
+**Will catch null/None bugs before they bite (once implemented)**
+- **Current Status**: No working code yet, need to build from scratch
 - **Skills**: Python, AST parsing, pattern matching
 - **Difficulty**: Medium
-- **Start here**: [`/projects/null-guard`](./projects/null-guard)
+- **Start here**: [`/projects/null-guard/PROTOTYPE.md`](./projects/null-guard/PROTOTYPE.md)
 
 #### Anvil Memory (GitMemory)
-**Your team's searchable knowledge base**
+**Will be your team's searchable knowledge base (once built)**
+- **Current Status**: Basic prototype exists (commit message analysis only)
 - **Skills**: Python, Git internals, search algorithms
 - **Difficulty**: Medium
 - **Start here**: [`/projects/git-memory`](./projects/git-memory)

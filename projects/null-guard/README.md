@@ -4,15 +4,15 @@ Part of the [Anvil Suite](../../README.md) - born from The Great Simplification.
 
 **One job: Prevent null reference exceptions. Done exceptionally well.**
 
-*No complex theories. No overwhelming documentation. Just a tool that catches null bugs with 95% accuracy.*
+*No complex theories. No overwhelming documentation. Aiming to build a tool that catches null bugs with 95% accuracy.*
 
 📋 **[See the Prototype Plan](./PROTOTYPE.md)** - How we're building the demo that showcases everything
 
-## Our Promise
+## Our Goal
 
-**95% detection rate. Less than 5% false positives.**
+**Target: 95% detection rate. Less than 5% false positives.**
 
-If NullGuard says you have a null reference bug, you probably do.
+We're building NullGuard to achieve high confidence in null reference detection.
 
 ## What It Catches
 
@@ -61,20 +61,21 @@ pip install -e .
 4. **Builds a model** specific to your code with rich context
 5. **Provides targeted warnings** with high confidence
 
-**The Secret**: When integrated with [Adaptive Documentation](../adaptive-documentation/), Anvil Guard doesn't just see that a null check was added - it knows WHY. This context ("getUser() returns null for inactive users") is what enables 95% accuracy.
+**The Vision**: When integrated with [Adaptive Documentation](../adaptive-documentation/), Anvil Guard could potentially understand not just that a null check was added, but WHY. This context ("getUser() returns null for inactive users") is what we believe will enable our target 95% accuracy.
 
 ## Performance
 
-| Metric | Target | Current |
-|--------|--------|---------|
-| Detection Rate | 95% | 92% |
-| False Positives | <5% | 7% |
-| Analysis Speed | <100ms | 80ms |
-| Languages | Python, JS, Java | Python |
+| Metric | Target | Status |
+|--------|--------|---------| 
+| Detection Rate | 95% | Not yet measured |
+| False Positives | <5% | Not yet measured |
+| Analysis Speed | <100ms | Not yet measured |
+| Languages | Python, JS, Java | Planned: Python first |
 
-## Example Output
+## Example Output (Conceptual)
 
 ```
+# This shows the intended output format once implemented:
 nullguard check auth.py
 
 ⚠️ Line 45: Potential null reference
@@ -109,13 +110,13 @@ We need help with:
 - [ ] Performance optimization
 - [ ] Training data from more codebases
 
-## Success Stories
+## Vision for Success
 
-> "Caught 12 null bugs in our codebase on first run. All real issues."  
-> — Early tester
+> "We aim to build a tool that catches real null bugs without false alarms."  
+> — Project Goal
 
-> "Finally, a tool that doesn't cry wolf."  
-> — Beta user
+> "Our target is to become the tool that doesn't cry wolf."  
+> — Design Philosophy
 
 ## The Philosophy
 
@@ -123,10 +124,10 @@ Do one thing. Do it better than anyone else. Build trust through accuracy.
 
 ## Status
 
-🚀 **Beta Testing** - Python support working, seeking beta testers
+📋 **Pre-Development** - See [PROTOTYPE.md](./PROTOTYPE.md) for the development plan
 
 ---
 
-**Not trying to detect everything. Just null references. Perfectly.**
+**Not trying to detect everything. Just null references. Aiming for perfection.**
 
-Contact: adrian.belmans@gmail.com | [Get Beta Access](https://nullguard.dev)
+Contact: adrian.belmans@gmail.com

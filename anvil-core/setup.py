@@ -29,11 +29,11 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "GitPython>=3.1.0",      # Git operations
-        "click>=8.0.0",          # CLI interface
-        "tree-sitter>=0.20.0",   # AST parsing for multiple languages
-        "pydantic>=2.0.0",       # Data validation and models
-        "numpy>=1.20.0",         # Similarity calculations
+        # Currently using only Python standard library
+        # Future dependencies will be added as features are implemented:
+        # - GitPython: When we need more complex git operations
+        # - tree-sitter: When we add multi-language support
+        # - click: When we build the CLI interface
     ],
     extras_require={
         "dev": [

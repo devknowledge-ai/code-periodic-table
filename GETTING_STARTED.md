@@ -1,16 +1,38 @@
-# Getting Started: Build NullGuard in 30 Minutes
+# Getting Started: Help Build the Anvil Suite
 
-*Your first contribution to the Anvil Suite - our showcase demo*
+*Join us in creating developer tools that solve real problems*
 
-## Why Start with NullGuard?
+## Current Project Status
 
-NullGuard is:
-- **Simple to understand**: Everyone knows null bugs
-- **Quick to test**: See results immediately  
-- **High impact**: 70% of bugs with simple patterns
-- **Our demo**: The showcase for the entire suite
+**Important: The Anvil Suite is in pre-development.** No working tools exist yet. We're looking for contributors to help write the very first lines of functional code.
 
-## Quick Setup (5 minutes)
+See [PROJECT_STATUS.md](./PROJECT_STATUS.md) for complete transparency about what exists (very little) vs. what's planned (everything else).
+
+## Where to Start
+
+We have two parallel tracks that need initial implementation:
+
+### Track 1: Anvil Context - Sticky Comments Component
+**Goal**: Comments that stay attached to code through refactoring
+
+**First tasks**:
+1. Extract comments from Python files
+2. Create basic AST fingerprints for code blocks
+3. Track a comment through one simple refactoring
+
+**Start here**: [projects/anvil-context/](./projects/anvil-context/)
+
+### Track 2: Null Guard - Basic Pattern Detection
+**Goal**: Detect obvious null/None reference bugs
+
+**First tasks**:
+1. Detect unchecked function returns that could be None
+2. Find dictionary access without .get()
+3. Identify chain access patterns (a.b.c where any could be None)
+
+**Start here**: [projects/null-guard/PROTOTYPE.md](./projects/null-guard/PROTOTYPE.md)
+
+## Setting Up Your Development Environment
 
 ```bash
 # Clone the repository
@@ -21,219 +43,128 @@ cd code-periodic-table
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install NullGuard
-cd projects/null-guard
-pip install -e .
-
-# Run tests to verify setup
-pytest tests/
+# Install development dependencies
+pip install pytest black mypy
 ```
 
-## Your First Contribution (25 minutes)
+## Your First Contribution
 
-### Option 1: Add a Null Pattern (Easiest)
-Find a null bug pattern and add it to our library:
+Since we're starting from scratch, here are concrete first PRs we need:
 
+### For Anvil Context (Sticky Comments)
+
+**PR #1: Comment Extraction**
 ```python
-# Edit: projects/null-guard/src/patterns.py
+# Create: projects/anvil-context/src/comment_extractor.py
 
-# Add your pattern
-MY_PATTERN = {
-    "name": "empty_list_access",
-    "description": "Accessing index on potentially empty list",
-    "example": "items = get_items()\nfirst = items[0]  # Could be empty!",
-    "fix": "items = get_items()\nif items:\n    first = items[0]",
-    "confidence": 0.80
-}
+import ast
+from typing import List, Dict
 
-# Add to PATTERNS list
-PATTERNS.append(MY_PATTERN)
+def extract_comments(file_path: str) -> List[Dict]:
+    """Extract all comments from a Python file with their line numbers."""
+    # TODO: Implement comment extraction
+    # Should return: [{"line": 10, "text": "# TODO: fix this", "type": "inline"}]
+    pass
 ```
 
-Test your pattern:
-```bash
-pytest tests/test_patterns.py::test_my_pattern
-```
-
-### Option 2: Improve Detection (Medium)
-Enhance the detection algorithm:
-
+**PR #2: Basic Fingerprinting**
 ```python
-# Edit: projects/null-guard/src/detector.py
+# Create: projects/anvil-context/src/fingerprint.py
 
-def detect_your_bug_type(self, tree: ast.AST) -> List[Bug]:
-    """Detect a new type of null bug"""
-    bugs = []
-    
-    for node in ast.walk(tree):
-        if self.is_your_bug_pattern(node):
-            bugs.append(Bug(
-                line=node.lineno,
-                column=node.col_offset,
-                message="Your bug description",
-                confidence=0.75
-            ))
-    
-    return bugs
+def create_fingerprint(code_block: str) -> str:
+    """Create a simple fingerprint for a code block."""
+    # TODO: Start with something basic like hash of normalized AST
+    pass
 ```
 
-### Option 3: Add a Test Case (Very Easy)
-Add real-world null bugs to our test suite:
+### For Null Guard
 
+**PR #1: Basic Pattern Detector**
 ```python
-# Edit: projects/null-guard/tests/test_cases.py
+# Create: projects/null-guard/src/detector.py
 
-TEST_CASES.append({
-    "name": "your_test_case",
-    "code": """
-        # Your code with a null bug
-        user = get_user(invalid_id)
-        print(user.name)  # Bug: user could be None
-    """,
-    "expected_bugs": 1,
-    "bug_line": 3
-})
+import ast
+from typing import List
+
+def find_unchecked_returns(code: str) -> List[dict]:
+    """Find function returns used without None checks."""
+    # TODO: Parse AST, find patterns like:
+    # user = get_user()
+    # user.name  # <- potential bug
+    pass
 ```
 
-## See Your Impact
+**PR #2: Test Cases**
+```python
+# Create: projects/null-guard/tests/test_patterns.py
 
-Run the accuracy test to see how you improved NullGuard:
-
-```bash
-# Future functionality (in development):
-python -m nullguard.accuracy_test
-
-# Expected output when implemented:
-# Before your change: 73.2% accuracy
-# After your change:  74.1% accuracy  ⬆️
-# You improved accuracy by 0.9%! 🎉
+def test_unchecked_return():
+    code = """
+    user = get_user(123)
+    print(user.name)  # Should detect this
+    """
+    bugs = find_unchecked_returns(code)
+    assert len(bugs) == 1
+    assert bugs[0]['line'] == 2
 ```
 
-## Try the Demo
+## No Working Prototypes Yet
 
-⚠️ **Note: Demo functionality is planned but not yet implemented**
+The following do NOT work yet (despite what other docs might suggest):
 
-Future demo capabilities:
+- ❌ `pip install nullguard` - package doesn't exist
+- ❌ `nullguard check file.py` - no CLI exists
+- ❌ `python prototype.py` - the git-memory prototype only does basic commit message analysis
+- ❌ Web demos - no web interface exists
+- ❌ IDE extensions - not built yet
 
-```bash
-# Will start the web demo (not yet available)
-python -m nullguard.demo.web
+## What Actually Exists
 
-# Will open http://localhost:5000
-# You'll paste code with null bugs
-# See them detected in real-time!
-```
+### Minimal Starting Points:
+- `anvil-core/src/` - Basic structure, needs implementation
+- `projects/git-memory/prototype.py` - Simple commit message analyzer (very basic)
+- Documentation and plans (what you're reading)
 
-Future CLI usage:
+### What Needs to Be Built:
+- Everything else
 
-```bash
-# Will analyze a file (not yet available)
-python -m nullguard check myfile.py
+## How to Contribute Right Now
 
-# Will analyze a project (not yet available)
-python -m nullguard check --recursive ./src
-```
+1. **Pick a track** (Anvil Context or Null Guard)
+2. **Choose a first task** from above
+3. **Create an issue** describing what you'll implement
+4. **Write the code** - even 20 lines is progress!
+5. **Submit a PR** - we'll help you refine it
 
-**Current Status**: See [NullGuard Prototype Plan](./projects/null-guard/PROTOTYPE.md) for implementation timeline.
+### Good First Issues
 
-## Next Steps
-
-### Completed the basics? Level up:
-
-1. **Integrate with your editor**
-   ```bash
-   # VSCode extension
-   cd extensions/vscode-nullguard
-   npm install && npm run build
-   ```
-
-2. **Add context simulation**
-   - Edit `mock_context.json`
-   - Show how Adaptive Documentation will boost accuracy
-
-3. **Improve the demo UI**
-   - Make it beautiful
-   - Add before/after comparisons
-   - Show confidence scores
-
-### Want to work on other tools?
-
-Now that you understand the pattern:
-- **Adaptive Documentation** - The critical foundation
-- **Anvil Memory** - Make Git searchable
-- **Anvil Comments** - Track moving comments
-- **anvil-core** - Shared algorithms
+Look for issues labeled:
+- `good-first-issue` - Beginner friendly
+- `help-wanted` - We need help here
+- `ground-floor` - Foundational code needed
 
 ## Getting Help
 
-### Stuck? We're here to help:
+**Questions?** Open an issue with the `question` label
+**Stuck?** Comment on your PR - we'll help
+**Ideas?** Start a discussion in GitHub Discussions
 
-**Quick questions**: Open a GitHub issue
-**Real-time help**: Discord #nullguard channel
-**Code review**: Submit a draft PR early
-**Ideas**: Discussions → "NullGuard Ideas"
+## The Honest Truth
 
-### Common Issues
+We're at the very beginning. The code you write will be foundational. You're not contributing to an existing project - you're helping create it from scratch.
 
-**Import errors?**
-```bash
-pip install -e ../../anvil-core  # Install shared library
-```
+This is an opportunity to:
+- Shape the architecture from the ground up
+- Get your code into the core of the project
+- Be recognized as a founding contributor
 
-**Tests failing?**
-```bash
-pytest tests/ -v  # See which specific test fails
-```
+## Next Steps
 
-**Not sure what to work on?**
-Check issues labeled `good-first-issue` and `nullguard`
-
-## Your First PR
-
-### Checklist:
-- [ ] Code works locally
-- [ ] Tests pass (`pytest`)
-- [ ] Added/updated tests for your change
-- [ ] Updated patterns.py or detector.py
-- [ ] Ran accuracy test
-
-### PR Template:
-```markdown
-## What I Changed
-[Describe your change]
-
-## Accuracy Impact
-Before: X%
-After: Y%
-
-## Test Coverage
-- [ ] Added new test case
-- [ ] Existing tests still pass
-```
-
-## Celebrate! 🎉
-
-You've just contributed to:
-- A tool that will prevent thousands of bugs
-- The showcase demo for the entire Anvil Suite
-- Open source software used by developers worldwide
-
-**Share your contribution**: Tag us on Twitter @AnvilSuite
+1. Read [PROJECT_STATUS.md](./PROJECT_STATUS.md) to understand what's real vs planned
+2. Check [CURRENT_ROADMAP.md](./CURRENT_ROADMAP.md) for the development plan
+3. Pick a small task and start coding
+4. Submit even small PRs - every line of code moves us forward
 
 ---
 
-## Why This Matters
-
-Every null bug pattern you add:
-1. **Prevents real bugs** in production code
-2. **Saves debugging time** for developers
-3. **Demonstrates** the power of pattern detection
-4. **Attracts** more contributors to the project
-
-You're not just fixing code - you're building the future of automated bug prevention.
-
----
-
-*Ready to start? The code is waiting for you!*
-
-**[Jump to NullGuard →](./projects/null-guard/)**
+*Ready to build something real? Let's start with just a few lines of code.*

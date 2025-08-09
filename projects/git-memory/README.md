@@ -33,28 +33,33 @@ Clean, structured data about your repository's evolution:
 }
 ```
 
-## Features
+## Planned Features
 
-- **Fast** - Index 10,000 commits in under 60 seconds
-- **Searchable** - SQL queries on commits, files, authors, patterns
-- **Exportable** - JSON, CSV, SQLite formats
-- **Incremental** - Only process new commits
-- **Language-agnostic** - Works with any Git repository
+- **Fast** - Goal: Index 10,000 commits in under 60 seconds
+- **Searchable** - Goal: SQL queries on commits, files, authors, patterns
+- **Exportable** - Goal: JSON, CSV, SQLite formats
+- **Incremental** - Goal: Only process new commits
+- **Language-agnostic** - Will work with any Git repository
 
-## Installation
+## Installation (Planned)
+
+**Note: No package exists yet. This shows intended usage once implemented.**
 
 ```bash
+# Future installation (not yet available)
 pip install gitmemory
 ```
 
-## Usage
+## Usage (Planned API)
 
-### Basic Indexing
+**This shows the intended interface once implemented:**
+
+### Basic Indexing (Future)
 ```bash
 gitmemory index ./my-project
 ```
 
-### Query Examples
+### Query Examples (Future API)
 ```python
 from gitmemory import GitMemory
 
@@ -70,6 +75,13 @@ commits = gm.query("author = 'jane.doe@example.com'")
 repeated = gm.find_repeated_changes("auth.py")
 ```
 
+### Current Prototype (Very Limited)
+```bash
+# The only working code - does basic keyword analysis of commit messages
+# NOT actual code analysis or AST parsing - just simple text matching
+python prototype.py /path/to/repo
+```
+
 ## Use Cases
 
 - **Analytics** - Repository statistics and trends
@@ -78,13 +90,15 @@ repeated = gm.find_repeated_changes("auth.py")
 - **Team Insights** - Who changes what, when
 - **Build Tools** - Foundation for other analysis tools
 
-## Performance Benchmarks
+## Performance Targets
 
-| Repository Size | Indexing Time | Query Time |
-|-----------------|---------------|------------|
-| 1,000 commits | 6 seconds | <100ms |
-| 10,000 commits | 55 seconds | <100ms |
-| 100,000 commits | 10 minutes | <200ms |
+**These are our goals, not current measurements:**
+
+| Repository Size | Target Indexing Time | Target Query Time |
+|-----------------|---------------------|-------------------|
+| 1,000 commits | <10 seconds | <100ms |
+| 10,000 commits | <60 seconds | <100ms |
+| 100,000 commits | <15 minutes | <200ms |
 
 ## Contributing
 
@@ -101,7 +115,7 @@ Every advanced Git analysis tool needs to solve the same problem: efficiently pr
 
 ## Status
 
-🚧 **Active Development** - Core functionality working, optimizing performance
+📋 **Pre-Development** - We have a basic prototype that analyzes commit messages only. See [prototype.py](./prototype.py) for the current proof-of-concept.
 
 ---
 

@@ -176,16 +176,16 @@ pytest anvil-core/tests/
 pytest --cov=anvil_core --cov-report=html
 ```
 
-## Performance Benchmarks
+## Performance Targets
 
-Core operations are optimized for speed:
+Core operations will be optimized for these speeds:
 
-| Operation | Performance | Target |
-|-----------|------------|--------|
-| Parse Python file (1000 lines) | 50ms | <100ms |
-| Generate fingerprint | 5ms | <10ms |
-| Compare fingerprints | 0.1ms | <1ms |
-| Traverse 1000 commits | 200ms | <500ms |
+| Operation | Target | Status |
+|-----------|--------|--------|
+| Parse Python file (1000 lines) | <100ms | Not yet measured |
+| Generate fingerprint | <10ms | Not yet measured |
+| Compare fingerprints | <1ms | Not yet measured |
+| Traverse 1000 commits | <500ms | Not yet measured |
 
 ## Versioning
 
@@ -236,14 +236,19 @@ As research concepts prove valuable, they graduate to `anvil-core`:
 
 ## Dependencies
 
-Kept minimal for maximum compatibility:
+Currently using only Python standard library for maximum compatibility:
 
 ```python
-# requirements.txt
-tree-sitter>=0.20.0     # AST parsing
-gitpython>=3.1.0        # Git operations
-pydantic>=2.0.0         # Data validation
-numpy>=1.20.0           # Similarity calculations
+# Current dependencies: None (uses only standard library)
+# - ast: For Python AST parsing
+# - subprocess: For git operations
+# - hashlib, re, json: For fingerprinting and data handling
+
+# Future planned dependencies (when features are implemented):
+# tree-sitter>=0.20.0     # Multi-language AST parsing
+# gitpython>=3.1.0        # Advanced git operations
+# pydantic>=2.0.0         # Data validation
+# numpy>=1.20.0           # Similarity calculations
 ```
 
 ## License
