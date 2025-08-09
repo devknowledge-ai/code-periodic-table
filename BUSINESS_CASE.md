@@ -1,8 +1,8 @@
-# Code Periodic Table: Business Case & Investment Proposal
+# Code Periodic Table: Research Program Business Case
 
 ## Executive Summary
 
-The Code Periodic Table project offers a pragmatic, phased approach to improving software development through pattern recognition and mistake prevention. Phase 1 delivers immediate, measurable value with local developer tools, while Phases 2-3 expand capabilities through community collaboration and long-term research.
+The Code Periodic Table is a research program exploring whether systematic pattern classification can improve software development. Currently achieving 40-70% accuracy in prototypes, we seek research funding to develop Phase 1 tools that could demonstrate practical value. This document outlines both the research objectives and potential commercial path if key milestones are achieved.
 
 ## The Problem
 
@@ -25,8 +25,8 @@ The Code Periodic Table project offers a pragmatic, phased approach to improving
 
 ### Three-Phase Implementation Strategy
 
-#### Phase 1: Local Intelligence Tools (Ready to Build)
-**Immediate Value Proposition:**
+#### Phase 1: Local Intelligence Tools (Research Focus)
+**Research Objectives:**
 - Learn from YOUR team's patterns and mistakes
 - Prevent repetition of YOUR historical bugs
 - Capture YOUR team's undocumented knowledge
@@ -165,15 +165,17 @@ The Code Periodic Table project offers a pragmatic, phased approach to improving
 
 ### For Investors
 
-**Financial Projections:**
+**Research Phase Projections:**
 
-| Year | Revenue | Costs | Net |
-|------|---------|-------|-----|
-| 1 | $1M | $1.6M | -$600K |
-| 2 | $3M | $2.2M | +$800K |
-| 3 | $8M | $4M | +$4M |
-| 4 | $15M | $7M | +$8M |
-| 5 | $25M | $12M | +$13M |
+| Year | Funding | Costs | Focus |
+|------|---------|-------|-------|
+| 1 | $250K grant | $200K | Prototype development |
+| 2 | $500K grant | $450K | Accuracy improvement |
+| 3 | $1M seed* | $900K | Beta product |
+| 4 | $5M Series A* | $4M | Market expansion |
+| 5 | $10M Series B* | $8M | Platform scaling |
+
+*Only if research milestones achieved
 
 **Key Metrics:**
 - Break-even: Month 18
@@ -238,15 +240,19 @@ The Code Periodic Table project offers a pragmatic, phased approach to improving
 4. **First-Mover Opportunity:** No direct competitors in adaptive learning space
 5. **Scalable Model:** SaaS economics with network effects
 
-### Investment Terms
+### Funding Strategy
 
-**Seeking: $2M Seed Round**
+**Current Phase: Research Grants ($200K-$500K)**
 
-**Use of Funds:**
-- 60% Product Development
-- 20% Go-to-Market
-- 10% Operations
-- 10% Buffer/Contingency
+**Research Funding Sources:**
+- NSF SBIR Phase I: $250K (6 months)
+- DARPA AI/ML Programs: $500K-$1M
+- Academic Partnerships: In-kind contributions
+- Open Source Sponsorships: $50K-$100K
+
+**Future Funding (If Research Succeeds):**
+- Seed Round: $500K-$1M (when 70%+ accuracy achieved)
+- Series A: $5M+ (after product-market fit)
 
 **Milestones:**
 - Month 6: Beta release
@@ -254,21 +260,41 @@ The Code Periodic Table project offers a pragmatic, phased approach to improving
 - Month 18: Break-even
 - Month 24: Series A ready
 
+## Research Program Reality
+
+### Current State
+- **Prototype Accuracy:** 40-70% (targeting 70-80%)
+- **Development Status:** Research prototypes only
+- **Team:** Individual researcher with community contributors
+- **Funding:** Seeking research grants, not venture capital
+- **Timeline:** 12-18 months to validate Phase 1 feasibility
+
+### Why Research First, Company Later
+1. **Technical Validation Needed:** Must prove 70%+ accuracy achievable
+2. **High-Risk Hypotheses:** 35% success probability for Phase 3
+3. **Academic Credibility:** Research approach builds trust
+4. **Lower Pressure:** Research can fail without destroying value
+5. **Natural Evolution:** Successful research can become company
+
+### Success Criteria for Research Phase
+- Achieve 70%+ pattern recognition accuracy
+- Publish 2-3 peer-reviewed papers
+- Build community of 50+ contributors
+- Complete working Phase 1 prototype
+- Demonstrate measurable value in real teams
+
+### Transition to Company (If Research Succeeds)
+See [EVOLUTION_PATH.md](EVOLUTION_PATH.md) for detailed progression from research program to potential product company.
+
 ## Conclusion
 
-The Code Periodic Table represents a pragmatic approach to a real problem. Phase 1 alone justifies investment with clear ROI and validated demand. Phases 2-3 provide massive upside potential while being optional for initial success.
+The Code Periodic Table is currently a research program, not a company. We're exploring whether systematic pattern classification can improve software development. Our immediate goal is securing research funding to validate Phase 1 concepts.
 
-Unlike previous attempts at code classification, we:
-1. Start with immediate, practical value
-2. Learn from specific teams, not generic rules
-3. Build incrementally on proven success
-4. Maintain realistic expectations
+If research proves successful (70%+ accuracy, demonstrable value), we have a clear path to commercialization. But first, we must prove the core hypotheses through rigorous research.
 
-**The opportunity:** Transform how teams learn from their own history, prevent repeated mistakes, and systematically improve code quality.
+**The ask:** $200K-$500K in research grants to validate Phase 1.
 
-**The ask:** $2M to build Phase 1 and prove the model.
-
-**The outcome:** A new category of adaptive development tools that learn and improve with their users.
+**The outcome:** Either proven technology ready for commercialization, or valuable negative results that advance the field.
 
 ---
 
