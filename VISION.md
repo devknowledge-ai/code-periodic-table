@@ -11,17 +11,18 @@
 ### Near Term (2025)
 Simple, focused tools that solve real problems:
 - **Adaptive Documentation** captures the "why" behind code changes
+- **Anvil Context** living documentation for code, errors, and crashes
 - **Anvil Guard** prevents null/None bugs with 95% accuracy
 - **Anvil Memory** makes Git history searchable and useful
-- **Anvil Comments** keeps comments attached to moving code
 - **Anvil Fingerprint** creates stable identities for code patterns
 
 ### Medium Term (2026)
 Tools that learn from each other:
-- Guard learns from patterns Memory discovers
-- Comments warn about historical bugs Guard found
+- Guard warns using Context's crash history
+- Memory indexes Context notes for rich search
+- Context learns from Guard's bug detections
 - Fingerprint tracks pattern evolution across all tools
-- Adaptive Documentation gets smarter about when to capture context
+- Adaptive Documentation prioritizes based on Context's error data
 
 ### Long Term (2027+)
 A suite that prevents repeated mistakes:

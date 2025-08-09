@@ -100,9 +100,10 @@ TEST_CASES.append({
 Run the accuracy test to see how you improved NullGuard:
 
 ```bash
+# Future functionality (in development):
 python -m nullguard.accuracy_test
 
-# Output:
+# Expected output when implemented:
 # Before your change: 73.2% accuracy
 # After your change:  74.1% accuracy  ⬆️
 # You improved accuracy by 0.9%! 🎉
@@ -110,26 +111,30 @@ python -m nullguard.accuracy_test
 
 ## Try the Demo
 
-Run the interactive demo:
+⚠️ **Note: Demo functionality is planned but not yet implemented**
+
+Future demo capabilities:
 
 ```bash
-# Start the web demo
+# Will start the web demo (not yet available)
 python -m nullguard.demo.web
 
-# Visit http://localhost:5000
-# Paste code with null bugs
+# Will open http://localhost:5000
+# You'll paste code with null bugs
 # See them detected in real-time!
 ```
 
-Or use the CLI:
+Future CLI usage:
 
 ```bash
-# Analyze a file
-nullguard check myfile.py
+# Will analyze a file (not yet available)
+python -m nullguard check myfile.py
 
-# Analyze a project
-nullguard check --recursive ./src
+# Will analyze a project (not yet available)
+python -m nullguard check --recursive ./src
 ```
+
+**Current Status**: See [NullGuard Prototype Plan](./projects/null-guard/PROTOTYPE.md) for implementation timeline.
 
 ## Next Steps
 

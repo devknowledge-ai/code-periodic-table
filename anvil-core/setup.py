@@ -29,9 +29,11 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "libcst>=0.4.0",
-        "GitPython>=3.1.0",
-        "click>=8.0.0",
+        "GitPython>=3.1.0",      # Git operations
+        "click>=8.0.0",          # CLI interface
+        "tree-sitter>=0.20.0",   # AST parsing for multiple languages
+        "pydantic>=2.0.0",       # Data validation and models
+        "numpy>=1.20.0",         # Similarity calculations
     ],
     extras_require={
         "dev": [

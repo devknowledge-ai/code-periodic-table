@@ -37,12 +37,21 @@ Unlike general linters that flag everything:
 
 ## Installation
 
+⚠️ **Note: NullGuard is in development. These commands show intended usage.**
+
 ```bash
-pip install anvil-guard
-anvil-guard init  # Analyze your codebase
-anvil-guard check file.py  # Check specific file
-anvil-guard watch  # Real-time monitoring
+# Clone the repository (package not yet published to PyPI)
+git clone https://github.com/anvil-suite/code-periodic-table.git
+cd code-periodic-table/projects/null-guard
+pip install -e .
+
+# Future usage (not yet implemented):
+# anvil-guard init  # Will analyze your codebase
+# anvil-guard check file.py  # Will check specific file
+# anvil-guard watch  # Will provide real-time monitoring
 ```
+
+**Current Status**: See [PROTOTYPE.md](./PROTOTYPE.md) for development progress.
 
 ## How It Works
 

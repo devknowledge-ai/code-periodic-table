@@ -22,9 +22,10 @@ Each tool in the suite does one thing exceptionally well. Together, they transfo
 
 Each tool is independent but gains superpowers when powered by Adaptive Documentation:
 
-### [Anvil Comments](./projects/sticky-comments/) 
-**Comments that survive refactoring**  
-Status: 🚧 Early Development | Powered by: Code fingerprinting
+### [Anvil Context](./projects/anvil-context/) 
+**Living documentation for code, errors, and crashes**  
+Status: 🚧 Early Development | Powered by: Fingerprinting + Integration
+*Evolved from "Sticky Comments" into comprehensive context system*
 
 ### [Anvil Guard](./projects/null-guard/)
 **Prevent null reference exceptions with 95% accuracy**  
@@ -104,9 +105,14 @@ See [**CONTRIBUTING.md**](./CONTRIBUTING.md) for detailed contribution guideline
 
 **The Key Insight**: Adaptive Documentation transforms noisy Git history (10% signal) into structured knowledge (95% signal), especially when integrated with AI coding assistants. This clean data powers all other tools to achieve unprecedented accuracy.
 
+## ⚠️ Current Status
+
+**Important**: This project is in early planning stages. **No working code exists yet.**  
+See [**PROJECT_STATUS.md**](./PROJECT_STATUS.md) for complete transparency about what's real vs. planned.
+
 ## 🚀 Quick Start
 
-**New contributor?** → [**Get Started with NullGuard in 30 minutes**](./GETTING_STARTED.md)  
+**New contributor?** → [**Get Started with NullGuard in 30 minutes**](./GETTING_STARTED.md) *(Building from scratch)*  
 **Want to help with partnerships?** → [**Partnership Tracker**](./PARTNERSHIP_TRACKER.md)  
 **Interested in performance?** → [**Performance Benchmarks**](./anvil-core/PERFORMANCE_BENCHMARKS.md)
 

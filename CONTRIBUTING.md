@@ -28,14 +28,14 @@ graph TD
     Skills -->|Python + AST| NG[NullGuard]
     Skills -->|Git Internals| GM[Anvil Memory]
     Skills -->|Algorithms| AF[Anvil Fingerprint]
-    Skills -->|AST + Diffs| AC[Anvil Comments]
+    Skills -->|AST + Diffs| AC[Anvil Context]
     Skills -->|System Architecture| Core[anvil-core]
     
     AD --> AD1[Build AI tool integrations]
     NG --> NG1[Detect null bugs - Our Demo!]
     GM --> GM1[Make Git searchable]
     AF --> AF1[Create code fingerprints]
-    AC --> AC1[Track moving comments]
+    AC --> AC1[Context for code + errors]
     Core --> Core1[Shared algorithms]
     
     style NG fill:#f9f,stroke:#333,stroke-width:4px
@@ -65,11 +65,11 @@ Adaptive Documentation captures the "why" behind code changes - the context that
 
 Each tool is independent and can be your entry point:
 
-#### Anvil Comments (StickyComments)
-**Comments that follow code as it moves**
-- **Skills**: Python, AST manipulation, diff algorithms
-- **Difficulty**: Hard
-- **Start here**: [`/projects/sticky-comments`](./projects/sticky-comments)
+#### Anvil Context (Evolved from StickyComments)
+**Living documentation for code, errors, and crashes**
+- **Skills**: Python, AST manipulation, error analysis
+- **Difficulty**: Medium-Hard
+- **Start here**: [`/projects/anvil-context`](./projects/anvil-context)
 
 #### Anvil Guard (NullGuard)
 **Catches null/None bugs before they bite**

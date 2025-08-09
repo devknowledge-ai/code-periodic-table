@@ -1,6 +1,14 @@
-# Anvil Demo: See It In Action
+# [ARCHIVED] Conceptual Demo - NOT REAL
 
-⚠️ **CONCEPTUAL DEMO** - This document illustrates how Anvil is intended to work. The features, interactions, and metrics shown are hypothetical targets for a system that is not yet built. No working implementation exists yet.
+⚠️ **THIS IS A FICTIONAL DEMO FROM BEFORE THE GREAT SIMPLIFICATION**
+
+**CRITICAL WARNING**: 
+- **No working code exists for the commands shown below**
+- **The pip packages mentioned DO NOT EXIST**
+- **This entire document is speculative fiction**
+- **See [The Great Simplification](../../THE_GREAT_SIMPLIFICATION.md) for why we abandoned this approach**
+
+This document is preserved to show what we originally imagined, not what exists.
 
 ## Live Example: The Authentication Bug
 
@@ -77,20 +85,22 @@ def get_user_posts(user_id, sort_by):
 
 ---
 
-## Interactive Demo (Try It Now)
+## [FICTIONAL] Interactive Demo 
+
+⚠️ **NONE OF THESE COMMANDS WORK - THIS IS SPECULATION**
 
 ### Step 1: Clone our demo repository
 ```bash
-git clone https://github.com/devknowledge-ai/anvil-demo-repo
+# THIS REPO DOES NOT EXIST
+git clone https://github.com/devknowledge-ai/anvil-demo-repo  # FICTIONAL
 cd anvil-demo-repo
 ```
 
-This repo contains real bugs that were fixed multiple times.
-
 ### Step 2: Run Anvil analysis
 ```bash
-pip install anvil-preview
-anvil analyze
+# THESE PACKAGES DO NOT EXIST
+pip install anvil-preview  # DOES NOT EXIST
+anvil analyze              # DOES NOT EXIST
 ```
 
 ### Step 3: See detected patterns
@@ -190,18 +200,22 @@ When you write new code, Anvil:
 
 ---
 
-## Try It On Your Own Code
+## [FICTIONAL] Try It On Your Own Code
+
+⚠️ **THESE COMMANDS DO NOT WORK**
 
 ```bash
-# One-line test
-curl -sL https://anvil.dev/try | python3 - /path/to/your/repo
+# FICTIONAL - THIS URL DOES NOT EXIST
+curl -sL https://anvil.dev/try | python3 - /path/to/your/repo  # NOT REAL
 
-# Full installation
-pip install anvil-preview
-anvil init
-anvil analyze --last-year
-anvil monitor  # Real-time monitoring
+# FICTIONAL - THESE PACKAGES DO NOT EXIST
+pip install anvil-preview  # DOES NOT EXIST
+anvil init                 # DOES NOT EXIST
+anvil analyze --last-year  # DOES NOT EXIST
+anvil monitor              # DOES NOT EXIST
 ```
+
+**For REAL getting started instructions, see [GETTING_STARTED.md](../../GETTING_STARTED.md)**
 
 ---
 
