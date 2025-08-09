@@ -206,19 +206,21 @@ result = db.execute(SAFE_QUERY)  # No interpolation, but flagged
 }
 ```
 
-## Impact Metrics
+## Hypothetical Impact Metrics
 
-### Before Pattern Memory
-- **SQL Injections reaching production**: 3 per quarter
-- **Average time to discovery**: 2 weeks
-- **Security review time**: 4 hours per PR
-- **Remediation cost**: $50,000 per incident
+**⚠️ NOTE: These are projected metrics to illustrate potential value if the system performed as designed. No actual measurements exist.**
 
-### After Pattern Memory (6 months)
-- **SQL Injections reaching production**: 0
-- **Prevented at development time**: 47 instances
-- **Security review time**: 30 minutes per PR
-- **Savings**: $150,000+ in prevented incidents
+### Projected "Before" State (Industry Averages)
+- **SQL Injections reaching production**: 3 per quarter (estimated)
+- **Average time to discovery**: 2 weeks (industry estimate)
+- **Security review time**: 4 hours per PR (hypothetical)
+- **Remediation cost**: $50,000 per incident (industry benchmark)
+
+### Projected "After" State (Target Performance)
+- **SQL Injections reaching production**: 0 (goal)
+- **Prevented at development time**: 40-50 instances (projection)
+- **Security review time**: 30 minutes per PR (target)
+- **Potential savings**: $150,000+ (if targets met)
 
 ### Team Velocity Impact
 ```yaml
@@ -231,7 +233,7 @@ Neutral:
   - 2-3 second delay for pattern analysis
   - 5 minutes/week reviewing pattern suggestions
 
-ROI: 47:1 (time saved vs. overhead)
+Hypothetical ROI: Could be 40-50:1 (if system achieves targets)
 ```
 
 ## Advanced Features

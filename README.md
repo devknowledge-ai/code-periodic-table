@@ -1,130 +1,70 @@
-# Anvil: Never Fix the Same Bug Twice
+# DevKnowledge: Tools for Preserving Team Knowledge
 
-Your team fixed this bug three months ago. And six months before that. And last year.  
-But the developer who knew about it left, and now you're debugging it again.
+A collection of focused developer tools that preserve knowledge and prevent repeated mistakes.
 
-**Anvil remembers what your team learned, so you don't lose it.**
+## 🚀 Active Projects
 
-```bash
-# See it in action
-pip install anvil-preview
-anvil init
-anvil check  # Warns you BEFORE you repeat a mistake
-```
+### [StickyComments](./projects/sticky-comments/) 
+**Comments that survive refactoring**  
+Status: 🚧 Early Development | [Try it →](./projects/sticky-comments/)
 
-[**Get Started →**](./GETTING_STARTED.md) | [**See Demo →**](./DEMO.md) | [**View Mockups →**](./anvil/mockups/)
+### [NullGuard](./projects/null-guard/)
+**Prevent null reference exceptions with 95% accuracy**  
+Status: 🧪 Beta Testing | [Get Beta →](./projects/null-guard/)
 
----
+### [GitMemory](./projects/git-memory/)
+**Fast Git history analysis and indexing**  
+Status: 🚧 Active Development | [Learn more →](./projects/git-memory/)
 
-## What Anvil Does (30-second version)
+### [CodeFingerprint](./projects/code-fingerprint/)
+**Semantic hashing for code similarity**  
+Status: 🔬 Research Phase | [Contribute →](./projects/code-fingerprint/)
 
-- 🔍 **Watches** your Git history to learn what went wrong before
-- ⚠️ **Warns** you in your IDE when you're about to repeat a mistake
-- 💬 **Preserves** the "why" behind decisions through semantic comments
-- 🔒 **Runs locally** - your code never leaves your machine
+## Why These Tools?
 
-## The Problem We're Solving
+Every developer knows the pain:
+- Comments that drift away from the code they describe
+- Null pointer bugs that keep coming back
+- Git history that's write-only
+- Similar code that's impossible to find
 
-Every team loses critical knowledge:
-- "We tried this approach before, it doesn't work" *(but nobody remembers why)*
-- "There's a subtle bug in this pattern" *(discovered after 3 incidents)*
-- "Don't refactor this, it breaks X" *(the person who knew X left)*
-
-**Current tools don't learn from YOUR team's specific history and mistakes.**
-
-## Quick Demo
-
-```python
-# You write this code:
-user_data = fetch_user(user_id)
-process_payment(user_data['payment_info'])
-
-# Anvil warns you:
-⚠️ Similar code caused null pointer exception in commit 3fa2b1c (2024-01-15)
-   Fix: Check if 'payment_info' exists before accessing
-   Previous developer note: "Payment info is optional for guest users"
-   
-# You avoid a bug that already bit your team twice
-```
+We're building focused tools to solve these specific problems. Each tool does one thing well.
 
 ## How to Contribute
 
-We need builders, not philosophers. Here's how to help:
+Pick a project that interests you:
 
-### 🔨 For Developers
-- Build the Git analysis engine
-- Create IDE integrations
-- Improve pattern detection
-- [See open issues →](https://github.com/devknowledge-ai/anvil/issues)
+| Project | Skills Needed | Time to First PR |
+|---------|--------------|------------------|
+| **StickyComments** | Python, AST parsing | 2-4 hours |
+| **NullGuard** | Pattern matching, ML basics | 4-8 hours |
+| **GitMemory** | Database, Git internals | 2-4 hours |
+| **CodeFingerprint** | Compilers, algorithms | 8-16 hours |
 
-### 🎨 For Designers
-- Design warning UI/UX
-- Create feedback mechanisms
-- Improve developer experience
-- [View mockup needs →](./anvil/mockups/NEEDED.md)
+Each project has its own README with specific contribution guidelines.
 
-### 🧪 For Early Adopters
-- Test with your codebase
-- Report false positives
-- Share use cases
-- [Join beta →](./BETA.md)
+## Project Philosophy
 
-## Project Status
+- **Small scope** - Each tool solves one problem
+- **High quality** - Better to do one thing perfectly
+- **Independent value** - Each tool useful standalone
+- **Open source** - MIT licensed, community-driven
 
-- ✅ Problem validated with 50+ developer interviews
-- ✅ Core algorithm designed
-- ✅ Architecture planned
-- 🚧 Building prototype
-- ⏳ Seeking contributors and early testers
+## Future: Integration
 
-## The Irony That Shaped This Project
+Once individual tools prove their value, we'll explore integration:
+- **RepeatDetector** - Combines GitMemory + CodeFingerprint
+- **Anvil** - Unified experience across all tools
 
-*A brief human moment:*
-
-While documenting this project, we wrote 50+ documents about preventing lost knowledge... then nearly lost track of our own knowledge in the documentation maze. A contributor pointed out we were exhibiting the exact problem we're trying to solve—critical information buried in overwhelming complexity.
-
-That feedback became the most valuable contribution yet. We restructured everything, and ironically, the critique itself is exactly the kind of wisdom Anvil should preserve: *"Your project structure is sabotaging your goals, here's why..."*
-
-**This is why Anvil matters.** Not for the grand vision of universal code classification, but for preserving these specific, crucial moments of clarity that make or break projects.
-
-## Get Started in 5 Minutes
-
-```bash
-# Clone and try the prototype
-git clone https://github.com/devknowledge-ai/anvil
-cd anvil
-python prototype/detect_repeated_fixes.py ./your-repo
-
-# See what patterns your team repeats
-```
-
-[**Full Getting Started Guide →**](./GETTING_STARTED.md)
-
-## FAQ
-
-**Q: Is this just another linter?**  
-A: No. Linters check against fixed rules. Anvil learns from YOUR team's specific history.
-
-**Q: Does it require cloud services?**  
-A: No. Runs 100% locally. Your code never leaves your machine.
-
-**Q: What languages does it support?**  
-A: Starting with Python, JavaScript, Go. The approach is language-agnostic.
-
-**Q: How accurate is it?**  
-A: Currently targeting 70% detection with <20% false positives. You control sensitivity.
+But first, we build the foundations.
 
 ## Contact
 
 **Project Lead**: Adrian Belmans  
 **Email**: adrian.belmans@gmail.com  
-**Discord**: [Join our community](https://discord.gg/anvil)
+**GitHub**: [@devknowledge-ai](https://github.com/devknowledge-ai)
 
 ---
 
-### The Bigger Picture
-
-*Curious about our long-term research vision? We're exploring how pattern recognition could transform programming. But that's tomorrow's dream. Today, we're building Anvil to solve a real problem.*
-
-[Learn about our vision →](./vision/) *(Optional reading - Anvil stands on its own)*
+*Building developer tools that actually ship. One focused project at a time.*
 

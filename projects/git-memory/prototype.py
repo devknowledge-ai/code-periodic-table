@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
 """
-Anvil Prototype: Detect Repeated Bug Fixes in Git History
+Anvil Demo Prototype: Detect Repeated Bug Fixes in Git History
 
-This is a simple proof-of-concept that demonstrates how Anvil 
-identifies patterns in bug fixes that keep recurring.
+⚠️ THIS IS A CONCEPTUAL DEMO, NOT A WORKING PRODUCT
+
+This simple script demonstrates the CONCEPT of detecting repeated patterns
+by analyzing commit messages (not actual code). It's meant to illustrate
+the idea, not provide real pattern detection functionality.
+
+Real pattern detection would require:
+- AST analysis of actual code changes
+- Semantic fingerprinting
+- Machine learning models
+- Much more sophisticated algorithms
 
 Usage:
     python detect_repeated_fixes.py /path/to/repo

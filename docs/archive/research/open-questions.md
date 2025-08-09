@@ -12,14 +12,14 @@
 **What We're Testing**:
 - Git history contains sufficient signal to identify pattern repetition
 - Semantic analysis can match similar code despite syntactic differences
-- Warning accuracy can exceed 70% with <20% false positives
+- Warning accuracy could potentially exceed 70% with <20% false positives (hypothesis)
 
 **Current Experiments**:
 - Analyzing open-source projects with known bug fixes
 - Testing pattern matching across refactored code
 - Measuring developer response to warnings
 
-**Success Criteria**: 
+**Target Success Criteria** (what we aim to achieve): 
 - Detection accuracy >70%
 - False positive rate <20%
 - Developer acceptance >60%
@@ -39,7 +39,7 @@
 - Testing different semantic linking algorithms
 - Measuring context preservation rates
 
-**Success Criteria**:
+**Target Success Criteria** (goals if built):
 - Context preservation >80% through refactoring
 - Retrieval accuracy >90%
 - Performance overhead <100ms
@@ -59,7 +59,7 @@
 - Comparing team-specific vs generic pattern value
 - Tracking pattern evolution over time
 
-**Success Criteria**:
+**Target Success Criteria** (aspirational):
 - Team pattern consistency >60%
 - Team-specific accuracy improvement >15%
 - Pattern stability >6 months

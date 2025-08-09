@@ -25,10 +25,11 @@ cd anvil
 # Install dependencies
 pip install -r requirements.txt
 
-# Try it on your own repository
+# Try the demo prototype (very basic proof-of-concept)
 python prototype/detect_repeated_fixes.py /path/to/your/repo
 
-# See what patterns your team repeats
+# Note: This is a simple demo that only analyzes commit messages,
+# not actual code patterns. It demonstrates the concept only.
 ```
 
 ### What You'll See
@@ -100,9 +101,9 @@ Goal: 5000 commits/second
 
 ```
 anvil/
-├── prototype/           # Current working code
-│   ├── detect_repeated_fixes.py    # Main entry point
-│   └── patterns/        # Pattern detection modules
+├── prototype/           # Demo concept code (not production)
+│   ├── detect_repeated_fixes.py    # Simple demo script
+│   └── patterns/        # Placeholder for future modules
 ├── tests/              # Test suite
 ├── mockups/            # UI/UX designs
 └── docs/               # Documentation

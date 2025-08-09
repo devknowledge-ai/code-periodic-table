@@ -1,6 +1,6 @@
 # Anvil Demo: See It In Action
 
-This demo shows Anvil preventing real bugs that teams repeatedly encounter.
+⚠️ **CONCEPTUAL DEMO** - This document illustrates how Anvil is intended to work. The features, interactions, and metrics shown are hypothetical targets for a system that is not yet built. No working implementation exists yet.
 
 ## Live Example: The Authentication Bug
 
@@ -175,16 +175,18 @@ When you write new code, Anvil:
 
 ---
 
-## Accuracy Metrics
+## Target Accuracy Metrics
 
-Based on testing with 10 real repositories:
+**Note: These are hypothetical targets, not measured results. No working system exists yet.**
 
-| Metric | Current | Goal |
-|--------|---------|------|
-| True Positive Rate | 68% | 80% |
-| False Positive Rate | 22% | <15% |
-| Patterns Detected | 15 types | 50+ types |
-| Analysis Speed | 1000 commits/sec | 5000 commits/sec |
+| Metric | Initial Target | Ultimate Goal |
+|--------|---------------|---------------|
+| True Positive Rate | 60-70% | 80%+ |
+| False Positive Rate | 20-30% | <15% |
+| Patterns Detected | 10-15 types | 50+ types |
+| Analysis Speed | 500-1000 commits/sec | 5000 commits/sec |
+
+*These targets are based on research into similar tools and represent our design goals.*
 
 ---
 
@@ -203,16 +205,20 @@ anvil monitor  # Real-time monitoring
 
 ---
 
-## What Developers Say
+## What We Hope Developers Will Say
+
+*These are hypothetical testimonials representing our target user experience:*
 
 > "Found 3 bug patterns we'd been hitting for years. Fixed them all in one sprint."  
-> — Sarah Chen, Senior Developer
+> — Hypothetical Senior Developer
 
 > "It's like having the whole team's knowledge available while coding."  
-> — Mike Kumar, Tech Lead
+> — Imagined Tech Lead
 
 > "Reduced our regression bugs by 40% in two months."  
-> — Emma Wilson, Engineering Manager
+> — Projected Engineering Manager Feedback
+
+*Real testimonials will come once we have a working product and actual users.*
 
 ---
 
