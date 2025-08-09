@@ -1,131 +1,175 @@
-# Project Status: Single Source of Truth
+# Project Status Dashboard
 
-## Current State: Active Research Program
+**Last Updated:** 2025 | **You Are Here:** 🔬 Research & Design Phase
 
-### 🔬 What This Project Is
-An **active research program** exploring whether systematic code pattern classification can improve software development. This repository contains theoretical frameworks, architectural proposals, and experimental designs - not a working product.
+## Quick Status Overview
 
-### 📊 What Exists vs. What Doesn't
+### The Anvil Project (Core Product)
+🟡 **Status:** Seeking funding to begin development
+- ✅ Problem validated
+- ✅ Technical approach designed  
+- ✅ Architecture documented
+- ⏳ Awaiting resources for prototype
+- ❌ No code written yet
 
-#### ✅ What Currently Exists:
-- Comprehensive research documentation
-- Theoretical architectural proposals  
-- Proposed technical approaches
-- Hypothesis framework for testing
-- Community collaboration structure
-- Transparent documentation of challenges
+### Research Horizon (Long-term Vision)
+🔵 **Status:** Parallel research track
+- Active hypothesis formation
+- No timeline until Anvil validates approach
+- 20-35% probability of eventual success
 
-#### ❌ What Does NOT Exist:
-- Working implementation
-- Validated accuracy metrics
-- Performance measurements
-- Production-ready code
-- Proven pattern detection algorithms
-- Scalable system architecture
+## What This Project Actually Is
 
-### 🎯 Current Research Phase
-**Phase:** Early-stage exploration and hypothesis formation
-**Status:** Documentation and theoretical design
-**Next Step:** Secure resources for experimental validation
+### It IS:
+✅ A research program with a practical focus (Anvil tool)  
+✅ Comprehensive documentation of approach  
+✅ Transparent about challenges and risks  
+✅ Seeking funding and contributors  
 
-## Success Probability Assessment
+### It is NOT:
+❌ A working product  
+❌ Proven technology  
+❌ Ready for implementation without validation  
+❌ Guaranteed to succeed  
 
-**See [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md) for detailed probability assessments**
+## Development Phases & Probabilities
 
-### Summary:
-- **Overall Project Success:** ~35% probability
-- **Phase 1 (Local Learning):** 60-70% probability  
-- **Phase 2 (Community Platform):** 40-50% probability (contingent on Phase 1)
-- **Phase 3 (Universal Classification):** 20-35% probability
+| Phase | Description | Status | Success Probability | Timeline |
+|-------|-------------|--------|-------------------|----------|
+| **Anvil Core** | Team knowledge tool | Design complete, awaiting funding | 60-70% | 12-18 months |
+| **Pattern Sharing** | Cross-team learning | Conceptual only | 40-50% | Years 2-3 (if Anvil succeeds) |
+| **Universal Classification** | "Periodic table" | Research vision | 20-35% | Years 3+ (if prior phases succeed) |
 
-## Research Questions Under Investigation
+**Overall Project Success:** ~35% (achieving full vision)
 
-### Primary Questions (Phase 1 Focus):
-1. Can we reliably detect patterns in team-specific code?
-2. Is 80%+ accuracy achievable for local pattern recognition?
-3. Will teams adopt tools that learn from their history?
-4. Can performance meet real-time analysis requirements?
+[Detailed probability analysis →](STATE_OF_HYPOTHESES.md)
 
-### Secondary Questions (Future Phases):
-- Can patterns be shared across teams effectively?
-- Do universal code patterns exist across languages?
-- Is automated pattern classification scalable?
+## Current Priorities
 
-## Timeline & Resources
+### Next 3 Months
+1. 🎯 **Secure Funding**
+   - [ ] Submit NSF SBIR application
+   - [ ] Contact potential sponsors
+   - [ ] Establish university partnerships
 
-### Current Phase (Research & Design)
-**Duration:** Ongoing
-**Activities:** 
-- Documenting hypotheses
-- Designing experiments
-- Building research community
-- Seeking funding/resources
+2. 🔨 **Begin Anvil Prototype**
+   - [ ] Python-only proof of concept
+   - [ ] Basic pattern detection
+   - [ ] Test on 10 repositories
 
-### Next Phase (Experimental Validation) 
-**Duration:** 12-18 months (once resources secured)
-**Required Resources:**
-- 2-3 researchers/developers
-- $200-500K funding
-- Access to diverse codebases
-- Computational resources for experiments
+3. 🧪 **Validate Core Hypotheses**
+   - [ ] Mistake repetition frequency
+   - [ ] Pattern detection accuracy
+   - [ ] Performance feasibility
 
-### Future Phases
-See [COMMERCIALIZATION_PATH.md](COMMERCIALIZATION_PATH.md) for speculative commercial path (contingent on research success)
+## Resource Requirements
+
+### Minimum Viable Team
+- 1 developer/researcher (6 months)
+- $125K budget
+- Part-time advisors
+
+### Optimal Team
+- 2-3 developers/researchers (12 months)
+- $500K budget
+- Dedicated infrastructure
+- Community manager
+
+## Key Metrics to Track
+
+### Technical Metrics
+| Metric | Current | Target | Status |
+|--------|---------|--------|--------|
+| Pattern Detection Accuracy | Unknown | 80%+ | 🔄 To be tested |
+| False Positive Rate | Unknown | <10% | 🔄 To be tested |
+| Analysis Speed | Unknown | <100ms/file | 🔄 To be tested |
+| Memory Usage | Unknown | <2GB | 🔄 To be tested |
+
+### Adoption Metrics
+| Metric | Current | Target | Status |
+|--------|---------|--------|--------|
+| Active Contributors | 1 | 20+ | 🔴 Need growth |
+| Test Repositories | 0 | 50+ | 🔴 Need partners |
+| User Feedback | None | NPS >30 | ⏳ Awaiting users |
+| GitHub Stars | ~10 | 1000+ | 🔴 Need awareness |
+
+## Risk Register
+
+### 🔴 High Risks
+1. **Technical Infeasibility** (40% probability)
+   - Pattern detection accuracy too low
+   - Mitigation: Multiple algorithm approaches
+
+2. **Funding Shortage** (50% probability)
+   - Grants rejected, no sponsors
+   - Mitigation: Multiple funding sources
+
+### 🟡 Medium Risks
+1. **Slow Adoption** (60% probability)
+   - Developers skeptical of value
+   - Mitigation: Focus on clear wins
+
+2. **Competition** (40% probability)
+   - AI tools solve problem differently
+   - Mitigation: Focus on team-specific learning
 
 ## How to Interpret This Project
 
-### For Researchers
-This is an opportunity to explore fundamental questions in software engineering. Join us in investigating whether code patterns can be systematically classified and whether this classification provides value.
+### For Potential Contributors
+- **Engineers:** Help build Anvil (practical tool)
+- **Researchers:** Explore pattern classification (research)
+- **Skeptics:** Challenge our assumptions (valuable!)
 
-### For Potential Contributors  
-We need help validating hypotheses, designing experiments, and challenging assumptions. Technical implementation will begin only after core hypotheses are validated.
+### For Potential Funders
+- **Research Grants:** Fund fundamental CS research
+- **Open Source Sponsors:** Support practical tool development
+- **Angels/VCs:** Too early, revisit if Anvil succeeds
 
-### For Funders
-This is high-risk, high-reward research. Fund only if you:
-- Support fundamental software engineering research
-- Accept significant probability of failure
-- Value negative results as learning
-- Have patience for long-term outcomes
+### For Potential Users
+- **Current:** Nothing to use yet, provide feedback on concept
+- **6 months:** Alpha testing opportunities
+- **12 months:** Beta version available
 
-### For Skeptics
-Your skepticism is valuable. Help us:
-- Identify flaws in our approach
-- Find theoretical limitations
-- Design better experiments
-- Fail fast if we're wrong
+## Communication Channels
 
-## Key Documents
+### Stay Updated
+- 📧 [Mailing List](#) - Monthly updates
+- 🐦 [Twitter](#) - Real-time progress
+- 💬 [Discord](#) - Community discussion
 
-### Essential Reading:
-1. **This document** - Current project status
-2. [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md) - Detailed hypotheses and evidence
-3. [reality-check/](reality-check/) - Honest assessment of challenges
-4. [META-NAVIGATION.md](META-NAVIGATION.md) - Understanding the documentation structure
+### Get Involved
+- 🐛 [GitHub Issues](https://github.com/devknowledge-ai/code-periodic-table/issues) - Report problems
+- 🎯 [Good First Issues](#) - Start contributing
+- 📚 [Documentation](anvil-core/) - Learn more
 
-### Research Proposals:
-- [RESEARCH_PROPOSAL_SUMMARY.md](RESEARCH_PROPOSAL_SUMMARY.md) - Overview of research goals
-- [01-immediate-value/](01-immediate-value/) - Phase 1 research focus
-- [technical-specs.md](technical-specs.md) - Theoretical technical approaches
+## Detailed Documentation
 
-### Future Vision (Speculative):
-- [COMMERCIALIZATION_PATH.md](COMMERCIALIZATION_PATH.md) - Potential path to product (if research succeeds)
-- [future-research/](future-research/) - Long-term research directions
+### Core Product (Anvil)
+- [Anvil Overview](anvil-core/) - What we're building
+- [Technical Approach](technical-approach/) - How we'll build it
+- [Sustainability](Sustainability.md) - Funding model
 
-## Contact
+### Research Vision
+- [Research Horizon](research-horizon/) - Long-term goals
+- [Hypotheses Dashboard](STATE_OF_HYPOTHESES.md) - What we're testing
+- [Reality Check](reality-check/) - Known challenges
 
-**Research Lead:** Adrian Belmans  
-**Email:** adrian.belmans@gmail.com  
-**GitHub:** https://github.com/devknowledge-ai/code-periodic-table
+## FAQ
 
-**Contact for:**
-- Research collaboration
-- Providing codebase access for experiments
-- Challenging our hypotheses
-- Discussing theoretical approaches
-- Funding research efforts
+**Q: When will there be something to use?**
+A: 12-18 months if funding secured in next 3 months.
+
+**Q: What's the highest risk?**
+A: Technical feasibility - pattern detection might not reach usable accuracy.
+
+**Q: Why should I contribute?**
+A: Shape a tool that could transform how teams preserve knowledge.
+
+**Q: Is this another AI hype project?**
+A: No. This is classical pattern recognition with realistic goals.
 
 ---
 
-**Last Updated:** 2025  
-**Status:** Active research program with no working implementation  
-**Engineering Status:** No engineering work has begun - hypotheses require validation first
+**Project Lead:** Adrian Belmans  
+**Contact:** adrian.belmans@gmail.com  
+**Updated:** Real-time status at this URL

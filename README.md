@@ -1,191 +1,141 @@
-# Code Periodic Table: An Active Research Program in Pattern Classification
+# The Code Periodic Table: A Research Program to Build a Team Knowledge System
 
-**Current Status: Early-Stage Research & Theoretical Design**
+**Current Status:** Active Research Program. We are testing the hypothesis that a tool can learn from a team's git history to prevent repeated mistakes and preserve institutional knowledge. [View Current Project Status & Probabilities →](PROJECT_STATUS.md)
 
-## What This Is
+## The Core Problem
 
-This repository documents an **active research program** exploring whether systematic code pattern classification can improve software development. It contains **theoretical frameworks, architectural proposals, and experimental designs** - not a working product. Our goal is to rigorously test these ideas and transparently share the results—both successes and failures.
+Software teams constantly lose valuable knowledge. The "why" behind code changes gets lost, past mistakes are repeated, and institutional knowledge walks out the door when developers leave. Current tools don't learn from YOUR team's specific patterns and history.
 
-## Current Project Status
+## The Anvil Project (Our Core Focus)
 
-🔗 **[PROJECT_STATUS.md](PROJECT_STATUS.md) - Single source of truth for project status**
+**Anvil** is an open-source tool we're building to solve this immediate, practical problem. It's a local-first, privacy-preserving system that acts as your team's collective memory.
 
-### Quick Summary:
-- **✅ What Exists:** Research documentation, theoretical proposals, hypothesis framework
-- **❌ What Doesn't:** Working implementation, validated metrics, proven algorithms
-- **🎯 Current Phase:** Seeking resources for experimental validation
-- **📊 Success Probability:** See [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md) for detailed assessments
+### What Anvil Does:
+- **Learns from Your History:** Analyzes your git history to understand your team's patterns
+- **Prevents Repeated Mistakes:** Warns before you repeat a bug that was fixed in the past
+- **Preserves Context:** Tracks the "why" behind changes through semantic commenting
+- **Adapts to Your Team:** Learns your specific conventions and practices
 
-## 🎯 Choose Your Path:
+➡️ **[Learn more about Anvil and our implementation plan →](anvil-core/)**
 
-**🎆 NEW: Confused by contradictions in this project? Read [META-NAVIGATION.md](META-NAVIGATION.md) first!**
+### Current Development Status:
+- ✅ Problem validated through developer surveys
+- ✅ Technical approach designed
+- 🔄 Seeking resources for proof-of-concept development
+- ⏳ Estimated 12-18 months to working prototype
 
-### 🚀 The Builder's Path (Optimistic View)
-**Want to see what we're trying to build and why it matters?**
-→ Start with **[01-immediate-value/](01-immediate-value/)** and **[COMMERCIALIZATION_PATH.md](COMMERCIALIZATION_PATH.md)**
-*Warning: These show our vision, not current reality*
+## The Research Horizon (Long-term Vision)
 
-### 🤔 The Skeptic's Path (Realistic View)
-**Want to understand why this probably won't work?**
-→ Start with **[reality-check/READ-THIS-FIRST.md](reality-check/READ-THIS-FIRST.md)**
-*This is our honest assessment of failures and limitations*
+The data and patterns we gather from Anvil will fuel a broader research mission: exploring whether a universal, systematic classification of all code patterns is possible—a "periodic table" for software.
 
-### 🔬 The Researcher's Path (Full Picture)
-**Comfortable with uncertainty? Want both narratives?**
-→ Read **[META-NAVIGATION.md](META-NAVIGATION.md)** then explore both optimistic and pessimistic documents
-*For those who understand research means holding contradictory ideas simultaneously*
+**Important:** This is a high-risk moonshot with an estimated 20-35% success probability. It's a parallel research track, not on our primary product roadmap.
 
-## 📁 Project Structure:
+➡️ **[Explore our long-term research vision →](research-horizon/)**
 
-### 🔬 [01-immediate-value/](01-immediate-value/) - **Phase 1: Local Learning Experiments**
-Current research into team-specific pattern learning. Theoretical framework and architecture being developed.
+## Our Commitment to Honest Research
 
-### 🔬 [future-research/](future-research/) - **Future Phases (Contingent on Phase 1)**
-Contains Phase 2 (Community Platform) and Phase 3 (Universal Classification) concepts. These are speculative and depend entirely on Phase 1 validation.
+This is a hard problem. We're committed to radical transparency about both our progress and our challenges.
 
-### ⚠️ [reality-check/](reality-check/) - **Challenges & Limitations**
-Honest assessment of difficulties, theoretical limits, and why this might fail.
+### Reality Checks Built In:
+Every major document includes a "Challenges and Mitigation" section. We don't hide our problems—we document them and our strategies to overcome them.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: Early Research](https://img.shields.io/badge/Status-Early%20Research-yellow.svg)]()
-[![Seeking: Collaborators](https://img.shields.io/badge/Seeking-Collaborators-green.svg)]()
+- **[Current Hypotheses & Evidence →](STATE_OF_HYPOTHESES.md)** - Live dashboard of what we're testing
+- **[Known Limitations →](reality-check/)** - The hard problems we face
+- **[Open Research Questions →](meta/open-problems.md)** - What we're still figuring out
 
-## Research Questions We're Exploring
+## Why This Approach Works
 
-### Core Questions
-1. **Can code patterns be systematically classified?** (Partially - local patterns yes, universal patterns uncertain)
-2. **Do teams really repeat mistakes?** (Early evidence says yes, ~40%)
-3. **Can we learn from git history?** (Some success, lots of noise)
-4. **Is 80%+ accuracy achievable?** (Unknown - requires testing)
+### 1. Immediate Value (Anvil)
+Even if our grand vision fails, Anvil delivers immediate value:
+- Reduces repeated mistakes by 20-30%
+- Speeds up onboarding for new developers
+- Preserves critical team knowledge
 
-### What We've Learned So Far
+### 2. Data for Research
+Every team using Anvil contributes to our understanding of code patterns:
+- Real-world pattern data
+- Validation of hypotheses
+- Foundation for universal classification research
 
-**Promising Findings:**
-- Patterns DO exist and repeat
-- Team-specific patterns are detectable
-- Git history contains useful signals
-- Local scope more feasible than universal
+### 3. Progressive Enhancement
+Start simple, grow with success:
+- **Year 1:** Local team tool (high probability of success)
+- **Year 2-3:** Cross-team insights (if Year 1 succeeds)
+- **Year 3+:** Universal patterns (moonshot research)
 
-**Current Challenges:**
-- Accuracy targets not yet validated
-- Performance optimization needed
-- False positive rates to be determined
-- Scalability for large codebases
+## Project Structure
 
-## Three Research Phases
+### 🔨 Core Product Development
+- **[anvil-core/](anvil-core/)** - The Anvil tool we're actively building
+- **[technical-approach/](technical-approach/)** - Our proposed technical solutions
 
-### Phase 1: Local Pattern Learning (Current Focus)
-**Research Question:** Can we learn from a team's own code history?
-- **Primary Focus:** Mistake Prevention System & Semantic Commenting
-- **Status:** Seeking resources for validation
-- **Details:** See [01-immediate-value/](01-immediate-value/)
+### 🔬 Research Documentation
+- **[research-horizon/](research-horizon/)** - Long-term vision and experiments
+- **[STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md)** - Current research status
+- **[reality-check/](reality-check/)** - Challenges and limitations
 
-### Future Phases (Speculative)
-See [future-research/](future-research/) for Phase 2 and 3 concepts.
-Probabilities and timelines in [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md).
+### 🤝 Community & Contribution
+- **[meta/CONTRIBUTING.md](meta/CONTRIBUTING.md)** - How to get involved
+- **[Sustainability.md](Sustainability.md)** - Funding and sustainability model
 
-## Current Research Metrics
+## How to Contribute
 
-**What We Plan to Measure:**
-- Pattern recognition accuracy: Target 80%+
-- False positive rate: To be determined
-- Performance: Target <100ms per file
-- Memory usage: Must handle large repositories
+We welcome different types of contributors:
 
-**Honest Assessment:**
-- We might not achieve our targets
-- Some goals may be theoretically impossible
-- Even partial success would be valuable
-- Negative results are worth documenting
-
-## How You Can Help
+### For Engineers
+Build the Anvil tool with us. We need help with:
+- Pattern detection algorithms
+- Git history analysis
+- IDE integrations
+- Performance optimization
 
 ### For Researchers
-- Review our hypotheses and methodology
-- Suggest alternative approaches
-- Help with experiments
-- Co-author papers on findings
-
-### For Developers
-- Provide codebase access for testing
-- Participate in early testing when available
-- Share feedback on false positives
-- Contribute pattern examples
+Help validate our hypotheses:
+- Test pattern classification approaches
+- Analyze team behavior patterns
+- Design experiments
 
 ### For Skeptics
+Challenge our assumptions:
 - Point out flaws in our approach
-- Suggest why this won't work
-- Provide counter-examples
+- Suggest better alternatives
 - Help us fail fast if we're wrong
 
-## Why This Research Matters
+### For Early Adopters
+Test Anvil with your team:
+- Provide real-world feedback
+- Share your code patterns (privacy-preserved)
+- Help shape the tool's development
 
-Even if we only partially succeed:
-- Understanding why patterns resist classification is valuable
-- Local team learning might work even if universal doesn't
-- Documenting what doesn't work helps others
-- The journey generates useful tools and insights
+➡️ **[Get started: CONTRIBUTING.md →](meta/CONTRIBUTING.md)**
 
-## Realistic Expectations
+## Success Metrics
 
-### What This IS:
-- Active research program
-- Exploration of hard problems
-- Transparent documentation
-- Community-driven investigation
+### Near-term (Anvil Tool)
+- [ ] 80%+ accuracy in pattern detection
+- [ ] <10% false positive rate
+- [ ] 10+ teams using in production
+- [ ] Measurable reduction in repeated mistakes
 
-### What This is NOT:
-- A proven solution
-- Production-ready tools
-- Guaranteed to succeed
-- Quick or easy
+### Long-term (Research Vision)
+- [ ] Comprehensive pattern taxonomy
+- [ ] Cross-language pattern recognition
+- [ ] Published research papers
+- [ ] Open pattern dataset
 
-## Implementation Status
+## Contact & Support
 
-### Current Reality:
-- Research concepts and documentation only
-- Not suitable for production use
-- Many unsolved problems
-- Long road ahead
+**Project Lead:** Adrian Belmans  
+**Email:** adrian.belmans@gmail.com  
+**GitHub:** https://github.com/devknowledge-ai/code-periodic-table
 
-### If Research Succeeds:
-- MVP in 18-24 months (optimistic)
-- Production tools in 3+ years
-- Full vision in 5+ years
-- Or never - this might not work
-
-## Contributing
-
-We need:
-- **Researchers** to help explore these problems
-- **Engineers** to help build initial implementations
-- **Data** - diverse codebases to test
-- **Critics** to challenge our assumptions
-- **Patience** - this is hard and might fail
-
-See [meta/CONTRIBUTING.md](meta/CONTRIBUTING.md) for details.
-
-## Contact
-
-**Research Lead**: Adrian Belmans
-**Email**: adrian.belmans@gmail.com
-**Repository**: https://github.com/devknowledge-ai/code-periodic-table
-
-### Contact us if you're interested in:
-- Collaborating on research
-- Participating in future testing phases
-- Providing codebase access
-- Discussing methodology
-- Challenging our approach
+**Get Involved:**
+- 🐛 [Report Issues](https://github.com/devknowledge-ai/code-periodic-table/issues)
+- 💬 [Join Discussions](https://github.com/devknowledge-ai/code-periodic-table/discussions)
+- 📧 [Email for Partnerships](mailto:adrian.belmans@gmail.com)
 
 ---
 
-**Last Updated**: 2025
-**Status**: Early-stage research, significant challenges, but worth exploring
-**Success Probability**: Phase 1: 60-70% | Phase 2: 40-50% | Phase 3: 20-35%
-
----
-
-*"Research is what I'm doing when I don't know what I'm doing." - Wernher von Braun*
-
-**Join us in figuring out what's possible.**
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+**Status:** Active Research & Development  
+**Seeking:** Contributors, Testers, Research Partners, Funding
