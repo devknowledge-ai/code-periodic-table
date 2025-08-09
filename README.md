@@ -120,6 +120,7 @@ See [**PROJECT_STATUS.md**](./PROJECT_STATUS.md) for complete transparency about
 
 - 📖 [**The Great Simplification**](./THE_GREAT_SIMPLIFICATION.md) - How we pivoted from complexity to focus
 - 🎯 [**Vision and Research**](./VISION.md) - Where we're heading (concise overview)
+- 🚀 [**Pattern-Based AI Vision**](./PATTERN_BASED_AI_VISION.md) - The transformative endgame
 - 🛠️ [**Contributing Guide**](./CONTRIBUTING.md) - Visual map of where to contribute
 - 🔄 [**The Research Loop**](./RESEARCH_LOOP.md) - How tools generate insights (detailed)
 
