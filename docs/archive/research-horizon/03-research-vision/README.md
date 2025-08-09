@@ -39,6 +39,16 @@ Long-term research exploring whether systematic code classification is possible.
    - Current answer: Inspirational but flawed
    - Better as organizational principle than science
 
+## Theoretical Breakthrough: The Unstable Patterns Theory
+
+A fundamental insight has emerged: code patterns behave like superheavy atomic elements. Just as physicists can create unlimited atomic configurations but most decay instantly, developers can create infinite code patterns but most "collapse" into bugs or unmaintainable chaos.
+
+**Key Documents:**
+- [Unstable Patterns Theory](./UNSTABLE_PATTERNS_THEORY.md) - Why code is like radioactive elements
+- [Pattern Stability Measurement](./experiments/pattern-stability-measurement.md) - How to build a "Geiger counter" for code
+
+This reframing transforms Anvil from "discovering universal laws" to "detecting radioactive patterns in your specific reactor" - a far more achievable and valuable goal.
+
 ## Current Experiments
 
 ### 🔬 Semantic Fingerprinting
