@@ -1,141 +1,198 @@
-# The Code Periodic Table: A Research Program to Build a Team Knowledge System
+# The Anvil Project
 
-**Current Status:** Active Research Program. We are testing the hypothesis that a tool can learn from a team's git history to prevent repeated mistakes and preserve institutional knowledge. [View Current Project Status & Probabilities →](PROJECT_STATUS.md)
+**A research program building a tool to preserve team knowledge, guided by a vision of code as a discoverable, digital universe.**
 
-## The Core Problem
-
-Software teams constantly lose valuable knowledge. The "why" behind code changes gets lost, past mistakes are repeated, and institutional knowledge walks out the door when developers leave. Current tools don't learn from YOUR team's specific patterns and history.
-
-## The Anvil Project (Our Core Focus)
-
-**Anvil** is an open-source tool we're building to solve this immediate, practical problem. It's a local-first, privacy-preserving system that acts as your team's collective memory.
-
-### What Anvil Does:
-- **Learns from Your History:** Analyzes your git history to understand your team's patterns
-- **Prevents Repeated Mistakes:** Warns before you repeat a bug that was fixed in the past
-- **Preserves Context:** Tracks the "why" behind changes through semantic commenting
-- **Adapts to Your Team:** Learns your specific conventions and practices
-
-➡️ **[Learn more about Anvil and our implementation plan →](anvil-core/)**
-
-### Current Development Status:
-- ✅ Problem validated through developer surveys
-- ✅ Technical approach designed
-- 🔄 Seeking resources for proof-of-concept development
-- ⏳ Estimated 12-18 months to working prototype
-
-## The Research Horizon (Long-term Vision)
-
-The data and patterns we gather from Anvil will fuel a broader research mission: exploring whether a universal, systematic classification of all code patterns is possible—a "periodic table" for software.
-
-**Important:** This is a high-risk moonshot with an estimated 20-35% success probability. It's a parallel research track, not on our primary product roadmap.
-
-➡️ **[Explore our long-term research vision →](research-horizon/)**
-
-## Our Commitment to Honest Research
-
-This is a hard problem. We're committed to radical transparency about both our progress and our challenges.
-
-### Reality Checks Built In:
-Every major document includes a "Challenges and Mitigation" section. We don't hide our problems—we document them and our strategies to overcome them.
-
-- **[Current Hypotheses & Evidence →](STATE_OF_HYPOTHESES.md)** - Live dashboard of what we're testing
-- **[Known Limitations →](reality-check/)** - The hard problems we face
-- **[Open Research Questions →](meta/open-problems.md)** - What we're still figuring out
-
-## Why This Approach Works
-
-### 1. Immediate Value (Anvil)
-Even if our grand vision fails, Anvil delivers immediate value:
-- Reduces repeated mistakes by 20-30%
-- Speeds up onboarding for new developers
-- Preserves critical team knowledge
-
-### 2. Data for Research
-Every team using Anvil contributes to our understanding of code patterns:
-- Real-world pattern data
-- Validation of hypotheses
-- Foundation for universal classification research
-
-### 3. Progressive Enhancement
-Start simple, grow with success:
-- **Year 1:** Local team tool (high probability of success)
-- **Year 2-3:** Cross-team insights (if Year 1 succeeds)
-- **Year 3+:** Universal patterns (moonshot research)
-
-## Project Structure
-
-### 🔨 Core Product Development
-- **[anvil-core/](anvil-core/)** - The Anvil tool we're actively building
-- **[technical-approach/](technical-approach/)** - Our proposed technical solutions
-
-### 🔬 Research Documentation
-- **[research-horizon/](research-horizon/)** - Long-term vision and experiments
-- **[STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md)** - Current research status
-- **[reality-check/](reality-check/)** - Challenges and limitations
-
-### 🤝 Community & Contribution
-- **[meta/CONTRIBUTING.md](meta/CONTRIBUTING.md)** - How to get involved
-- **[Sustainability.md](Sustainability.md)** - Funding and sustainability model
-
-## How to Contribute
-
-We welcome different types of contributors:
-
-### For Engineers
-Build the Anvil tool with us. We need help with:
-- Pattern detection algorithms
-- Git history analysis
-- IDE integrations
-- Performance optimization
-
-### For Researchers
-Help validate our hypotheses:
-- Test pattern classification approaches
-- Analyze team behavior patterns
-- Design experiments
-
-### For Skeptics
-Challenge our assumptions:
-- Point out flaws in our approach
-- Suggest better alternatives
-- Help us fail fast if we're wrong
-
-### For Early Adopters
-Test Anvil with your team:
-- Provide real-world feedback
-- Share your code patterns (privacy-preserved)
-- Help shape the tool's development
-
-➡️ **[Get started: CONTRIBUTING.md →](meta/CONTRIBUTING.md)**
-
-## Success Metrics
-
-### Near-term (Anvil Tool)
-- [ ] 80%+ accuracy in pattern detection
-- [ ] <10% false positive rate
-- [ ] 10+ teams using in production
-- [ ] Measurable reduction in repeated mistakes
-
-### Long-term (Research Vision)
-- [ ] Comprehensive pattern taxonomy
-- [ ] Cross-language pattern recognition
-- [ ] Published research papers
-- [ ] Open pattern dataset
-
-## Contact & Support
-
-**Project Lead:** Adrian Belmans  
-**Email:** adrian.belmans@gmail.com  
-**GitHub:** https://github.com/devknowledge-ai/code-periodic-table
-
-**Get Involved:**
-- 🐛 [Report Issues](https://github.com/devknowledge-ai/code-periodic-table/issues)
-- 💬 [Join Discussions](https://github.com/devknowledge-ai/code-periodic-table/discussions)
-- 📧 [Email for Partnerships](mailto:adrian.belmans@gmail.com)
+**Project Status:** Conceptual Phase. We have a comprehensive design for our core tool, Anvil, and are seeking collaborators to bring it to life.
 
 ---
 
-**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-**Status:** Active Research & Development  
-**Seeking:** Contributors, Testers, Research Partners, Funding
+## 1. The Problem: The Ghosts in the Machine
+
+Every software team is haunted by the ghosts of lost knowledge. Critical decisions evaporate, hard-won lessons are forgotten, and the same bugs reappear, fixed by a new generation of engineers who are unaware of the past. 
+
+We've all been there:
+- "Why was this written this way?" *(The author left 2 years ago)*
+- "We fixed this exact bug last year..." *(But nobody remembers how)*
+- "There must be a reason for this weird code..." *(Lost to time)*
+- "I swear we decided against this approach..." *(No record exists)*
+
+We are building a way to remember.
+
+## 2. Our Solution: Anvil, The Team's Memory
+
+**Anvil is a practical, open-source tool that learns from your team's unique history to prevent repeated mistakes and preserve institutional knowledge.** It works locally, respects your privacy, and integrates seamlessly into your IDE.
+
+### What Anvil Does Today (MVP Features)
+
+- **🔍 Mistake Prevention**: Analyzes your Git history and warns you before you repeat a bug that was fixed in the past
+- **💬 Semantic Comments**: Links comments to the *meaning* of your code, ensuring context survives refactoring
+- **🧠 Pattern Learning**: Learns from your team's decisions to suggest better approaches
+- **🔒 Privacy-First**: Runs entirely locally, your code never leaves your machine
+
+### How It Works
+
+1. **Observes** your Git history and code patterns
+2. **Learns** what worked and what didn't for your specific team
+3. **Warns** before you repeat past mistakes
+4. **Preserves** context through semantic understanding
+5. **Suggests** improvements based on your team's experience
+
+**[Explore the Anvil Tool: Specifications & Architecture →](./anvil/README.md)**
+
+## 3. Our Guiding Vision: The Digital Universe
+
+Anvil is more than just a tool; it's the first step in a grander exploration. Our work is guided by the **Digital Universe Theory**—a framework that views code not as a random collection of text, but as a universe of emergent complexity, with its own fundamental forces and discoverable patterns.
+
+We believe that by understanding these fundamentals, we can build a "Periodic Table of Code" that organizes our collective programming knowledge. But unlike chemistry's fixed elements, our table is alive—continuously evolving as developers worldwide contribute their discoveries.
+
+### Why This Vision Matters
+
+- **Patterns aren't arbitrary** - They emerge from fundamental computational forces
+- **Knowledge compounds** - Every team's experience contributes to collective understanding  
+- **Context is preserved** - Local patterns matter as much as universal ones
+- **Evolution is expected** - The system grows smarter over time
+
+Anvil is our laboratory for this discovery—starting with your team's patterns and eventually contributing to humanity's shared programming knowledge.
+
+**[Discover Our Foundational Vision →](./vision/README.md)**
+
+---
+
+## The Evolution Path
+
+### Phase 1: Team Memory (Immediate Value)
+Anvil learns your team's specific patterns and prevents repeated mistakes. Value in days, not years.
+
+### Phase 2: Domain Intelligence (6-12 months)
+Teams in similar domains share anonymized patterns. Web teams learn from web teams, game developers from game developers.
+
+### Phase 3: Universal Principles (Long-term Research)
+Common patterns across all domains reveal fundamental principles. The "Periodic Table" emerges from collective knowledge.
+
+**Each phase provides standalone value.** Start with Phase 1 and gain immediate benefits, regardless of whether the larger vision materializes.
+
+---
+
+## Project Structure
+
+```
+/
+├── README.md                 // You are here
+├── CONTRIBUTING.md           // How to get involved
+│
+├── anvil/                    // The practical tool (Phase 1)
+│   ├── specifications/       // Detailed feature specs
+│   └── architecture/         // Technical architecture
+│
+├── vision/                   // The guiding philosophy
+│   ├── digital-universe-theory.md
+│   └── periodic-table-metaphor.md
+│
+├── research/                 // Active R&D work
+│   ├── open-questions.md    // Research challenges
+│   └── experiments/          // Ongoing experiments
+│
+└── examples/                 // Concrete use cases
+    └── complete-flow.md      // See Anvil in action
+```
+
+---
+
+## How to Get Involved
+
+This project needs both pragmatic builders and visionary thinkers.
+
+### For Builders
+- Start in the `/anvil` directory
+- Focus on the MVP features
+- Help us build something useful TODAY
+
+### For Researchers
+- Explore `/vision` and `/research`
+- Contribute to theoretical frameworks
+- Design experiments and validations
+
+### For Skeptics
+- Read `/research/open-questions.md`
+- Challenge our assumptions
+- Keep us grounded in reality
+
+### For Everyone
+- Star this repo to show interest
+- Share with teams who lose knowledge
+- Join the discussion in Issues
+
+**[Start Your Journey Here →](./CONTRIBUTING.md)**
+
+---
+
+## Why This Project Will Succeed
+
+### 1. Immediate Practical Value
+Unlike pure research projects, Anvil provides value from day one. Even if the grander vision never materializes, teams still get a powerful tool for preserving knowledge.
+
+### 2. Bottom-Up Discovery
+We're not imposing a classification system—we're discovering patterns that already exist. The "Periodic Table" emerges from real-world observations, not theoretical frameworks.
+
+### 3. Incremental Path
+Each phase builds on the last but provides standalone value. There's no "all or nothing" risk.
+
+### 4. Community-Driven
+Every team's experience contributes. The system gets smarter with each user, but works even for the first user.
+
+---
+
+## Current Status & Next Steps
+
+### ✅ Completed
+- Comprehensive tool design and specifications
+- Theoretical framework development
+- Architecture planning
+- Example workflows
+
+### 🚧 In Progress
+- Building community interest
+- Refining MVP scope
+- Gathering early feedback
+
+### 📋 Next Steps
+1. Form initial development team
+2. Build proof-of-concept for pattern detection
+3. Implement MVP features
+4. Deploy to first test teams
+
+---
+
+## FAQs
+
+**Q: Is this just another documentation tool?**
+A: No. Anvil understands your code semantically and learns from your team's history. It's active intelligence, not passive documentation.
+
+**Q: Do I need to believe in the "Digital Universe" theory?**
+A: Not at all. The vision guides our long-term research, but Anvil's practical benefits stand on their own.
+
+**Q: Will this work with my language/framework?**
+A: The MVP focuses on popular languages (JavaScript, Python, Java, Go). The semantic approach means it can eventually work with any language.
+
+**Q: What about privacy?**
+A: Anvil runs entirely locally by default. Pattern sharing (Phase 2) will be opt-in and anonymized. Your code never leaves your control.
+
+---
+
+## Contact
+
+**Project Lead**: Adrian Belmans  
+**Email**: adrian.belmans@gmail.com  
+**GitHub**: @AdrianBelmans
+
+---
+
+## License
+
+This project is open source under the MIT License. See [LICENSE](./LICENSE) for details.
+
+---
+
+*"Every line of code tells a story. Anvil ensures those stories aren't lost."*
+
+**Ready to preserve your team's knowledge? [Get Started →](./CONTRIBUTING.md)**

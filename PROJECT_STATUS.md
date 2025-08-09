@@ -13,10 +13,16 @@
 - ❌ No code written yet
 
 ### Research Horizon (Long-term Vision)
-🔵 **Status:** Parallel research track
-- Active hypothesis formation
-- No timeline until Anvil validates approach
-- 20-35% probability of eventual success
+🔵 **Status:** Parallel research track with two paths
+
+**Path A: Universal Classification** (Original)
+- 20-35% success probability
+- Nearly impossible complexity
+
+**Path B: AI-Native Language** (Strategic Pivot)  
+- 60-70% success probability
+- Create new language with Periodic Table built-in
+- More achievable and practical
 
 ## What This Project Actually Is
 
@@ -38,7 +44,8 @@
 |-------|-------------|--------|-------------------|----------|
 | **Anvil Core** | Team knowledge tool | Design complete, awaiting funding | 60-70% | 12-18 months |
 | **Pattern Sharing** | Cross-team learning | Conceptual only | 40-50% | Years 2-3 (if Anvil succeeds) |
-| **Universal Classification** | "Periodic table" | Research vision | 20-35% | Years 3+ (if prior phases succeed) |
+| **Universal Classification** | "Periodic table" mapping | Original vision | 20-35% | Years 3+ (difficult path) |
+| **AI-Native Language** | New language for AI era | Strategic pivot | 60-70% | Years 2-4 (if Anvil validates patterns) |
 
 **Overall Project Success:** ~35% (achieving full vision)
 

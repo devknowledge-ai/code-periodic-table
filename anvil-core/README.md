@@ -6,6 +6,10 @@
 
 Anvil is a local-first, privacy-preserving tool that learns from your team's git history to prevent repeated mistakes and preserve institutional knowledge. Think of it as your team's collective memory—it remembers what went wrong before so you don't repeat it.
 
+### Architectural Philosophy
+
+The design of Anvil is guided by the principles outlined in our project's [**Digital Universe Theory**](../vision/digital-universe-theory.md). We treat patterns as emergent phenomena and aim to build a system that learns and evolves, rather than one that enforces rigid, top-down rules. This philosophy informs our choice of a modular, local-first architecture that can adapt over time.
+
 ## Core Features
 
 ### 1. Mistake Prevention System

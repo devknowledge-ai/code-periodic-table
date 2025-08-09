@@ -1,118 +1,118 @@
-# Research Directory
+# Research: Testing Our Hypotheses
 
-**Status: Research Planning and Coordination**
-
-## Overview
-
-This directory coordinates all research activities for the Code Periodic Table project, including experiments, studies, data collection, and analysis.
-
-## Research Areas
-
-### Active Research
-
-#### Pattern Classification Theory
-- Developing theoretical framework
-- Testing classification approaches
-- Validating taxonomies
-
-#### Pattern Detection Algorithms
-- Machine learning approaches
-- Static analysis methods
-- Hybrid techniques
-
-#### Cross-Language Analysis
-- Semantic equivalence
-- Pattern translation
-- Universal properties
-
-### Planned Research
-
-#### User Studies
-- Developer pattern recognition
-- Tool usability testing
-- Adoption barriers
-
-#### Empirical Studies
-- Pattern effectiveness
-- Performance impact
-- Maintenance burden
-
-## Research Methodology
-
-### Quantitative Methods
-- Statistical analysis
-- Performance benchmarking
-- Metric collection
-- A/B testing
-
-### Qualitative Methods
-- Developer interviews
-- Observational studies
-- Case studies
-- Surveys
-
-## Data Management
-
-### Data Collection
-- Repository mining
-- Pattern extraction
-- User behavior tracking
-- Performance metrics
-
-### Data Storage
-- Anonymized datasets
-- Secure storage
-- Version control
-- Backup strategies
-
-### Data Sharing
-- Open datasets
-- Privacy protection
-- Usage licenses
-- Citation requirements
-
-## Ethical Guidelines
-
-### Research Ethics
-- IRB approval when needed
-- Informed consent
-- Data anonymization
-- Participant rights
-
-### Responsible Research
-- Transparency
-- Reproducibility
-- Honest reporting
-- Failure documentation
-
-## Collaboration
-
-### Academic Partners
-- University collaborations
-- Joint research projects
-- Student involvement
-- Paper co-authorship
-
-### Industry Partners
-- Real-world validation
-- Production testing
-- Use case studies
-- Feedback loops
-
-## Resources
-
-### Tools
-- Analysis software
-- Statistical packages
-- Visualization tools
-- Data processing pipelines
-
-### Infrastructure
-- Compute resources
-- Storage systems
-- Development environments
-- Testing platforms
+*Active experiments and investigations to validate the Anvil approach*
 
 ---
 
-**Note:** Central coordination point for all research activities.
+## Our Research Philosophy
+
+We treat Anvil development as a research program with testable hypotheses. Every claim we make must be validated through experimentation. We're committed to scientific rigor and transparent reporting of both successes and failures.
+
+## What We're Testing
+
+### Core Hypotheses
+1. **Pattern Detection Works**: We can identify when teams are about to repeat mistakes
+2. **Context Survives**: Semantic linking preserves knowledge through refactoring
+3. **Teams Have Patterns**: Team-specific learning provides more value than generic rules
+
+[**→ Explore Our Open Questions**](./open-questions.md)
+
+## Current Experiments
+
+### Active Studies
+- **Pattern Detection Accuracy**: Testing on open-source projects with known bug histories
+- **Semantic Linking Resilience**: Tracking context through refactoring sequences
+- **Team Pattern Analysis**: Measuring pattern consistency within organizations
+
+### Upcoming Experiments
+- A/B testing with development teams
+- Cross-language pattern recognition
+- Privacy-preserving pattern sharing
+
+## How We Validate
+
+### Quantitative Metrics
+- Detection accuracy rates
+- False positive percentages
+- Performance benchmarks
+- User satisfaction scores
+
+### Qualitative Assessment
+- Developer interviews
+- Usability studies
+- Case study analysis
+- Community feedback
+
+## Research Integrity
+
+### What We Promise
+- **Transparent Reporting**: We publish negative results alongside positive ones
+- **Reproducible Methods**: All experiments are documented for replication
+- **Open Data**: Anonymized datasets will be publicly available
+- **Honest Assessment**: We acknowledge limitations and uncertainties
+
+### What We Don't Know (Yet)
+- Whether patterns are truly universal or mostly domain-specific
+- The performance cost of real-time semantic analysis
+- How much context is needed for accurate pattern detection
+- The long-term stability of learned patterns
+
+## Get Involved in Research
+
+### For Academic Researchers
+- Collaborate on studies
+- Validate our methods
+- Propose new experiments
+- Co-author papers
+
+### For Industry Teams
+- Participate in pilots
+- Share anonymized data
+- Provide use cases
+- Test prototypes
+
+### For Individual Developers
+- Contribute observations
+- Test hypotheses
+- Report edge cases
+- Challenge assumptions
+
+## Research Outputs
+
+### Published Work
+- [Coming Soon] Initial pattern detection results
+- [Coming Soon] Semantic linking evaluation
+- [Coming Soon] Team pattern analysis
+
+### Datasets
+- [Coming Soon] Anonymized pattern corpus
+- [Coming Soon] Refactoring sequence database
+- [Coming Soon] Bug repetition catalog
+
+### Tools
+- Pattern detection prototype
+- Semantic analysis framework
+- Visualization tools
+
+## Timeline
+
+### Phase 1: Foundation (Current)
+- Defining hypotheses
+- Building test frameworks
+- Gathering initial data
+
+### Phase 2: Validation (Next 6 months)
+- Running controlled experiments
+- Analyzing results
+- Refining approaches
+
+### Phase 3: Scale (6-12 months)
+- Expanding to more teams
+- Testing at scale
+- Publishing findings
+
+---
+
+*Research is how we transform vision into reality. Join us in discovering what's possible.*
+
+[← Back to Project Overview](../README.md) | [Open Questions →](./open-questions.md)
