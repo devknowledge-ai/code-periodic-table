@@ -1,22 +1,22 @@
-# Contributing
+# Contributing to Anvil
 
-Thanks for your interest! Here's how to get started.
+Thanks for your interest in the Anvil project! Here's how to get started.
 
 ## Quick Start
 
-1. **Pick a project** from the [main README](./README.md)
+1. **Pick an Anvil tool** from the [main README](./README.md)
 2. **Read its README** for specific needs
 3. **Find an issue** labeled `good-first-issue`
 4. **Make a PR** with your solution
 
-## Project-Specific Guides
+## Tool-Specific Guides
 
-Each project has different needs:
+Each Anvil tool has different needs:
 
-- **[StickyComments](./projects/sticky-comments/)** - Need Python developers
-- **[NullGuard](./projects/null-guard/)** - Need pattern detection expertise
-- **[GitMemory](./projects/git-memory/)** - Need Git/database knowledge
-- **[CodeFingerprint](./projects/code-fingerprint/)** - Need compiler/AST expertise
+- **[Anvil Comments](./projects/sticky-comments/)** - Need Python developers
+- **[Anvil Guard](./projects/null-guard/)** - Need pattern detection expertise
+- **[Anvil Memory](./projects/git-memory/)** - Need Git/database knowledge
+- **[Anvil Fingerprint](./projects/code-fingerprint/)** - Need compiler/AST expertise
 
 ## General Process
 

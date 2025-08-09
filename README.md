@@ -1,22 +1,22 @@
-# DevKnowledge: Tools for Preserving Team Knowledge
+# Anvil: Developer Tools That Preserve Team Knowledge
 
-A collection of focused developer tools that preserve knowledge and prevent repeated mistakes.
+A suite of focused tools that prevent repeated mistakes and preserve institutional knowledge.
 
-## 🚀 Active Projects
+## 🚀 The Anvil Suite
 
-### [StickyComments](./projects/sticky-comments/) 
+### [Anvil Comments](./projects/sticky-comments/) 
 **Comments that survive refactoring**  
 Status: 🚧 Early Development | [Try it →](./projects/sticky-comments/)
 
-### [NullGuard](./projects/null-guard/)
+### [Anvil Guard](./projects/null-guard/)
 **Prevent null reference exceptions with 95% accuracy**  
 Status: 🧪 Beta Testing | [Get Beta →](./projects/null-guard/)
 
-### [GitMemory](./projects/git-memory/)
+### [Anvil Memory](./projects/git-memory/)
 **Fast Git history analysis and indexing**  
 Status: 🚧 Active Development | [Learn more →](./projects/git-memory/)
 
-### [CodeFingerprint](./projects/code-fingerprint/)
+### [Anvil Fingerprint](./projects/code-fingerprint/)
 **Semantic hashing for code similarity**  
 Status: 🔬 Research Phase | [Contribute →](./projects/code-fingerprint/)
 
@@ -36,10 +36,10 @@ Pick a project that interests you:
 
 | Project | Skills Needed | Time to First PR |
 |---------|--------------|------------------|
-| **StickyComments** | Python, AST parsing | 2-4 hours |
-| **NullGuard** | Pattern matching, ML basics | 4-8 hours |
-| **GitMemory** | Database, Git internals | 2-4 hours |
-| **CodeFingerprint** | Compilers, algorithms | 8-16 hours |
+| **Anvil Comments** | Python, AST parsing | 2-4 hours |
+| **Anvil Guard** | Pattern matching, ML basics | 4-8 hours |
+| **Anvil Memory** | Database, Git internals | 2-4 hours |
+| **Anvil Fingerprint** | Compilers, algorithms | 8-16 hours |
 
 Each project has its own README with specific contribution guidelines.
 
@@ -50,21 +50,22 @@ Each project has its own README with specific contribution guidelines.
 - **Independent value** - Each tool useful standalone
 - **Open source** - MIT licensed, community-driven
 
-## Future: Integration
+## Future: Deeper Integration
 
-Once individual tools prove their value, we'll explore integration:
-- **RepeatDetector** - Combines GitMemory + CodeFingerprint
-- **Anvil** - Unified experience across all tools
+The Anvil tools are designed to work together. Future plans:
+- **Anvil Detect** - Combines Memory + Fingerprint to find repeated bugs
+- **Anvil Studio** - Unified IDE experience across all tools
+- **Anvil Cloud** - Optional team pattern sharing (privacy-first)
 
-But first, we build the foundations.
+But first, we perfect each individual tool.
 
 ## Contact
 
 **Project Lead**: Adrian Belmans  
 **Email**: adrian.belmans@gmail.com  
-**GitHub**: [@devknowledge-ai](https://github.com/devknowledge-ai)
+**GitHub**: [@anvil-tools](https://github.com/anvil-tools)
 
 ---
 
-*Building developer tools that actually ship. One focused project at a time.*
+*Anvil: Forging better developer tools. One focused project at a time.*
 

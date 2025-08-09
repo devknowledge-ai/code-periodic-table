@@ -1,4 +1,6 @@
-# NullGuard: The World's Best Null Reference Detector
+# Anvil Guard: The World's Best Null Reference Detector
+
+Part of the [Anvil Suite](../../README.md) of developer tools.
 
 One job: Prevent null reference exceptions. Done exceptionally well.
 
@@ -32,10 +34,10 @@ Unlike general linters that flag everything:
 ## Installation
 
 ```bash
-pip install nullguard
-nullguard init  # Analyze your codebase
-nullguard check file.py  # Check specific file
-nullguard watch  # Real-time monitoring
+pip install anvil-guard
+anvil-guard init  # Analyze your codebase
+anvil-guard check file.py  # Check specific file
+anvil-guard watch  # Real-time monitoring
 ```
 
 ## How It Works
