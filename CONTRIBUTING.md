@@ -17,6 +17,7 @@ Each Anvil tool has different needs:
 - **[Anvil Guard](./projects/null-guard/)** - Need pattern detection expertise
 - **[Anvil Memory](./projects/git-memory/)** - Need Git/database knowledge
 - **[Anvil Fingerprint](./projects/code-fingerprint/)** - Need compiler/AST expertise
+- **[Adaptive Documentation](./projects/adaptive-documentation/)** - Need ML/NLP, IDE integration, flow detection expertise
 
 ## General Process
 

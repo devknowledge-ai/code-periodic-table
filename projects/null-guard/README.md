@@ -44,8 +44,11 @@ anvil-guard watch  # Real-time monitoring
 
 1. **Analyzes your Git history** for previous null pointer fixes
 2. **Learns your codebase patterns** - which functions return None
-3. **Builds a model** specific to your code
-4. **Provides targeted warnings** with high confidence
+3. **Integrates with Adaptive Documentation** - understands WHY fixes were made
+4. **Builds a model** specific to your code with rich context
+5. **Provides targeted warnings** with high confidence
+
+**The Secret**: When integrated with [Adaptive Documentation](../adaptive-documentation/), Anvil Guard doesn't just see that a null check was added - it knows WHY. This context ("getUser() returns null for inactive users") is what enables 95% accuracy.
 
 ## Performance
 

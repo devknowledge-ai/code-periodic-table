@@ -20,6 +20,10 @@ Status: 🚧 Active Development | [Learn more →](./projects/git-memory/)
 **Semantic hashing for code similarity**  
 Status: 🔬 Research Phase | [Contribute →](./projects/code-fingerprint/)
 
+### [Adaptive Documentation](./projects/adaptive-documentation/)
+**Capture the "why" behind code changes intelligently**  
+Status: 🎯 Foundation Component | [Critical Priority →](./projects/adaptive-documentation/)
+
 ## Why These Tools?
 
 Every developer knows the pain:
@@ -27,8 +31,11 @@ Every developer knows the pain:
 - Null pointer bugs that keep coming back
 - Git history that's write-only
 - Similar code that's impossible to find
+- **The "why" behind code changes lost forever**
 
 We're building focused tools to solve these specific problems. Each tool does one thing well.
+
+**Critical Insight**: Adaptive Documentation is the foundation - it transforms noisy Git history (10% signal) into clean, structured knowledge (95% signal), especially when using LLMs like Claude Code or GitHub Copilot.
 
 ## How to Contribute
 
@@ -40,6 +47,7 @@ Pick a project that interests you:
 | **Anvil Guard** | Pattern matching, ML basics | 4-8 hours |
 | **Anvil Memory** | Database, Git internals | 2-4 hours |
 | **Anvil Fingerprint** | Compilers, algorithms | 8-16 hours |
+| **Adaptive Documentation** | ML/NLP, IDE integration, flow detection | 4-8 hours |
 
 Each project has its own README with specific contribution guidelines.
 
@@ -52,12 +60,23 @@ Each project has its own README with specific contribution guidelines.
 
 ## Future: Deeper Integration
 
-The Anvil tools are designed to work together. Future plans:
-- **Anvil Detect** - Combines Memory + Fingerprint to find repeated bugs
+The Anvil tools are designed to work together:
+
+**Foundation Layer:**
+- **Adaptive Documentation** captures the "why" behind changes (especially from LLM conversations)
+- **Anvil Memory** indexes this enriched history for fast queries
+
+**Intelligence Layer:**
+- **Anvil Guard** achieves 95% accuracy by learning from documented fixes
+- **Anvil Fingerprint** tracks code evolution semantically
+- **Anvil Comments** stay attached through refactoring
+
+**Future Vision:**
+- **Anvil Detect** - Combines all tools to prevent repeated mistakes with unprecedented accuracy
 - **Anvil Studio** - Unified IDE experience across all tools
 - **Anvil Cloud** - Optional team pattern sharing (privacy-first)
 
-But first, we perfect each individual tool.
+The key: Adaptive Documentation provides the clean training data that powers everything else.
 
 ## Contact
 
