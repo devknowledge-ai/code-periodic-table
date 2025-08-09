@@ -2,10 +2,24 @@
 
 ## Overview
 
-This document tracks the current state of our major hypotheses, presenting evidence both for and against each claim. This is a living document that evolves as we gather more data.
+This document is the **SINGLE AUTHORITATIVE SOURCE** for all probability assessments and hypothesis status in the Code Periodic Table project. All other documents should link here rather than stating their own probabilities.
 
 **Last Updated**: 2025
 **Overall Status**: Early research, most hypotheses unproven
+
+## Master Probability Assessment
+
+### Overall Project Success Probabilities
+- **Complete Success (All Phases):** ~35%
+- **Phase 1 Success (Local Learning):** 60-70%
+- **Phase 2 Success (Community Platform):** 40-50% (contingent on Phase 1)
+- **Phase 3 Success (Universal Classification):** 20-35%
+
+### Failure Probabilities
+- **Complete Project Failure:** ~65%
+- **Phase 1 Failure:** 30-40%
+- **Phase 2 Failure (if Phase 1 succeeds):** 50-60%
+- **Phase 3 Failure (if Phase 2 succeeds):** 65-80%
 
 ---
 
@@ -22,7 +36,7 @@ This document tracks the current state of our major hypotheses, presenting evide
 - Git history shows pattern evolution over time
 
 **Evidence AGAINST**:
-- Current accuracy only 40-70%
+- No validated accuracy measurements
 - Cross-language patterns extremely difficult
 - Combinatorial explosion of pattern variations
 - Rice's Theorem suggests fundamental limits
@@ -38,7 +52,7 @@ This document tracks the current state of our major hypotheses, presenting evide
 **Claim**: Development teams repeat approximately 40% of previously fixed bugs and mistakes.
 
 **Evidence FOR**:
-- Initial analysis of 5 repositories shows 35-45% repetition
+- Theoretical analysis suggests repetition occurs
 - Anecdotal evidence from developers confirms this
 - Similar bugs appear in different parts of codebase
 - Copy-paste propagates mistakes
@@ -60,16 +74,16 @@ This document tracks the current state of our major hypotheses, presenting evide
 **Claim**: Our approach can achieve 80% or higher accuracy in pattern recognition.
 
 **Evidence FOR**:
-- Current prototypes at 40-70% show improvement possible
-- More training data consistently improves accuracy
-- Some specific patterns achieve 85%+ accuracy
-- Domain-specific models perform better
+- Theoretical framework suggests improvement is possible
+- More training data should improve accuracy
+- Some specific patterns may be easier to detect
+- Domain-specific models should perform better
 
 **Evidence AGAINST**:
-- Plateau effect observed around 70%
-- Performance degrades on real-world code
-- False positive rate remains high
-- Theoretical limits may prevent 80%+
+- No performance measurements available
+- Real-world performance unknown
+- False positive rates unknown
+- Theoretical limits may prevent high accuracy
 
 **Current Verdict**: **UNPROVEN**, significant challenges remain
 
@@ -104,13 +118,13 @@ This document tracks the current state of our major hypotheses, presenting evide
 **Claim**: Team-specific pattern learning is more achievable than universal pattern classification.
 
 **Evidence FOR**:
-- Team patterns more consistent than cross-team
-- Local context improves accuracy significantly
+- Team patterns should be more consistent than cross-team
+- Local context should improve accuracy
 - Privacy concerns favor local approach
 - Computational requirements more manageable
 
 **Evidence AGAINST**:
-- Still only 60-70% accuracy locally
+- Local accuracy to be determined
 - Teams want to learn from others
 - Local patterns may reinforce bad practices
 - Limited data for small teams
@@ -132,10 +146,10 @@ This document tracks the current state of our major hypotheses, presenting evide
 - GPU acceleration available
 
 **Evidence AGAINST**:
-- Current performance 500ms-10s
+- Performance requirements not yet measured
 - Complex patterns require deep analysis
 - Memory constraints limit caching
-- Real codebases too large
+- Real codebases very large
 
 **Current Verdict**: **UNPROVEN**, major optimization needed
 

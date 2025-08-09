@@ -1,153 +1,131 @@
-# Project Status: Early-Stage Research
+# Project Status: Single Source of Truth
 
 ## Current State: Active Research Program
 
-### 🔬 Research Status: EARLY EXPLORATION
-- **Prototype Accuracy**: 40-70% (early results, improving)
-- **Processing Speed**: Currently slow, optimizing
-- **Theoretical Work**: Extensive documentation of hypotheses
-- **Production Code**: Not yet - research phase
-- **Stage**: Exploring feasibility
+### 🔬 What This Project Is
+An **active research program** exploring whether systematic code pattern classification can improve software development. This repository contains theoretical frameworks, architectural proposals, and experimental designs - not a working product.
 
-### 📊 Research Progress
+### 📊 What Exists vs. What Doesn't
 
-**What We're Learning:**
-- Initial prototypes show patterns DO exist
-- Accuracy improves with more data
-- Some approaches work better than others
-- Local patterns easier than universal ones
+#### ✅ What Currently Exists:
+- Comprehensive research documentation
+- Theoretical architectural proposals  
+- Proposed technical approaches
+- Hypothesis framework for testing
+- Community collaboration structure
+- Transparent documentation of challenges
 
-**Current Challenges:**
-- Performance optimization needed
-- Accuracy must improve to ~80% for viability
-- Memory management for large codebases
-- Distinguishing signal from noise
+#### ❌ What Does NOT Exist:
+- Working implementation
+- Validated accuracy metrics
+- Performance measurements
+- Production-ready code
+- Proven pattern detection algorithms
+- Scalable system architecture
 
-### 📈 Success Probabilities (Honest Assessment)
+### 🎯 Current Research Phase
+**Phase:** Early-stage exploration and hypothesis formation
+**Status:** Documentation and theoretical design
+**Next Step:** Secure resources for experimental validation
 
-| Phase | Description | Success Probability | Current Status |
-|-------|-------------|-------------------|----------------|
-| **Phase 1** | Local Pattern Learning | 60-70% | Active research |
-| **Phase 2** | Community Platform | 40-50% | Depends on Phase 1 |
-| **Phase 3** | Universal Classification | 20-35% | Long-term research |
+## Success Probability Assessment
 
-**Overall Assessment**: Challenging but worth exploring
+**See [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md) for detailed probability assessments**
 
-## Why This Research Matters
+### Summary:
+- **Overall Project Success:** ~35% probability
+- **Phase 1 (Local Learning):** 60-70% probability  
+- **Phase 2 (Community Platform):** 40-50% probability (contingent on Phase 1)
+- **Phase 3 (Universal Classification):** 20-35% probability
 
-### Problems We're Addressing
-1. **Developers DO repeat mistakes** - Early data confirms this
-2. **Patterns exist in code** - We can detect them (imperfectly)
-3. **Knowledge silos are real** - Teams lose expertise
-4. **Current tools are static** - Don't learn from YOUR code
+## Research Questions Under Investigation
 
-### What We're Testing
-- Can we learn from git history? (Partially yes)
-- Do team-specific patterns matter? (Evidence suggests yes)
-- Is 80%+ accuracy achievable? (Unknown, working on it)
-- Can this scale? (Major challenge)
+### Primary Questions (Phase 1 Focus):
+1. Can we reliably detect patterns in team-specific code?
+2. Is 80%+ accuracy achievable for local pattern recognition?
+3. Will teams adopt tools that learn from their history?
+4. Can performance meet real-time analysis requirements?
 
-## Realistic Timeline
+### Secondary Questions (Future Phases):
+- Can patterns be shared across teams effectively?
+- Do universal code patterns exist across languages?
+- Is automated pattern classification scalable?
 
-### Current Phase (Next 12-18 months)
-- Continue improving accuracy
-- Optimize performance
-- Validate core assumptions
-- Build research community
-- Document what works AND what doesn't
+## Timeline & Resources
 
-### If Research Succeeds (Years 2-3)
-- Develop MVP for early adopters
-- Test with real teams
-- Iterate based on feedback
-- Consider commercialization
+### Current Phase (Research & Design)
+**Duration:** Ongoing
+**Activities:** 
+- Documenting hypotheses
+- Designing experiments
+- Building research community
+- Seeking funding/resources
 
-### Long-term Vision (Years 3-5)
-- Expand to community platform if Phase 1 works
-- Explore universal patterns (high risk)
-- Contribute to scientific understanding
+### Next Phase (Experimental Validation) 
+**Duration:** 12-18 months (once resources secured)
+**Required Resources:**
+- 2-3 researchers/developers
+- $200-500K funding
+- Access to diverse codebases
+- Computational resources for experiments
 
-## What This Documentation Really Is
-
-### It IS:
-- A comprehensive research proposal
-- Documentation of our hypotheses
-- Framework for experimentation
-- Transparent about challenges
-
-### It is NOT YET:
-- A proven system
-- Ready for production
-- Guaranteed to work
-- A fundable product (yet)
-
-## Current Experiments
-
-### Making Progress On:
-- Git history pattern extraction
-- AST-based analysis
-- Team-specific learning
-- Performance optimization
-
-### Still Struggling With:
-- Cross-language patterns
-- Real-time performance
-- Memory efficiency
-- False positive reduction
+### Future Phases
+See [COMMERCIALIZATION_PATH.md](COMMERCIALIZATION_PATH.md) for speculative commercial path (contingent on research success)
 
 ## How to Interpret This Project
 
 ### For Researchers
-"Join us in exploring these challenging problems. Help us figure out what's possible."
+This is an opportunity to explore fundamental questions in software engineering. Join us in investigating whether code patterns can be systematically classified and whether this classification provides value.
+
+### For Potential Contributors  
+We need help validating hypotheses, designing experiments, and challenging assumptions. Technical implementation will begin only after core hypotheses are validated.
+
+### For Funders
+This is high-risk, high-reward research. Fund only if you:
+- Support fundamental software engineering research
+- Accept significant probability of failure
+- Value negative results as learning
+- Have patience for long-term outcomes
 
 ### For Skeptics
-"Your skepticism is valuable. Help us identify flaws and improve our approach."
+Your skepticism is valuable. Help us:
+- Identify flaws in our approach
+- Find theoretical limitations
+- Design better experiments
+- Fail fast if we're wrong
 
-### For Developers
-"This is early research. If you're interested in the problem space, contribute ideas."
+## Key Documents
 
-### For Potential Funders
-"This is high-risk research with potential for significant impact. Fund only if you support exploration."
+### Essential Reading:
+1. **This document** - Current project status
+2. [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md) - Detailed hypotheses and evidence
+3. [reality-check/](reality-check/) - Honest assessment of challenges
+4. [META-NAVIGATION.md](META-NAVIGATION.md) - Understanding the documentation structure
 
-## Why We Continue
+### Research Proposals:
+- [RESEARCH_PROPOSAL_SUMMARY.md](RESEARCH_PROPOSAL_SUMMARY.md) - Overview of research goals
+- [01-immediate-value/](01-immediate-value/) - Phase 1 research focus
+- [technical-specs.md](technical-specs.md) - Theoretical technical approaches
 
-1. **Early results are promising** - Not great, but not hopeless
-2. **Problem is worth solving** - Even partial success helps
-3. **Learning valuable lessons** - Even failures teach us
-4. **Community interest exists** - People want this to work
-5. **No one else is trying this approach** - Worth exploring
-
-## Honest Next Steps
-
-### What We're Doing
-1. Working to improve accuracy from 40-70% to 70-80%
-2. Optimizing performance (current: too slow)
-3. Testing with more diverse codebases
-4. Building research community
-5. Publishing findings (positive AND negative)
-
-### What We Need
-- More researchers to help
-- Diverse codebases to test
-- Computational resources
-- Patience and realistic expectations
-- Constructive criticism
+### Future Vision (Speculative):
+- [COMMERCIALIZATION_PATH.md](COMMERCIALIZATION_PATH.md) - Potential path to product (if research succeeds)
+- [future-research/](future-research/) - Long-term research directions
 
 ## Contact
 
-**Research Lead**: Adrian Belmans
-**Email**: adrian.belmans@gmail.com
-**GitHub**: https://github.com/devknowledge-ai/code-periodic-table
+**Research Lead:** Adrian Belmans  
+**Email:** adrian.belmans@gmail.com  
+**GitHub:** https://github.com/devknowledge-ai/code-periodic-table
 
-**Note**: Contact if you're interested in:
-- Contributing to research
-- Testing early prototypes
-- Providing codebase access
-- Discussing the approach
-- Offering constructive criticism
+**Contact for:**
+- Research collaboration
+- Providing codebase access for experiments
+- Challenging our hypotheses
+- Discussing theoretical approaches
+- Funding research efforts
 
 ---
 
-**Last Updated**: 2025
-**Status**: Early-stage research with significant challenges but promising initial results
-**Recommendation**: Watch this space, contribute if interested, maintain realistic expectations
+**Last Updated:** 2025  
+**Status:** Active research program with no working implementation  
+**Engineering Status:** No engineering work has begun - hypotheses require validation first

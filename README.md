@@ -1,23 +1,20 @@
-# Code Periodic Table: Early-Stage Research in Pattern Classification
+# Code Periodic Table: An Active Research Program in Pattern Classification
 
-⚠️ **IMPORTANT:** This repository contains deliberate contradictions. Some documents are optimistic (what we hope to build), others pessimistic (why we might fail). This is intentional - it's how real research works. Read **[META-NAVIGATION.md](META-NAVIGATION.md)** to understand why.
+**Current Status: Early-Stage Research & Theoretical Design**
 
-## 🚀 Breaking: 2-Day Prototype Achieves 40-70% Accuracy
+## What This Is
 
-**What makes this remarkable:** In just 48 hours of development, we achieved pattern recognition accuracy that typically takes months to reach. This isn't failed research - it's an exceptionally promising beginning.
+This repository documents an **active research program** exploring whether systematic code pattern classification can improve software development. It contains **theoretical frameworks, architectural proposals, and experimental designs** - not a working product. Our goal is to rigorously test these ideas and transparently share the results—both successes and failures.
 
-→ **[Read the full timeline](PROJECT_TIMELINE.md)** to understand what we accomplished in 2 days
+## Current Project Status
 
-## 📚 What This Is
+🔗 **[PROJECT_STATUS.md](PROJECT_STATUS.md) - Single source of truth for project status**
 
-**An active research program** exploring whether systematic pattern classification can improve software development. Born from a weekend prototype that exceeded expectations, now seeking collaborators to realize its potential.
-
-**Current Status:**
-- **Origin:** 2-day hobby prototype
-- **Achievement:** 40-70% accuracy (remarkable for 48 hours)
-- **Performance:** Prototype-level (optimization planned)
-- **Stage:** Transitioning from prototype to research program
-- **Opportunity:** Ground floor of potentially transformative project
+### Quick Summary:
+- **✅ What Exists:** Research documentation, theoretical proposals, hypothesis framework
+- **❌ What Doesn't:** Working implementation, validated metrics, proven algorithms
+- **🎯 Current Phase:** Seeking resources for experimental validation
+- **📊 Success Probability:** See [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md) for detailed assessments
 
 ## 🎯 Choose Your Path:
 
@@ -25,8 +22,8 @@
 
 ### 🚀 The Builder's Path (Optimistic View)
 **Want to see what we're trying to build and why it matters?**
-→ Start with **[01-immediate-value/](01-immediate-value/)** and **[EVOLUTION_PATH.md](EVOLUTION_PATH.md)**
-*Warning: These show our vision, not current reality (40-70% accuracy)*
+→ Start with **[01-immediate-value/](01-immediate-value/)** and **[COMMERCIALIZATION_PATH.md](COMMERCIALIZATION_PATH.md)**
+*Warning: These show our vision, not current reality*
 
 ### 🤔 The Skeptic's Path (Realistic View)
 **Want to understand why this probably won't work?**
@@ -41,20 +38,16 @@
 ## 📁 Project Structure:
 
 ### 🔬 [01-immediate-value/](01-immediate-value/) - **Phase 1: Local Learning Experiments**
-Current research into team-specific pattern learning. Early prototypes showing promise but need significant improvement.
+Current research into team-specific pattern learning. Theoretical framework and architecture being developed.
 
-### 🔬 [02-community-platform/](02-community-platform/) - **Phase 2: Community Concepts** 
-Theoretical framework for knowledge sharing. Depends on Phase 1 research succeeding.
-
-### 🔬 [03-research-vision/](03-research-vision/) - **Phase 3: Long-term Research**
-Exploring universal classification. High-risk, high-reward research questions.
+### 🔬 [future-research/](future-research/) - **Future Phases (Contingent on Phase 1)**
+Contains Phase 2 (Community Platform) and Phase 3 (Universal Classification) concepts. These are speculative and depend entirely on Phase 1 validation.
 
 ### ⚠️ [reality-check/](reality-check/) - **Challenges & Limitations**
 Honest assessment of difficulties, theoretical limits, and why this might fail.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Early Research](https://img.shields.io/badge/Status-Early%20Research-yellow.svg)]()
-[![Accuracy: 40-70%](https://img.shields.io/badge/Current%20Accuracy-40--70%25-orange.svg)]()
 [![Seeking: Collaborators](https://img.shields.io/badge/Seeking-Collaborators-green.svg)]()
 
 ## Research Questions We're Exploring
@@ -63,7 +56,7 @@ Honest assessment of difficulties, theoretical limits, and why this might fail.
 1. **Can code patterns be systematically classified?** (Partially - local patterns yes, universal patterns uncertain)
 2. **Do teams really repeat mistakes?** (Early evidence says yes, ~40%)
 3. **Can we learn from git history?** (Some success, lots of noise)
-4. **Is 80%+ accuracy achievable?** (Unknown - current: 40-70%)
+4. **Is 80%+ accuracy achievable?** (Unknown - requires testing)
 
 ### What We've Learned So Far
 
@@ -74,38 +67,30 @@ Honest assessment of difficulties, theoretical limits, and why this might fail.
 - Local scope more feasible than universal
 
 **Current Challenges:**
-- Accuracy plateau around 40-70%
-- Performance 10x slower than needed
-- High false positive rates
-- Memory issues on large codebases
+- Accuracy targets not yet validated
+- Performance optimization needed
+- False positive rates to be determined
+- Scalability for large codebases
 
 ## Three Research Phases
 
 ### Phase 1: Local Pattern Learning (Current Focus)
 **Research Question:** Can we learn from a team's own code history?
-- **Current Status:** 40-70% accuracy prototypes
-- **Success Probability:** 60-70%
-- **Timeline:** 12-18 months to validate approach
+- **Primary Focus:** Mistake Prevention System & Semantic Commenting
+- **Status:** Seeking resources for validation
+- **Details:** See [01-immediate-value/](01-immediate-value/)
 
-### Phase 2: Domain Communities (Future)
-**Research Question:** Can teams in similar domains share patterns?
-- **Current Status:** Theoretical design only
-- **Success Probability:** 40-50% (depends on Phase 1)
-- **Timeline:** Years 2-3 if Phase 1 succeeds
-
-### Phase 3: Universal Classification (Long-term)
-**Research Question:** Do universal patterns exist across all code?
-- **Current Status:** Experimental hypotheses
-- **Success Probability:** 20-35%
-- **Timeline:** Years 3-5, may be impossible
+### Future Phases (Speculative)
+See [future-research/](future-research/) for Phase 2 and 3 concepts.
+Probabilities and timelines in [STATE_OF_HYPOTHESES.md](STATE_OF_HYPOTHESES.md).
 
 ## Current Research Metrics
 
-**What We're Measuring:**
-- Pattern recognition accuracy: Currently 40-70%, target 80%+
-- False positive rate: Currently high, needs reduction
-- Performance: Currently 500ms+/file, target <100ms
-- Memory usage: Currently crashes on large repos
+**What We Plan to Measure:**
+- Pattern recognition accuracy: Target 80%+
+- False positive rate: To be determined
+- Performance: Target <100ms per file
+- Memory usage: Must handle large repositories
 
 **Honest Assessment:**
 - We might not achieve our targets
@@ -123,7 +108,7 @@ Honest assessment of difficulties, theoretical limits, and why this might fail.
 
 ### For Developers
 - Provide codebase access for testing
-- Try early prototypes (understanding they're imperfect)
+- Participate in early testing when available
 - Share feedback on false positives
 - Contribute pattern examples
 
@@ -158,7 +143,7 @@ Even if we only partially succeed:
 ## Implementation Status
 
 ### Current Reality:
-- Research prototypes only
+- Research concepts and documentation only
 - Not suitable for production use
 - Many unsolved problems
 - Long road ahead
@@ -173,7 +158,7 @@ Even if we only partially succeed:
 
 We need:
 - **Researchers** to help explore these problems
-- **Engineers** to optimize prototypes
+- **Engineers** to help build initial implementations
 - **Data** - diverse codebases to test
 - **Critics** to challenge our assumptions
 - **Patience** - this is hard and might fail
@@ -188,7 +173,7 @@ See [meta/CONTRIBUTING.md](meta/CONTRIBUTING.md) for details.
 
 ### Contact us if you're interested in:
 - Collaborating on research
-- Testing prototypes (with realistic expectations)
+- Participating in future testing phases
 - Providing codebase access
 - Discussing methodology
 - Challenging our approach

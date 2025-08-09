@@ -6,17 +6,17 @@ This guide ensures all documentation in the Code Periodic Table project maintain
 
 ## Core Truth Statement
 
-**The Code Periodic Table is an experimental research project with a 65% probability of failure.** We have prototypes achieving 40-70% accuracy, extensive theoretical documentation, and no production-ready implementation. We don't know if our core hypotheses are achievable.
+**The Code Periodic Table is an experimental research project with a 65% probability of failure.** We have theoretical frameworks and early research explorations, extensive documentation, and no production-ready implementation. We don't know if our core hypotheses are achievable.
 
 ## Required Honest Messaging
 
 ### 1. Implementation Status
-- **ALWAYS state**: "Research prototypes only, 40-70% accuracy"
+- **ALWAYS state**: "Theoretical framework only, no validated accuracy metrics"
 - **CLARIFY**: "No production implementation exists"
 - **ACKNOWLEDGE**: "Core feasibility questions remain unanswered"
 
 ### 2. Performance Claims
-- **ALWAYS distinguish**: "Current: 40-70%" vs "Target: 80%" vs "Hope: 90%"
+- **ALWAYS distinguish**: "Current: No validated metrics" vs "Target: To be determined" vs "Hope: 80-90%"
 - **NEVER present**: Targets as achievements
 - **INCLUDE**: "May be theoretically impossible to achieve"
 
@@ -35,7 +35,7 @@ This guide ensures all documentation in the Code Periodic Table project maintain
 ### For ALL Documents
 ```markdown
 ⚠️ **Research Warning**: This is experimental research with a high probability of failure.
-Current prototypes: 40-70% accuracy. No production implementation exists.
+Current status: Theoretical framework. No production implementation exists.
 ```
 
 ### For Technical Documents
@@ -58,7 +58,7 @@ Your contributions may lead to valuable negative results.
 
 Before committing any documentation:
 
-- [ ] Clearly state current accuracy (40-70%) and problems
+- [ ] Clearly state current research status and limitations
 - [ ] Include probability of failure (65% overall)
 - [ ] Distinguish research ideas from proven approaches
 - [ ] Acknowledge theoretical limits (Rice's Theorem, etc.)
@@ -72,7 +72,7 @@ Before committing any documentation:
 - "Experimental", "Unproven", "Theoretical", "Hypothetical"
 - "May fail", "Probably won't work", "Uncertain if possible"
 - "Research prototype", "Not production-ready", "Conceptual"
-- "40-70% accuracy", "10x too slow", "Crashes on large codebases"
+- "No validated performance metrics", "Theoretical framework only", "Unproven at scale"
 - "High probability of failure", "Fundamental challenges", "Unsolved problems"
 
 ### ENCOURAGE Skeptical Language
@@ -110,7 +110,7 @@ Every major document should include:
 "Our complete architecture enables 80% pattern recognition accuracy."
 
 ### Good (Honest)
-"We hope our proposed architecture might achieve 80% accuracy, though current prototypes are stuck at 40-70% and we may have hit fundamental limits."
+"We hope our proposed architecture might achieve effective pattern recognition, though current research is purely theoretical and we may encounter fundamental limits."
 
 ### Bad (Misleading)
 "Phase 1 specifications are ready for implementation."

@@ -1,6 +1,6 @@
 # Technical Specifications (Research Hypotheses)
 
-⚠️ **Research Warning**: This document describes theoretical approaches that have NOT been validated. Current prototypes achieve only 40-70% accuracy and are 10x too slow for production use.
+⚠️ **Research Warning**: This document describes theoretical approaches that have NOT been validated. Current status is conceptual design with no performance measurements.
 
 ## Overview
 This document contains our research hypotheses and experimental approaches. These are NOT proven techniques or implementation-ready specifications. Most of these ideas may prove unworkable.
@@ -21,12 +21,12 @@ This document contains our research hypotheses and experimental approaches. Thes
 
 ```python
 # WARNING: This is pseudocode representing our hypothesis
-# Actual implementation achieves only 40-70% accuracy
+# Actual performance to be determined through implementation
 class TheoreticalASTProcessor:
     def process_file(self, file_path: str) -> ParsedAST:
         """
         HYPOTHESIS: We can normalize ASTs across languages
-        REALITY: Currently fails on complex code
+        REALITY: To be determined through implementation
         """
         # Step 1: Detect language
         language = self.detect_language(file_path)
