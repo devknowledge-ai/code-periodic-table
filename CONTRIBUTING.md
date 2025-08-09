@@ -18,6 +18,37 @@ No more grand visions. No more overwhelming complexity. Just practical tools tha
 4. **Share foundations** - Common code goes in `anvil-core`
 5. **Let usage guide us** - Real developers using real tools drive our roadmap
 
+## 🗺️ Contributor Map
+
+```mermaid
+graph TD
+    Start[Want to Contribute?] --> Skills{What are your skills?}
+    
+    Skills -->|Python + ML/NLP| AD[Adaptive Documentation]
+    Skills -->|Python + AST| NG[NullGuard]
+    Skills -->|Git Internals| GM[Anvil Memory]
+    Skills -->|Algorithms| AF[Anvil Fingerprint]
+    Skills -->|AST + Diffs| AC[Anvil Comments]
+    Skills -->|System Architecture| Core[anvil-core]
+    
+    AD --> AD1[Build AI tool integrations]
+    NG --> NG1[Detect null bugs - Our Demo!]
+    GM --> GM1[Make Git searchable]
+    AF --> AF1[Create code fingerprints]
+    AC --> AC1[Track moving comments]
+    Core --> Core1[Shared algorithms]
+    
+    style NG fill:#f9f,stroke:#333,stroke-width:4px
+    style AD fill:#ff9,stroke:#333,stroke-width:2px
+```
+
+### 🎯 Recommended Starting Points
+
+**New to the project?** → Start with **NullGuard** (our showcase demo)
+**Have AI tool experience?** → Help with **Adaptive Documentation** (critical path)
+**Love algorithms?** → Dive into **anvil-core** or **Fingerprint**
+**Know Git internals?** → **Anvil Memory** needs you
+
 ## Choose Your Adventure
 
 ### 🎯 The Most Important Project: Adaptive Documentation

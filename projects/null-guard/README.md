@@ -6,6 +6,8 @@ Part of the [Anvil Suite](../../README.md) - born from The Great Simplification.
 
 *No complex theories. No overwhelming documentation. Just a tool that catches null bugs with 95% accuracy.*
 
+📋 **[See the Prototype Plan](./PROTOTYPE.md)** - How we're building the demo that showcases everything
+
 ## Our Promise
 
 **95% detection rate. Less than 5% false positives.**

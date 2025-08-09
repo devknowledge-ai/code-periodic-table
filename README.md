@@ -104,11 +104,17 @@ See [**CONTRIBUTING.md**](./CONTRIBUTING.md) for detailed contribution guideline
 
 **The Key Insight**: Adaptive Documentation transforms noisy Git history (10% signal) into structured knowledge (95% signal), especially when integrated with AI coding assistants. This clean data powers all other tools to achieve unprecedented accuracy.
 
+## 🚀 Quick Start
+
+**New contributor?** → [**Get Started with NullGuard in 30 minutes**](./GETTING_STARTED.md)  
+**Want to help with partnerships?** → [**Partnership Tracker**](./PARTNERSHIP_TRACKER.md)  
+**Interested in performance?** → [**Performance Benchmarks**](./anvil-core/PERFORMANCE_BENCHMARKS.md)
+
 ## Learn More
 
 - 📖 [**The Great Simplification**](./THE_GREAT_SIMPLIFICATION.md) - How we pivoted from complexity to focus
 - 🎯 [**Vision and Research**](./VISION.md) - Where we're heading (concise overview)
-- 🛠️ [**Contributing Guide**](./CONTRIBUTING.md) - Start contributing today
+- 🛠️ [**Contributing Guide**](./CONTRIBUTING.md) - Visual map of where to contribute
 - 🔄 [**The Research Loop**](./RESEARCH_LOOP.md) - How tools generate insights (detailed)
 
 ## Contact
