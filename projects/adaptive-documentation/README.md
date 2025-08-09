@@ -180,7 +180,25 @@ Critical areas needing help:
 
 ## Status
 
-🎯 **Foundation Component** - This is THE critical piece that enables everything else
+⚠️ **Critical Research Challenge** - The success of the entire Anvil suite depends on solving this unsolved HCI problem
+
+### The Honest State of Things
+
+- **LLM Integration**: No APIs exist. Platform access is fictional.
+- **Smart Prompting**: Flow state detection is AI-hard. We have no solution.
+- **Developer Tolerance**: Unknown if developers will document under ANY circumstances.
+
+### The Pragmatic Path Forward: Partnerships
+
+**Instead of waiting for APIs that don't exist, we're partnering with open-source AI coding tools.**
+
+See [partnerships.md](./partnerships.md) - Roo-code, Cline, Aider, and others already have the data we need.
+
+See [integration-api-spec.md](./integration-api-spec.md) - Simple API that any AI tool can implement.
+
+See [mvp-manual.md](./mvp-manual.md) - Start with a simple button. Prove value. Only then add "magic."
+
+See [REALITY_CHECK.md](./REALITY_CHECK.md) - The brutal honesty about what we haven't solved.
 
 ---
 

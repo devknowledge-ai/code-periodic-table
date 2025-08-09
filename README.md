@@ -57,6 +57,7 @@ Each project has its own README with specific contribution guidelines.
 - **High quality** - Better to do one thing perfectly
 - **Independent value** - Each tool useful standalone
 - **Open source** - MIT licensed, community-driven
+- **Shared foundation** - Common functionality in [anvil-core](./anvil-core/)
 
 ## Future: Deeper Integration
 
