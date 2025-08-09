@@ -4,15 +4,19 @@
 
 *Born from The Great Simplification: Our goal is to move from noisy Git history (10% signal) to capturing context at the source (potentially 95% signal).*
 
-## What It Does
+## The Vision vs. The Reality
 
-Adaptive Documentation intelligently prompts developers to document code changes at the optimal moment, learning from individual preferences and team patterns to minimize friction while maximizing documentation value.
+### The Vision
+Adaptive Documentation would intelligently prompt developers to document code changes at the optimal moment, learning from individual preferences and team patterns to minimize friction while maximizing documentation value.
 
-```bash
-# IDE integration that learns your patterns
-adaptive-doc monitor --learn-mode
-adaptive-doc capture --smart-timing
-```
+### The Reality Check
+See [REALITY_CHECK.md](./REALITY_CHECK.md) - The core challenges are unsolved:
+- **Flow Detection**: Determining when to prompt without interrupting is AI-hard
+- **LLM Integration**: No APIs exist to access conversation data from AI coding tools
+- **Developer Tolerance**: Unknown if developers will document under any circumstances
+
+### Current Approach
+Partnering with open-source AI coding tools to capture context that already exists in conversations.
 
 ## Output
 
@@ -34,20 +38,24 @@ Rich, contextual documentation that travels with your code:
 }
 ```
 
-## Features
+## Aspirational Features (Research Goals)
 
-- **Adaptive Timing** - Never interrupts flow, always catches important changes
-- **Learning System** - Adapts to individual developer preferences and patterns
-- **Code Review Integration** - Learns from PR comments what needs documentation
-- **Multi-Modal Capture** - Text, voice notes, diagrams, or links
-- **Privacy-Preserving** - Federated learning keeps your code secure
+These are research targets, not existing capabilities:
 
-## Core Innovation
+- **Adaptive Timing** - Goal: Never interrupt flow (unsolved problem)
+- **Learning System** - Goal: Adapt to preferences (requires solving flow detection)
+- **Code Review Integration** - Goal: Learn from PR comments (feasible)
+- **Multi-Modal Capture** - Goal: Multiple input methods (partially feasible)
+- **Privacy-Preserving** - Goal: Federated learning (theoretical)
 
-The system learns THREE things simultaneously:
-1. **WHEN to ask** - Based on change significance and developer state
-2. **HOW to ask** - Matching each developer's style (minimalist to comprehensive)
-3. **WHAT to ask** - Learning from code reviews what generates questions
+## Core Research Questions
+
+We're investigating if a system could learn:
+1. **WHEN to ask** - Can we detect developer state without being intrusive?
+2. **HOW to ask** - Can we match individual styles effectively?
+3. **WHAT to ask** - Can we predict what needs documentation?
+
+**Current Answer**: These remain open research questions. See [REALITY_CHECK.md](./REALITY_CHECK.md) for honest assessment.
 
 ## Installation (Planned)
 

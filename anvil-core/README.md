@@ -1,21 +1,23 @@
-# Anvil Core: The Shared Foundation
+# Anvil Core: The Shared Foundation (SKELETON ONLY)
 
-The common library born from **The Great Simplification** - shared code for all Anvil tools.
+⚠️ **IMPORTANT: This is a skeleton structure with incomplete implementations. No fully working functionality exists yet.**
+
+The planned common library born from **The Great Simplification** - will provide shared code for all Anvil tools.
 
 **Philosophy: Extract common functionality, but keep each tool independent.**
 
-*No grand frameworks. No complex architectures. Just shared utilities that make our tools work better.*
+*Currently: Basic structure and incomplete implementations. See [PROJECT_STATUS.md](../PROJECT_STATUS.md) for actual status.*
 
-## Purpose
+## Purpose (Planned)
 
-`anvil-core` provides the shared functionality that all Anvil tools need:
-- AST parsing and manipulation
-- Code fingerprinting algorithms
-- Git repository operations
-- Common data models
-- Utility functions
+`anvil-core` will eventually provide shared functionality that all Anvil tools need:
+- AST parsing and manipulation (Python only, basic implementation)
+- Code fingerprinting algorithms (incomplete, needs work)
+- Git repository operations (uses subprocess, very basic)
+- Common data models (defined but not fully tested)
+- Utility functions (minimal)
 
-This ensures that when we improve core algorithms (like fingerprinting accuracy), all tools benefit immediately.
+**Current Reality**: The files in `src/` contain basic implementations that are not production-ready. They serve as starting points for contributors.
 
 ## Architecture
 
@@ -31,67 +33,71 @@ anvil-core/
 
 ## Core Components
 
-### 1. AST Parsers (`src/parsers/`)
+### 1. AST Parsers (`src/parsers/`) - INCOMPLETE
 
-Unified parsing for multiple languages:
+**Current Status**: Only Python AST parsing partially implemented using standard library `ast` module.
 
 ```python
+# This is the intended API (not fully working):
 from anvil_core.parsers import get_parser
 
-parser = get_parser('python')
-ast = parser.parse(code_string)
-functions = parser.extract_functions(ast)
+parser = get_parser('python')  # Only Python has basic support
+ast = parser.parse(code_string)  # Basic implementation exists
+functions = parser.extract_functions(ast)  # Not fully implemented
 ```
 
-**Supported Languages:**
-- Python (tree-sitter)
-- JavaScript/TypeScript (tree-sitter)
-- Java (planned)
-- Go (planned)
+**Language Support:**
+- Python (basic, uses stdlib ast, not tree-sitter)
+- JavaScript/TypeScript (not implemented)
+- Java (not implemented)
+- Go (not implemented)
 
-### 2. Code Fingerprinting (`src/fingerprinting/`)
+### 2. Code Fingerprinting (`src/fingerprinting/`) - BASIC ONLY
 
-Semantic hashing that survives refactoring:
+**Current Status**: Simple hash-based implementation. No semantic analysis yet.
 
 ```python
+# Intended API (partially working):
 from anvil_core.fingerprinting import CodeFingerprint
 
 fp = CodeFingerprint()
-hash1 = fp.generate(code_block_1)
-hash2 = fp.generate(code_block_2)
-similarity = fp.similarity(hash1, hash2)  # 0.0 to 1.0
+hash1 = fp.generate(code_block_1)  # Basic hashing works
+hash2 = fp.generate(code_block_2)  
+similarity = fp.similarity(hash1, hash2)  # Not implemented
 ```
 
-**Features:**
-- Whitespace-agnostic
-- Variable-name-agnostic (optional)
-- Comment-agnostic
-- Order-preserving for logic flow
+**Planned Features (not yet implemented):**
+- Whitespace-agnostic (partially works)
+- Variable-name-agnostic (not implemented)
+- Comment-agnostic (not implemented)
+- Order-preserving for logic flow (not implemented)
 
-### 3. Git Operations (`src/git/`)
+### 3. Git Operations (`src/git/`) - MINIMAL
 
-Efficient Git history analysis:
+**Current Status**: Uses subprocess to call git commands. Very basic functionality.
 
 ```python
+# Intended API (limited functionality):
 from anvil_core.git import GitAnalyzer
 
 analyzer = GitAnalyzer(repo_path)
-commits = analyzer.get_commits(since='3 months ago')
-changes = analyzer.get_file_changes('src/main.py')
-patterns = analyzer.find_fix_patterns()
+commits = analyzer.get_commits(since='3 months ago')  # Basic implementation
+changes = analyzer.get_file_changes('src/main.py')  # Not fully working
+patterns = analyzer.find_fix_patterns()  # Very basic regex only
 ```
 
-**Capabilities:**
-- Fast commit traversal
-- Diff analysis
-- Pattern detection in commit messages
-- File history tracking
+**Current Limitations:**
+- Uses subprocess (not GitPython)
+- No optimization for large repos
+- Basic regex pattern matching only
+- Limited error handling
 
-### 4. Shared Models (`src/models/`)
+### 4. Shared Models (`src/models/`) - DEFINED BUT UNTESTED
 
-Common data structures used across tools:
+**Current Status**: Data classes defined but not validated in real use.
 
 ```python
+# Models exist but need testing:
 from anvil_core.models import (
     CodeBlock,
     Documentation,
@@ -100,7 +106,7 @@ from anvil_core.models import (
     Pattern
 )
 
-# Consistent data structures across all tools
+# Example usage (not thoroughly tested):
 block = CodeBlock(
     content="def foo(): pass",
     language="python",
@@ -109,57 +115,59 @@ block = CodeBlock(
 )
 ```
 
-## Usage by Anvil Tools
+## Planned Usage by Anvil Tools
 
-### How Each Tool Uses anvil-core
+### How Each Tool Will Use anvil-core (Once Implemented)
 
-| Tool | Uses From Core |
-|------|---------------|
-| **Adaptive Documentation** | Models (Documentation, Conversation), Git operations |
-| **Anvil Guard** | AST parsers, Pattern detection, Git analysis |
-| **Anvil Comments** | Fingerprinting, AST parsers, Code tracking |
-| **Anvil Memory** | Git operations, Models, Indexing utilities |
-| **Anvil Fingerprint** | Core fingerprinting algorithms |
+| Tool | Will Use From Core | Current Status |
+|------|-------------------|----------------|
+| **Adaptive Documentation** | Models, Git operations | Not started |
+| **Anvil Guard** | AST parsers, Pattern detection | Not started |
+| **Anvil Context** | Fingerprinting, AST parsers | Not started |
+| **Anvil Memory** | Git operations, Models | Basic prototype exists |
+| **Anvil Fingerprint** | Core fingerprinting | Not started |
 
-### Example: Anvil Comments Using Core
+### Example: How Anvil Context Will Use Core (Future)
 
 ```python
-# In sticky-comments implementation
+# This is planned usage, not yet implemented:
 from anvil_core.fingerprinting import CodeFingerprint
 from anvil_core.parsers import get_parser
 from anvil_core.models import CodeBlock, Comment
 
-class StickyComment:
+class AnvilContext:
     def __init__(self):
         self.fingerprinter = CodeFingerprint()
         self.parser = get_parser('python')
     
-    def attach_comment(self, code: str, comment: str) -> Comment:
-        # Use core fingerprinting
+    def attach_context(self, code: str, context: str) -> Comment:
+        # Will use core fingerprinting
         fingerprint = self.fingerprinter.generate(code)
         
-        # Use core models
+        # Will use core models
         return Comment(
-            content=comment,
+            content=context,
             attached_to=fingerprint,
             created_at=datetime.now()
         )
 ```
 
-## Installation
+## Installation (Not Ready for Use)
 
-### For Development
+**⚠️ WARNING: This package is not functional. Installing it will give you incomplete code.**
+
+### For Contributors Who Want to Help Build It
 
 ```bash
-# Install in development mode
+# Install in development mode to work on it
 cd anvil-core
-pip install -e .
+pip install -e .  # Will install but functionality is incomplete
 ```
 
-### For Anvil Tools
+### Future Usage by Anvil Tools
 
 ```python
-# In setup.py of any Anvil tool
+# Once implemented, tools will use it like this:
 install_requires=[
     'anvil-core>=0.1.0',
     # other dependencies

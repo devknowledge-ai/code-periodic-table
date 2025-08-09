@@ -1,13 +1,17 @@
-# NullGuard Prototype: The Showcase Demo
+# NullGuard Prototype: Development Plan
 
-*A working prototype that demonstrates the Anvil Suite's approach*
+**⚠️ IMPORTANT: This is a plan, not an active project. No code exists yet.**
 
-## The Goal
+*This document outlines how we could build a prototype to demonstrate the Anvil Suite's approach*
 
-Build a standalone NullGuard that achieves 70-80% accuracy in detecting null/None bugs. This serves as:
+## The Goal (Aspirational)
+
+We aim to build a standalone NullGuard that could achieve 70-80% accuracy in detecting null/None bugs. If successful, this would serve as:
 1. **Proof of concept** for the Anvil approach
 2. **Marketing tool** to attract contributors
 3. **Test bed** for Adaptive Documentation integration
+
+**Current Status**: Looking for contributors to start implementation. See [GETTING_STARTED.md](../../GETTING_STARTED.md).
 
 ## Prototype Architecture
 
@@ -27,10 +31,12 @@ nullguard-prototype/
     └── accuracy_test.py   # Measure detection rate
 ```
 
-## Implementation Plan
+## Proposed Implementation Plan
 
-### Phase 1: Core Detection (Week 1)
-Build basic null detection with 70% accuracy:
+**Note: These timelines are estimates for when development begins, not current activities.**
+
+### Phase 1: Core Detection (Estimated: 1 week once started)
+Goal: Build basic null detection with 70% accuracy:
 
 ```python
 # core/detector.py
@@ -207,28 +213,29 @@ def test_accuracy():
 - "Context is the secret sauce"
 - "Join us in building the future"
 
-## Development Timeline
+## Proposed Development Timeline
 
-### Week 1
+**This is a hypothetical timeline for when we have contributors and begin development:**
+
+### Week 1 (Once Started)
 - [ ] Core detection engine
 - [ ] Basic pattern matching
-- [ ] 70% accuracy achieved
+- [ ] Target: 70% accuracy
 
-### Week 2  
+### Week 2 (If Week 1 Successful)
 - [ ] Web demo interface
 - [ ] CLI tool
 - [ ] Mock context integration
 
-### Week 3
+### Week 3 (If Resources Available)
 - [ ] Polish and testing
 - [ ] Documentation
-- [ ] Launch demo site
+- [ ] Demo site preparation
 
-### Week 4
-- [ ] Marketing push
-- [ ] Blog post
-- [ ] Video demo
-- [ ] Call for contributors
+### Week 4 (If Ready for Launch)
+- [ ] Community outreach
+- [ ] Documentation completion
+- [ ] Call for additional contributors
 
 ## How to Contribute
 

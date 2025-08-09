@@ -75,8 +75,8 @@ See [**CONTRIBUTING.md**](./CONTRIBUTING.md) for detailed contribution guideline
 
 - **Small scope** - Each tool solves one problem exceptionally well
 - **High quality** - Better to do one thing perfectly than many things poorly
-- **Independent value** - Each tool is useful standalone
-- **Shared foundation** - Common functionality in [anvil-core](./anvil-core/)
+- **Independent value** - Each tool is useful standalone (see [Architecture Philosophy](./ARCHITECTURE_PHILOSOPHY.md))
+- **Shared foundation** - Common algorithms in [anvil-core](./anvil-core/) reduce duplication
 - **Open source** - MIT licensed, community-driven
 - **Data-driven** - Let real usage guide development
 
