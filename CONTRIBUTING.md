@@ -1,12 +1,22 @@
 # Contributing to the Anvil Suite
 
-Welcome! The Anvil Suite is a collection of small, focused developer tools that capture and leverage your team's collective knowledge. We're building practical solutions to real problems while conducting research on how code patterns evolve.
+Welcome to the result of **The Great Simplification** - a collection of focused developer tools that actually ship.
 
-## Our Philosophy
+## The Anvil Philosophy (Post-Simplification)
 
-**We build small, focused tools that do one thing exceptionally well.**
+After drowning in 50+ documents of research and theory, we learned our lesson:
 
-Each tool in the Anvil Suite solves a specific developer pain point. They share a common foundation (`anvil-core`) but can be used independently. Start with the tool that solves a problem you have today.
+**Build small tools that do one thing exceptionally well. Ship them quickly.**
+
+No more grand visions. No more overwhelming complexity. Just practical tools that solve real problems.
+
+## Our Approach
+
+1. **Pick one problem** - Each tool solves exactly one developer pain point
+2. **Ship in months** - If it takes years, it's too complex
+3. **Work independently** - Each tool must be useful standalone
+4. **Share foundations** - Common code goes in `anvil-core`
+5. **Let usage guide us** - Real developers using real tools drive our roadmap
 
 ## Choose Your Adventure
 

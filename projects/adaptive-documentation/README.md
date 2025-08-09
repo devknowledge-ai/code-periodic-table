@@ -1,6 +1,8 @@
-# Adaptive Documentation: Intelligent Context Capture for Code Changes
+# Adaptive Documentation: The Foundation of the Anvil Suite
 
-Learn when, how, and what to ask developers to capture the "why" behind their code.
+**The #1 Priority** - This tool powers all others by capturing the "why" behind code changes.
+
+*Born from The Great Simplification: Instead of analyzing noisy Git history (10% signal), we capture context at the source (95% signal).*
 
 ## What It Does
 

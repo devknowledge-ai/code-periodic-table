@@ -1,6 +1,10 @@
 # The Anvil Suite: Forging Your Team's Collective Memory
 
-A suite of focused developer tools that capture, preserve, and leverage your team's collective knowledge. Each tool solves a specific problem, but together they transform how teams preserve institutional memory.
+A suite of focused developer tools born from **The Great Simplification** - our pivot from an overly complex research project to practical, shippable tools that solve real problems.
+
+📖 **Read our story**: [The Anvil Story - From Vision to Suite](./ANVIL_STORY.md) 
+
+Each tool in the suite does one thing exceptionally well. Together, they transform how teams preserve institutional memory.
 
 ## 🎯 Priority #1: Adaptive Documentation
 **The Foundation That Powers Everything**
@@ -100,6 +104,13 @@ See [**CONTRIBUTING.md**](./CONTRIBUTING.md) for detailed contribution guideline
 
 **The Key Insight**: Adaptive Documentation transforms noisy Git history (10% signal) into structured knowledge (95% signal), especially when integrated with AI coding assistants. This clean data powers all other tools to achieve unprecedented accuracy.
 
+## Learn More
+
+- 📖 [**The Great Simplification**](./THE_GREAT_SIMPLIFICATION.md) - How we pivoted from complexity to focus
+- 🎯 [**Vision and Research**](./VISION.md) - Where we're heading (concise overview)
+- 🛠️ [**Contributing Guide**](./CONTRIBUTING.md) - Start contributing today
+- 🔄 [**The Research Loop**](./RESEARCH_LOOP.md) - How tools generate insights (detailed)
+
 ## Contact
 
 **Project Lead**: Adrian Belmans  
@@ -108,5 +119,5 @@ See [**CONTRIBUTING.md**](./CONTRIBUTING.md) for detailed contribution guideline
 
 ---
 
-*Anvil: Forging better developer tools. One focused project at a time.*
+*The Anvil Suite: Simple tools. Real problems. Shipped code.*
 

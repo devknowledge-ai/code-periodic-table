@@ -1,6 +1,10 @@
-# CodeFingerprint: Semantic Hashing for Code
+# Anvil Fingerprint: Stable Identity for Code Patterns
 
-Generate stable fingerprints for code that survive syntax changes.
+Part of the [Anvil Suite](../../README.md) - solving the code identity problem.
+
+**Generate stable fingerprints for code that survive syntax changes.**
+
+*The Great Simplification in action: Forget complex pattern classification. Just give code a stable identity so we can track it.*
 
 ## The Problem
 

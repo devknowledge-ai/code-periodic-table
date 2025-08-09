@@ -1,6 +1,10 @@
-# StickyComments: Comments That Survive Refactoring
+# Anvil Comments: Comments That Survive Refactoring
 
-Comments that stay attached to what they describe, not where they were written.
+Part of the [Anvil Suite](../../README.md) - a simple tool solving a universal problem.
+
+**Comments that stay attached to what they describe, not where they were written.**
+
+*Born from The Great Simplification: No fancy AI, no complex theories. Just comments that stick to code like they should.*
 
 ## The Problem
 

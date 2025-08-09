@@ -1,8 +1,10 @@
-# The Anvil Research Loop: From Tools to Theory and Back
+# The Anvil Research Loop: How Tools Drive Discovery
 
-## The Cycle of Practical Innovation and Scientific Discovery
+*A supporting document explaining how the Anvil Suite generates scientific insights*
 
-The Anvil Suite operates on a continuous feedback loop between practical tool development and theoretical research. This document explains how immediate developer problems drive long-term scientific insights, which in turn improve our tools.
+## Tools First, Research Second
+
+After **The Great Simplification**, we flipped our approach: instead of research driving tool development, our practical tools now drive research validation. This document explains how that works.
 
 ## The Three-Stage Loop
 
@@ -99,15 +101,17 @@ Validated insights from research are encoded into `anvil-core`, improving all to
 - Validate or invalidate hypotheses quickly
 - Bridge the gap between academia and practice
 
-## The Long Game
+## Research as a Byproduct, Not a Goal
 
-While our tools solve immediate problems, they're also instruments in a larger experiment:
+This is the key insight from The Great Simplification: **research happens naturally when you build useful tools**.
 
-**Can we create a scientific understanding of code patterns?**
+We're not trying to create a scientific understanding of code patterns. We're trying to:
+- Stop comments from drifting
+- Prevent null bugs
+- Make Git history searchable
+- Track code patterns
 
-Every bug caught by NullGuard, every context captured by Adaptive Documentation, every pattern identified by CodeFingerprint is a data point in this grand experiment. 
-
-The tools are useful today. The research they enable could transform how we write code tomorrow.
+If scientific insights emerge from this work, great! But the tools must be useful first, research-enabling second.
 
 ## Current State of the Loop
 

@@ -1,6 +1,10 @@
-# Anvil Core: Shared Foundation for the Anvil Suite
+# Anvil Core: The Shared Foundation
 
-The common library that powers all Anvil tools, preventing code duplication and ensuring consistency.
+The common library born from **The Great Simplification** - shared code for all Anvil tools.
+
+**Philosophy: Extract common functionality, but keep each tool independent.**
+
+*No grand frameworks. No complex architectures. Just shared utilities that make our tools work better.*
 
 ## Purpose
 

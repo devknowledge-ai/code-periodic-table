@@ -1,4 +1,6 @@
-# The Anvil Story: From Vision to Suite
+# The Anvil Story: The Great Simplification
+
+*How we transformed an overwhelming research project into practical developer tools*
 
 ## What is the Anvil Suite?
 
@@ -7,20 +9,30 @@ The Anvil Suite is a collection of developer tools that forge your team's collec
 ## The Evolution
 
 ### Chapter 1: The Grand Vision (2024)
-We started with an ambitious goal: create a universal "Periodic Table of Code" that would classify all programming patterns. We envisioned one tool to rule them all—a comprehensive system called Anvil.
+We started with an ambitious goal: create a universal ["Periodic Table of Code"](./docs/archive/periodic-table/README.md) that would classify all programming patterns. We envisioned one tool to rule them all—a comprehensive system called Anvil.
 
 ### Chapter 2: The Reality Check
-We wrote 50+ documents. We theorized about "Digital Universes" and "Fundamental Forces of Computation." We were honest about our 65% chance of failure. 
+We wrote 50+ documents. We theorized about ["Digital Universes"](./docs/archive/vision/digital-universe-theory.md) and ["Fundamental Forces of Computation"](./docs/archive/research-horizon/03-research-vision/classification-theory/README.md). We were honest about our 65% chance of failure. 
 
 Then a contributor pointed out the irony: we were building a tool to prevent lost knowledge, but our own knowledge was lost in a maze of documentation.
 
 ### Chapter 3: The Great Simplification (December 2024)
-We realized Anvil wasn't one monolithic tool—it was a suite of focused, independent tools:
+
+**This was our turning point.**
+
+We made a brave decision: archive 90% of our documentation and start fresh. Instead of one monolithic tool trying to do everything, we would build a suite of small, focused tools:
+
 - **Anvil Comments** - Comments that survive refactoring
-- **Anvil Guard** - Prevents null reference bugs
+- **Anvil Guard** - Prevents null reference bugs  
 - **Anvil Memory** - Makes Git history searchable
 - **Anvil Fingerprint** - Finds similar code patterns
 - **Adaptive Documentation** - Captures the "why" behind changes (the foundation)
+
+Each tool would:
+- Ship in months, not years
+- Solve exactly one problem
+- Work independently
+- Share a common foundation (anvil-core)
 
 ### Chapter 4: The Breakthrough Insight
 We discovered that **Adaptive Documentation** was the key to everything. By capturing context at the source (especially from AI coding assistants), we could transform noisy Git history (10% signal) into structured knowledge (95% signal). This clean data would power all other tools to unprecedented accuracy.
@@ -80,9 +92,25 @@ While each tool is valuable independently, the real magic happens when they work
 
 But we're not building that future yet. We're building the foundation that makes it inevitable.
 
-## Join Us
+## The Lesson
 
-Anvil isn't about grand visions anymore. It's about shipping useful tools that make developers' lives better. Pick a tool, solve a problem, ship code.
+The Great Simplification taught us:
+- **Complexity kills projects** - Start simple, evolve naturally
+- **Ship beats perfect** - Working code today beats perfect code never
+- **Focus wins** - One problem solved well beats ten problems partially solved
+- **Honesty builds trust** - Admitting failure and pivoting is strength, not weakness
+
+## Join the Anvil Suite
+
+We're no longer chasing grand visions. We're building practical tools that ship quickly and solve real problems. 
+
+**Pick a tool. Solve a problem. Ship code.**
+
+That's the Anvil way now. Simple, focused, effective.
+
+---
+
+*"The Great Simplification wasn't a retreat—it was a breakthrough."*
 
 Welcome to Anvil. Let's forge something useful.
 

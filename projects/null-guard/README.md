@@ -1,8 +1,10 @@
-# Anvil Guard: The World's Best Null Reference Detector
+# Anvil Guard: Stop Null Bugs Before They Bite
 
-Part of the [Anvil Suite](../../README.md) of developer tools.
+Part of the [Anvil Suite](../../README.md) - born from The Great Simplification.
 
-One job: Prevent null reference exceptions. Done exceptionally well.
+**One job: Prevent null reference exceptions. Done exceptionally well.**
+
+*No complex theories. No overwhelming documentation. Just a tool that catches null bugs with 95% accuracy.*
 
 ## Our Promise
 

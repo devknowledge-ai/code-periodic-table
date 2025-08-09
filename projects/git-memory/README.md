@@ -1,6 +1,10 @@
-# GitMemory: Fast Git History Analysis and Indexing
+# Anvil Memory: Your Team's Searchable Knowledge Base
 
-Turn your Git history into a queryable database of code evolution.
+Part of the [Anvil Suite](../../README.md) - making Git history actually useful.
+
+**Turn your Git history from write-only to searchable.**
+
+*A Great Simplification success story: Instead of AI-powered analysis, just make Git history fast and searchable. Sometimes simple is better.*
 
 ## What It Does
 
