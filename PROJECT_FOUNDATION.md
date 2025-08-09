@@ -1,8 +1,10 @@
-# Project Foundation Document
+# Project Research Documentation
+
+⚠️ **CRITICAL WARNING**: This is failed research, not a foundation for anything.
 
 ## Overview
 
-This repository contains **research documentation and experimental designs** for the Code Periodic Table project. This is a research program exploring whether systematic pattern classification can improve software development, not a production-ready system.
+This repository contains **failed experiments and unproven hypotheses** for the Code Periodic Table project. We're documenting our failure to solve an probably unsolvable problem.
 
 ## What This Repository Is
 
@@ -21,12 +23,12 @@ We are currently in the **research and prototype phase**, where we have:
 - 🟡 Drafted community guidelines
 - ⚠️ Significant engineering work needed for production
 
-### 🎯 Purpose
+### 🎯 Actual Purpose
 This documentation serves as:
-1. **Blueprint for developers** who will implement the system
-2. **Reference for contributors** to understand the vision
-3. **Foundation for funding** proposals and partnerships
-4. **Basis for community** formation and governance
+1. **Warning to developers** not to waste time on this
+2. **Reference for researchers** on what doesn't work
+3. **Evidence against funding** this approach
+4. **Documentation of failure** for future attempts
 
 ## Project Status
 
@@ -76,10 +78,10 @@ This documentation serves as:
 4. Check `meta/good-first-issues.md` for contribution ideas
 
 ### For Investors/Partners
-1. Review the complete vision in main `README.md`
-2. See practical timeline in `ROADMAP.md`
-3. Understand limitations in `reality-check/`
-4. Evaluate team readiness via documentation quality
+1. Read `reality-check/` first - this will probably fail
+2. Understand we have no working implementation
+3. Accept 65% probability of total failure
+4. Only fund if you want to support research, not products
 
 ## Implementation Reality Check
 

@@ -1,5 +1,7 @@
 # Evolution Path: From Research to Product Company
 
+🔮 **PERSPECTIVE NOTE:** This document represents our optimistic roadmap IF our core hypotheses prove correct. Current reality: 40-70% accuracy prototypes with significant challenges. For the skeptical view, see [reality-check/](reality-check/). For why we maintain both narratives, see [META-NAVIGATION.md](META-NAVIGATION.md).
+
 ## Overview
 
 This document outlines the planned evolution of the Code Periodic Table from a research program to a potential product company. Each stage has clear triggers, milestones, and positioning strategies.

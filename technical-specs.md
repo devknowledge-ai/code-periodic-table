@@ -1,27 +1,32 @@
-# Technical Specifications
+# Technical Specifications (Research Hypotheses)
+
+⚠️ **Research Warning**: This document describes theoretical approaches that have NOT been validated. Current prototypes achieve only 40-70% accuracy and are 10x too slow for production use.
 
 ## Overview
-This document provides detailed technical specifications for the Code Periodic Table implementation, including algorithms, data structures, and performance targets.
+This document contains our research hypotheses and experimental approaches. These are NOT proven techniques or implementation-ready specifications. Most of these ideas may prove unworkable.
 
 ## 1. AST Parsing Approach
 
-### Supported Languages and Parsers
+### Hypothetical Language Support (Not Implemented)
 
-| Language | Parser Library | AST Format | Performance |
-|----------|---------------|------------|-------------|
-| JavaScript/TypeScript | @babel/parser, typescript | ESTree | ~100ms/file |
-| Python | ast (built-in), tree-sitter | Python AST | ~50ms/file |
-| Java | JavaParser, Eclipse JDT | JavaParser AST | ~150ms/file |
-| Go | go/ast (built-in) | Go AST | ~30ms/file |
-| Rust | syn, tree-sitter | syn AST | ~80ms/file |
+| Language | Proposed Parser | Target Performance | Current Reality |
+|----------|----------------|-------------------|------------------|
+| JavaScript/TypeScript | @babel/parser | ~100ms/file | 500ms+ (too slow) |
+| Python | ast (built-in) | ~50ms/file | Crashes on large files |
+| Java | JavaParser | ~150ms/file | Not tested |
+| Go | go/ast | ~30ms/file | Not implemented |
+| Rust | syn | ~80ms/file | Not started |
 
-### AST Processing Pipeline
+### Theoretical AST Processing Pipeline (Research Concept)
 
 ```python
-class ASTProcessor:
+# WARNING: This is pseudocode representing our hypothesis
+# Actual implementation achieves only 40-70% accuracy
+class TheoreticalASTProcessor:
     def process_file(self, file_path: str) -> ParsedAST:
         """
-        Parse source file into normalized AST representation
+        HYPOTHESIS: We can normalize ASTs across languages
+        REALITY: Currently fails on complex code
         """
         # Step 1: Detect language
         language = self.detect_language(file_path)
